@@ -1,0 +1,183 @@
+﻿<UserControl x:Class="Univalle.AutoNetWPF.HomeAdmin.uscHome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Univalle.AutoNetWPF.HomeAdmin"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"
+             
+             FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <materialDesign:TransitioningContent>
+            <materialDesign:TransitioningContent.OpeningEffects>
+                <materialDesign:TransitionEffect Kind="FadeIn" />
+                <materialDesign:TransitionEffect Kind="SlideInFromBottom" />
+            </materialDesign:TransitioningContent.OpeningEffects>
+            <Grid  Width="auto" Height="auto"  >
+                <Border CornerRadius="0" Background="White" >
+                    <Grid>
+
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+
+                            </Grid.RowDefinitions>
+                            <Border CornerRadius="0 0 0 0" Grid.Row="0">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/HomeAdmin/image/fondo.jpg" Stretch="UniformToFill"/>
+                                </Border.Background>
+                                <TextBlock Padding="20" Style="{StaticResource MaterialDesignHeadline3TextBlock}" Text="¡Saludos!" Foreground="White" >
+
+                                </TextBlock>
+                            </Border>
+                        </Grid>
+                        <Border Visibility="Collapsed" Margin="20 170 20 20 " Background="#FFF6F6F6" CornerRadius="15">
+                            <Grid>
+
+                                <Grid   >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Border CornerRadius="15 15 0 0 ">
+                                        <!--<Border.Background>
+                                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0,0">
+                                                <GradientStop Color="#FF1E2E3B"/>
+                                                <GradientStop Color="#FF175CC1" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Border.Background>-->
+                                        <TextBlock Margin="20 0 20 0" Foreground="White" Grid.Row="0" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="¿Que desea hacer hoy?" />
+                                    </Border>
+                                    <Grid Margin="10" Grid.Row="1" Grid.RowSpan="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <materialDesign:Card x:Name="card1" Margin="10" UniformCornerRadius="15" MouseLeftButtonUp="Card_MouseLeftButtonUp" MouseLeave="card1_MouseLeave" MouseEnter="card1_MouseEnter">
+                                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                <Image Source="/HomeAdmin/image/part2.png" Width="100" Margin="10"/>
+                                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}"  Text="Agregar un repuesto" />
+                                            </StackPanel>
+                                        </materialDesign:Card>
+
+                                        <materialDesign:Card x:Name="card2" Grid.Column="1" Margin="10" UniformCornerRadius="15" MouseLeave="card2_MouseLeave" MouseEnter="card2_MouseEnter">
+                                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                <Image Source="/HomeAdmin/image/empleado.png" Width="100" Margin="10"/>
+                                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}"  Text="Agregar un Empleado" />
+                                            </StackPanel>
+                                        </materialDesign:Card>
+
+                                        <materialDesign:Card x:Name="card3" Grid.Column="2" Margin="10" UniformCornerRadius="15" MouseEnter="card3_MouseEnter" MouseLeave="card3_MouseLeave">
+                                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                <Image Source="/HomeAdmin/image/cliente2.png" Width="100" Margin="10"/>
+                                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}"  Text="Agregar un cliente" />
+                                            </StackPanel>
+                                        </materialDesign:Card>
+
+                                        <materialDesign:Card x:Name="card4" Grid.Column="3" Margin="10" UniformCornerRadius="15" MouseEnter="card4_MouseEnter" MouseLeave="card4_MouseLeave">
+                                            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                <Image Source="/HomeAdmin/image/ventas.png" Width="100" Margin="10"/>
+                                                <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}"  Text="Hacer una venta" />
+                                            </StackPanel>
+                                        </materialDesign:Card>
+                                        
+
+
+                                    </Grid>
+                                    <Grid Grid.Row="3" Grid.RowSpan="2" >
+                                        <Border Background="White" Margin="10" CornerRadius="15">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition />
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="auto"/>
+                                                    <RowDefinition />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock Margin="10" Grid.ColumnSpan="3" Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="Repuestos mas vendidos" HorizontalAlignment="Center"/>
+
+                                                <Grid Grid.Row="1" Margin="10">
+                                                    <Grid.Background>
+                                                        <ImageBrush ImageSource="/HomeAdmin/image/bugias.jpg" Stretch="UniformToFill"/>
+                                                    </Grid.Background>
+                                                    <Grid Background="Black" VerticalAlignment="Center" Opacity="0.5" Height="70">
+                                                        
+                                                    </Grid>
+                                                    <Grid VerticalAlignment="Center">
+                                                        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center">
+
+                                                            <TextBlock Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="BUGIAS" HorizontalAlignment="Center" Foreground="White" />
+                                                            <TextBlock  Style="{StaticResource MaterialDesignHeadline6TextBlock}"  Text="Bs. 56,50"  HorizontalAlignment="Center" Foreground="white" />
+                                                        </StackPanel>
+                                                    </Grid>
+
+                                                    
+                                                </Grid>
+                                                <Grid Grid.Row="1" Grid.Column="1" Margin="10">
+                                                    <Grid.Background>
+                                                        <ImageBrush ImageSource="/HomeAdmin/image/rodamientos.jpg" Stretch="UniformToFill"/>
+                                                    </Grid.Background>
+                                                    <Grid Background="Black" VerticalAlignment="Center" Opacity="0.5" Height="70">
+
+                                                    </Grid>
+                                                    <Grid VerticalAlignment="Center">
+                                                        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center">
+
+                                                            <TextBlock Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="RODAMIENTOS" HorizontalAlignment="Center" Foreground="White" />
+                                                            <TextBlock  Style="{StaticResource MaterialDesignHeadline6TextBlock}"  Text="Bs. 50"  HorizontalAlignment="Center" Foreground="white" />
+                                                        </StackPanel>
+                                                    </Grid>
+
+
+                                                </Grid>
+                                                <Grid Grid.Row="1" Grid.Column="2" Margin="10">
+                                                    <Grid.Background>
+                                                        <ImageBrush ImageSource="/HomeAdmin/image/lla.png" Stretch="UniformToFill"/>
+                                                    </Grid.Background>
+                                                    <Grid Background="Black" VerticalAlignment="Center" Opacity="0.5" Height="70">
+
+                                                    </Grid>
+                                                    <Grid VerticalAlignment="Center">
+                                                        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Center">
+
+                                                            <TextBlock Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="LLANTAS" HorizontalAlignment="Center" Foreground="White" />
+                                                            <TextBlock  Style="{StaticResource MaterialDesignHeadline6TextBlock}"  Text="Bs. 150"  HorizontalAlignment="Center" Foreground="white" />
+                                                        </StackPanel>
+                                                    </Grid>
+
+
+                                                </Grid>
+
+                                            </Grid>
+                                        </Border>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+
+
+                        </Border>
+
+                    </Grid>
+                </Border>
+            </Grid>
+        </materialDesign:TransitioningContent>
+    </Grid>
+</UserControl>

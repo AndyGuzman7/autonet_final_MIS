@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A16FC892-7624-4533-A1BA-AFF2264BF9F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Univalle.AutoNetWPF</RootNamespace>
+    <AssemblyName>Univalle.AutoNetWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MaterialDesignColors, Version=2.0.1.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.0.1\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.1.0.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.1.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.MapControl.WPF">
+      <HintPath>C:\Program Files (x86)\Bing Maps WPF Control\V1\Libraries\Microsoft.Maps.MapControl.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessObjects.WPF.Viewer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\SAPBusinessObjects.WPF.Viewer.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\SAPBusinessObjects.WPF.ViewerShared.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9e7cd3b544a090dc, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.2.0.0\lib\net40\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="FactoryAdmin\AddFactoryxaml.xaml.cs">
+      <DependentUpon>AddFactoryxaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FactoryAdmin\EditFactory.xaml.cs">
+      <DependentUpon>EditFactory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FactoryAdmin\uscViewAllFactory.xaml.cs">
+      <DependentUpon>uscViewAllFactory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageProvider.cs" />
+    <Compile Include="PersonAdmin\ClientT\AddClient.xaml.cs">
+      <DependentUpon>AddClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\ClientT\EditClient.xaml.cs">
+      <DependentUpon>EditClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\ClientT\ViewClientInfo.xaml.cs">
+      <DependentUpon>ViewClientInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\EmployeeT\AddEmployeeSimple.xaml.cs">
+      <DependentUpon>AddEmployeeSimple.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\EmployeeT\EditEmployeeSimple.xaml.cs">
+      <DependentUpon>EditEmployeeSimple.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CrystalReport_reportOne.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_reportOne.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrystalReport_reportTwo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_reportTwo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrystalReport_repotThree.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_repotThree.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\UserReport.xaml.cs">
+      <DependentUpon>UserReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User\DataUser.xaml.cs">
+      <DependentUpon>DataUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterAdmin\Other\WindowTime.xaml.cs">
+      <DependentUpon>WindowTime.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\EmployeeT\EditEmployee.xaml.cs">
+      <DependentUpon>EditEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\EmployeeT\ViewEmployeeDetails.xaml.cs">
+      <DependentUpon>ViewEmployeeDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterAdmin\RestorePassword\ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterAdmin\RestorePassword\WindowRestorePassword.xaml.cs">
+      <DependentUpon>WindowRestorePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterAdmin\Login\WindowLogin.xaml.cs">
+      <DependentUpon>WindowLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\HacerVenta\uscHacerVenta.xaml.cs">
+      <DependentUpon>uscHacerVenta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\HacerVenta\windowsRecibo.xaml.cs">
+      <DependentUpon>windowsRecibo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\ListaVentas\uscListaVentas.xaml.cs">
+      <DependentUpon>uscListaVentas.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AboutAdmin\uscAbout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FactoryAdmin\AddFactoryxaml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FactoryAdmin\EditFactory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FactoryAdmin\uscViewAllFactory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomeAdmin\uscHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\ClientT\AddClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\ClientT\EditClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\ClientT\ViewClientInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\EmployeeT\AddEmployeeSimple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\EmployeeT\EditEmployeeSimple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports\UserReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User\DataUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegisterAdmin\Other\WindowTime.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PrincipalAdmin\PrincipalView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AboutAdmin\uscAbout.xaml.cs">
+      <DependentUpon>uscAbout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HomeAdmin\uscHome.xaml.cs">
+      <DependentUpon>uscHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalAdmin\PrincipalView.xaml.cs">
+      <DependentUpon>PrincipalView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PartsAdmin\AllParts\AddParts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllPartsType\AddPartsType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllParts\EditParts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllPartsType\EditPartsType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllParts\uscViewAllParts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllPartsType\uscPartsType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllParts\ViewPartsInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllPartsType\ViewsPartsType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\EmployeeT\EditEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\EmployeeT\ViewEmployeeDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\ClientT\uscViewAllClients.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonAdmin\EmployeeT\uscViewEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegisterAdmin\RestorePassword\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegisterAdmin\RestorePassword\WindowRestorePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegisterAdmin\Login\WindowLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ventas\HacerVenta\uscHacerVenta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ventas\HacerVenta\windowsRecibo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ventas\ListaVentas\uscListaVentas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PartsAdmin\AllParts\AddParts.xaml.cs">
+      <DependentUpon>AddParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllPartsType\AddPartsType.xaml.cs">
+      <DependentUpon>AddPartsType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllParts\EditParts.xaml.cs">
+      <DependentUpon>EditParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllPartsType\EditPartsType.xaml.cs">
+      <DependentUpon>EditPartsType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllParts\uscViewAllParts.xaml.cs">
+      <DependentUpon>uscViewAllParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllPartsType\uscPartsType.xaml.cs">
+      <DependentUpon>uscPartsType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllParts\ViewPartsInfo.xaml.cs">
+      <DependentUpon>ViewPartsInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartsAdmin\AllPartsType\ViewsPartsType.xaml.cs">
+      <DependentUpon>ViewsPartsType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\ClientT\uscViewAllClients.xaml.cs">
+      <DependentUpon>uscViewAllClients.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAdmin\EmployeeT\uscViewEmployee.xaml.cs">
+      <DependentUpon>uscViewEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrystalReport_reportOne.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_reportOne.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrystalReport_reportTwo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_reportTwo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrystalReport_repotThree.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_repotThree.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO.Implementacion\DAO.Implementation.csproj">
+      <Project>{fb80e9b6-c6ef-4f3d-afd5-0d7e366c95d1}</Project>
+      <Name>DAO.Implementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO.Model\DAO.Model.csproj">
+      <Project>{4ccc5689-8ecd-4a69-b6b6-f8b8dae68ae5}</Project>
+      <Name>DAO.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RegisterAdmin\gif\report.gif" />
+    <Resource Include="User\image\usuarioVacio.jpg" />
+    <Resource Include="PersonAdmin\image\EMPLOYE2.jpg" />
+    <Resource Include="PersonAdmin\image\EMPLOYE1.jpg" />
+    <Resource Include="PersonAdmin\image\iconoVacio.png" />
+    <Resource Include="RegisterAdmin\image\logo2Recurso 75.png" />
+    <Resource Include="RegisterAdmin\image\autoNet_blanco_letra.png" />
+    <Resource Include="RegisterAdmin\image\logo2Recurso 96.png" />
+    <Resource Include="RegisterAdmin\gif\time3.gif" />
+    <Resource Include="User\R.Gifs\time2.gif" />
+    <Resource Include="User\R.Gifs\time.gif" />
+    <Resource Include="RegisterAdmin\gif\nutgif.gif" />
+    <Resource Include="RegisterAdmin\gif\nuts.gif" />
+    <Resource Include="RegisterAdmin\gif\nuts2.gif" />
+    <Resource Include="PrincipalAdmin\image\nuts.gif" />
+    <Resource Include="RegisterAdmin\image\fondoTuercas.jpg" />
+    <Resource Include="RegisterAdmin\image\fondo.jpg" />
+    <Resource Include="RegisterAdmin\image\fondo_desenfoque.jpg" />
+    <Resource Include="RegisterAdmin\image\fondo1.jpg" />
+    <Resource Include="RegisterAdmin\image\fondo2.jpg" />
+    <Resource Include="RegisterAdmin\image\1.jpg" />
+    <Resource Include="PartsAdmin\image\employee.jpg" />
+    <Resource Include="PartsAdmin\image\rodamientos.png" />
+    <Resource Include="PersonAdmin\image\usuarioVacio.jpg" />
+    <Resource Include="PersonAdmin\image\employee.jpg" />
+    <Resource Include="PartsAdmin\image\fondo1.jpg" />
+    <Resource Include="PartsAdmin\image\fondo2_desenfoque.jpg" />
+    <Resource Include="PartsAdmin\image\fondo2.jpg" />
+    <Resource Include="PartsAdmin\image\fondo_desenfoque.jpg" />
+    <Resource Include="PartsAdmin\image\fondoTuercas_desenfoque.jpg" />
+    <Resource Include="PartsAdmin\image\fondoTuercas.jpg" />
+    <Resource Include="PartsAdmin\image\logo2Recurso 12logoBalnco.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 12logoBalnco.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 11logoletra.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 10logo.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 85.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 96.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 75.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 64.png" />
+    <Resource Include="PrincipalAdmin\image\logo2Recurso 54.png" />
+    <Resource Include="PrincipalAdmin\image\autoNet_blanco_letra.png" />
+    <Resource Include="PrincipalAdmin\image\autoNet_blanco.png" />
+    <Resource Include="AboutAdmin\image\logo2Recurso 10logo.png" />
+    <Resource Include="HomeAdmin\image\fondo.jpg" />
+    <Resource Include="HomeAdmin\image\coche.png" />
+    <Resource Include="HomeAdmin\image\empleado.png" />
+    <Resource Include="HomeAdmin\image\cliente.png" />
+    <Resource Include="HomeAdmin\image\cliente2.png" />
+    <Resource Include="HomeAdmin\image\ventas.png" />
+    <Resource Include="HomeAdmin\image\part2.png" />
+    <Resource Include="HomeAdmin\image\bugias.jpg" />
+    <Resource Include="HomeAdmin\image\lla.png" />
+    <Resource Include="HomeAdmin\image\rodamientos.jpg" />
+    <Resource Include="HomeAdmin\image\fondo3.jpg" />
+    <Content Include="PrincipalAdmin\image\autoNet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RegisterAdmin\image\imageClient\" />
+    <Folder Include="RegisterAdmin\image\imageProducts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>
