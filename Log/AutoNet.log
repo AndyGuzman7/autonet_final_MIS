@@ -1,0 +1,1741 @@
+29/06/2021 20:04:27 User: 1 Inicializando el Metodo Select de Spare
+29/06/2021 20:04:27 User: 1 El metodo Select se eejcuto correctamente
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 20:42:30
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 20:42:30
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 20:44:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 20:44:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 20:52:16
+Usuario: 1 - ERROR en el metodo: Select de Spare - Fecha: 29/06/2021 20:52:16 - Error = Sintaxis incorrecta cerca de '*'.
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:13:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:13:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:18:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:18:58
+Usuario: 1 - Iniciando el metodo: Insert de Spare - Fecha: 29/06/2021 21:19:16
+Usuario: 1 - ERROR en el metodo: Insert de Spare - Fecha: 29/06/2021 21:19:16 - Error = Sintaxis incorrecta cerca de 'nameProduct'.
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:19:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:19:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:23:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:23:54
+Usuario: 1 - Iniciando el metodo: Insert de Spare - Fecha: 29/06/2021 21:24:10
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de Spare - Fecha: 29/06/2021 21:24:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:24:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:24:14
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:51:46
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:51:46
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:53:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:53:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:20
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:25
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:53:25
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:54:11
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:54:11
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:54:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:54:18
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:55:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:55:32
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:35
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:36
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:38
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:39
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:40
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:42
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:42
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:43
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:43
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:45
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:46
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:46
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:47
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:55:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 21:57:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 21:57:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:57:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:00
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:06
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:06
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 21:58:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:37:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:37:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:44
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:45
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:47
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:48
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:48
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:49
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:51
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:51
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:02
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:38:04
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:40:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:40:33
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:36
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:36 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:37
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:37 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:38
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:38 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:38
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:38 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:40
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:40 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:40
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:41 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:43
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:43 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:44 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:45 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:46 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:47 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:50
+Usuario: 1 - ERROR en el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:40:50 - Error = Sintaxis incorrecta cerca de '>'.
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:43:31
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:43:31
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:33
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:33
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:38
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:39
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:42
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:42
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:42
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:42
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:43
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:43
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:49
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:51
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:57
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:43:59
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:00
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:01
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:01
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:01
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:01
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:02
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:02
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:03
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:06
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:06
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:12
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:12
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:13
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:17
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:17
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:18
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:55
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:44:55
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:50:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:50:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:51:02
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:51:02
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:51:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:51:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:52:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:52:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:53:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:53:22
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:34
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:34
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:35
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:36
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 29/06/2021 23:53:36
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:55:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:55:33
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:57:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:57:33
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 29/06/2021 23:58:37
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 29/06/2021 23:58:37
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:02:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:02:17
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:08:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:08:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:14:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:14:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:25:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:25:41
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:35:30
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:35:30
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:37:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:37:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:38:57
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:38:57
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:42:35
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:42:35
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:48:15
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:48:15
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:49:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:49:05
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:49:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:49:41
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:51:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:51:33
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:55:27
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:55:27
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 0:57:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 0:57:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 1:01:57
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 1:01:57
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 1:02:59
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 1:02:59
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 1:04:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 1:04:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 1:07:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 1:07:08
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 1:09:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 1:09:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:07
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:20
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:21
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:22
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 1:11:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 9:28:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 9:28:48
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:28:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:28:50
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:28:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:28:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:15
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:29:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 30/06/2021 9:31:53
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 30/06/2021 9:31:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:31:56
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:31:56
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:09
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:15
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:22
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:22
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:23
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 30/06/2021 9:32:23
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 05/07/2021 1:59:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 05/07/2021 1:59:48
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:56
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:56
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:57
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:57
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:58
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 1:59:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 05/07/2021 2:00:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 05/07/2021 2:00:28
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:52
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:53
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:55
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 2:00:55
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 05/07/2021 9:06:19
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 05/07/2021 9:06:19
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 9:06:23
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 9:06:23
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 9:06:23
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 9:06:23
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 05/07/2021 9:13:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 05/07/2021 9:13:51
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 9:13:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 9:13:54
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 05/07/2021 9:13:55
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 05/07/2021 9:13:55
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 07/07/2021 22:56:02
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 07/07/2021 22:56:02
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 0:00:21
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 0:00:21
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 1:57:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 1:57:53
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:00:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:00:17
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:21:42
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:21:42
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:23:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:23:01
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:26:20
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:26:20
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:31:13
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:31:13
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:31:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:31:26
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:31:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:31:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:31:50
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:31:50
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:35:45
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:35:45
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:35:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:35:52
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:36:00
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:36:00
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:04
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:09
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:09
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:14
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:19
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:19
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:31
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:31
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:38:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:38:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:18
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:18
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:24
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:24
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:29
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:36
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:47
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:47
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:52
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:43:55
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:43:55
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:44:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:44:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:44:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:44:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:49:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:49:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:49:24
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:49:24
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:49:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:49:29
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:49:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:49:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:23
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:29
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:36
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:40
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 2:59:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 2:59:44
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:01:04
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:01:04
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:01:10
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:01:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:01:15
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:01:15
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:01:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:01:51
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:02:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:02:01
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:02:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:02:05
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:02:11
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:02:11
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:03:47
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:03:47
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:03:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:03:54
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:03:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:03:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:07:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:07:56
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:08:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:08:01
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:08:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:08:08
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:09:09
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:09:09
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:09:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:09:14
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:09:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:09:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:09:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:09:28
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:09:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:09:56
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:10:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:10:01
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:10:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:10:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:11:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:11:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:11:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:11:08
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:11:15
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:11:15
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:11:20
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:11:20
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:27:30
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:27:30
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:28:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:28:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:29:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:29:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:32:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:32:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:36:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:36:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:40:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:40:23
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:47:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:47:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:48:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:48:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:52:13
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:52:13
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:56:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:56:14
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:56:50
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:56:50
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:58:25
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:58:25
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:58:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:58:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:58:49
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:58:49
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:59:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:59:05
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:59:18
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:59:18
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:59:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:59:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 3:59:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 3:59:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:00:11
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:00:11
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:00:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:00:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:00:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:00:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:00:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:00:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:01:13
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:01:13
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 4:01:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 4:01:29
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:25:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:25:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:40:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:40:44
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:46:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:46:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:47:21
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:47:21
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:47:57
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:47:57
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:48:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:48:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:48:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:48:29
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:48:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:48:36
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:48:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:48:40
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:51:12
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:51:12
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:51:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:51:23
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:51:31
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:51:31
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 10:51:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 10:51:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 11:21:06
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 11:21:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 15:59:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 15:59:54
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:29:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:29:08
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:29:34
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:29:34
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 08/07/2021 16:29:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 08/07/2021 16:29:36
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:31:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:31:05
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:32:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:32:17
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:33:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:33:56
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:37:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:37:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:45
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:48
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:51
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:51
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:55
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:55
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:37:59
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:01
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:01
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:04
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:04
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:04
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:05
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:06
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:06
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:06
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:06
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:38:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:39:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:39:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:30
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:30
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:32
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:32
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:32
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:39:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:44:30
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:44:30
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:45
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:53
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:56
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:56
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:44:57
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:01
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:01
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:06
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:06
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:11
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:45:11
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:50:35
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:50:35
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:50:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:50:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:50:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:50:59
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:00
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:01
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:51:01
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:52:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:52:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:47
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:47
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:48
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:53
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:53
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:54
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:55
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:55
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:57
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:52:59
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:53:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:53:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 16:57:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 16:57:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:41
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:45
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 16:57:46
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:32
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:32
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:33
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:33
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:37
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:04:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:11:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:11:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:11:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:11:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:28:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:28:29
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:28:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:28:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:31:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:31:29
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:48
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:48
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:31:49
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:45:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:45:32
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:45:59
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:45:59
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:47:59
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:47:59
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:51:27
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:51:27
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:51
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:51:51
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:55:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:55:17
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:40
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:40
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:55:41
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 17:56:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 17:56:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 17:57:03
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:07:37
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:07:37
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:07:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:07:39
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:07:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:12:10
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:12:10
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:25
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:25
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:25
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:25
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:26
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:12:27
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:14:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:14:56
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:15:07
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:18:55
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:18:55
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:19:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:19:07
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:19:07
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:19:07
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:19:10
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:19:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:35:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:35:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:47:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:47:28
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:48:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:48:33
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 18:49:12
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:49:17
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:49:17
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:49:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:49:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:49:42
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:49:42
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:49:57
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 18:49:57
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:54:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:54:40
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:54:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:54:44
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:54:57
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:54:57
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 18:59:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 18:59:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:14
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:21
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:28
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:35
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:35
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:37
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:37
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:00:44
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:01:21
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:01:21
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:33
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:33
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:33
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:33
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:41
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:41
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:43
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:46
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:02:46
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:07:55
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:07:55
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:18
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:18
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:08:18
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:21:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:21:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:22:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:22:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:22:30
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:22:30
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:24
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:23:37
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:23:37
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:23:50
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:25:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:25:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:25:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:25:44
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:25:55
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:25:55
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:26:02
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:26:02
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:26:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:26:14
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:26:38
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:26:43
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:26:43
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:28:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:28:17
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:28:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:28:26
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:21
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:21
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:29:39
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 08/07/2021 19:29:39
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:29:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:30:06
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:30:06
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:30:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:30:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:30:50
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:30:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:31:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:31:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:37:25
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:37:25
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:44
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:44
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:45
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:37:45
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:38:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:38:10
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 19:40:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 19:40:56
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:10
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:10
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:19
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:19
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:19
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:19
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:20
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:21
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:36
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:38
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:38
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:39
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 08/07/2021 19:41:40
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 23:14:24
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 23:14:25
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 23:15:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 23:15:01
+Usuario: 1 - Iniciando el metodo: Insert de Spare - Fecha: 08/07/2021 23:19:34
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de Spare - Fecha: 08/07/2021 23:19:34
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 08/07/2021 23:19:36
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 08/07/2021 23:19:36
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:30:54
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:30:54
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:30:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:30:54
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:34:33
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:34:33
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:34:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:34:33
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:35:41
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:35:41
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:35:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:35:41
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:35:45
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:35:45
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:35:45
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:35:45
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:36:49
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:36:49
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:36:49
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:36:49
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:40:19
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:40:19
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:40:19
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:40:19
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:47:44
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 0:47:44
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:47:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 0:47:44
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:02:14
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:02:14
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:02:43
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:02:43
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:06:18
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:06:18
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:21
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:21
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:23
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:23
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:27
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:27
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:28
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:28
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:28
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:06:28
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:08:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:08:39
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:41
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:41
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:53
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:53
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:55
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:55
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:55
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:08:55
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:10:34
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:10:34
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:38
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:38
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:40
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:40
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:51
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:51
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:55
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:10:55
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:20:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:20:26
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:37
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:37
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:21:39
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:21:39
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:39
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:21:55
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:21:55
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:55
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:21:55
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:22:43
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:22:43
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:22:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:22:43
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:28:11
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:28:11
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:29:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:29:43
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:29:46
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:29:46
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:29:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:29:51
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:31:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:31:38
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:31:40
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:31:40
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:31:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:31:40
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:36:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:36:53
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:36:54
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:36:54
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:36:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:36:54
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:38:18
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:38:19
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:38:22
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:40:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:40:23
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:40:32
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:40:32
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:40:32
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:40:32
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 1:43:04
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 1:43:04
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 1:43:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 1:43:08
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 1:43:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 1:43:23
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:46:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:46:48
+Usuario: 1 - Iniciando el metodo: Insert de FactoryImpl - Fecha: 09/07/2021 1:47:08
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de FactoryImpl - Fecha: 09/07/2021 1:47:08
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:47:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:47:08
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:07
+Usuario: 1 - Iniciando el metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:49:28
+Usuario: 1 - Ejecucion Correcta del metodo: Update de FactoryImpl - Fecha: 09/07/2021 1:49:28
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:28
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:49:39
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 09/07/2021 1:49:39
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 1:49:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 1:51:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 1:51:22
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:28:48
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:28:48
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 6:29:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 6:29:01
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:31:59
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:31:59
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 6:32:10
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 6:32:10
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 6:32:11
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 6:32:11
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:32:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:32:16
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:32:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:32:23
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:33:34
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:33:34
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:34:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:34:33
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:37
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:37
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:42
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:42
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:43
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:34:43
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:35:53
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:35:53
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:36:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:36:05
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:08
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:08
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:09
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:10
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:10
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:10
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:11
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:11
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:11
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:11
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:12
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:12
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:12
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:14
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:14
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:15
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 6:36:16
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:42:41
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:42:42
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:42:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:42:52
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:46:33
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 6:46:33
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 6:46:44
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 6:46:44
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 7:06:27
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 7:06:27
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:06:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:06:38
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:06:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:06:40
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:06:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:06:51
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:06:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:06:54
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:07:00
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:07:00
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:07:00
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:07:00
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 7:07:08
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 7:07:08
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 7:07:09
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 7:07:09
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 7:07:16
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 7:07:16
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 09/07/2021 7:08:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 09/07/2021 7:08:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:08:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:08:26
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:28
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:28
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:29
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:29
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:29
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:29
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:08:30
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:08:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:08:33
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:08:48
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:08:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:08:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:08:48
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:08:53
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:08:53
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:12:24
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:12:24
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:12:24
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:12:24
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:12:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:12:28
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:12:41
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:12:41
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:12:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:12:41
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:12:46
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:12:46
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:14:39
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:14:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:14:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:14:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:14:45
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:14:45
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 7:14:56
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 7:14:56
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:14:56
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:14:56
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:15:46
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:15:46
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 7:15:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 7:15:49
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 7:15:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 7:15:54
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 8:51:19
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 8:51:19
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 8:51:31
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 8:51:31
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:52
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 8:51:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 8:51:54
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 09/07/2021 8:51:56
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 09/07/2021 8:51:56
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:56
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 8:51:56
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 9:21:19
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 9:21:19
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:21:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:21:26
+Usuario: 1 - Iniciando el metodo: Insert de EmployeeImpl - Fecha: 09/07/2021 9:22:31
+Usuario: 1 - Ejecucion Correcta del metodo: Insert de EmployeeImpl - Fecha: 09/07/2021 9:22:31
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 9:22:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 9:22:39
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:22:40
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:22:40
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 9:56:15
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 9:56:15
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 9:56:25
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 9:56:25
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:29
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:30
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:30
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:30
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:31
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 09/07/2021 9:56:31
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 9:56:33
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 9:56:33
+Usuario: 1 - Iniciando el metodo: Update de Spare - Fecha: 09/07/2021 9:56:37
+Usuario: 1 - Ejecucion Correcta del metodo: Update de Spare - Fecha: 09/07/2021 9:56:37
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 9:56:37
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 9:56:37
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:56:41
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:56:41
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 9:56:43
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 9:56:43
+Usuario: 1 - Iniciando el metodo: DeleteForId de ClientImpl - Fecha: 09/07/2021 9:57:04
+Usuario: 1 - Ejecucion Correcta del metodo: DeleteForId de ClientImpl - Fecha: 09/07/2021 9:57:04
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 9:57:04
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 9:57:04
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:57:15
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 9:57:15
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 9:57:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 9:57:17
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 09/07/2021 10:40:42
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 09/07/2021 10:40:42
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 10:40:50
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 10:40:50
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:19
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:19
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:19
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:19
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:20
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:20
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:21
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:21
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 09/07/2021 10:41:22
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 09/07/2021 10:41:26
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 09/07/2021 10:41:26
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 09/07/2021 10:41:29
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 09/07/2021 10:41:29
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 09/07/2021 10:42:15
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 09/07/2021 10:42:15
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 09/07/2021 10:43:38
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 09/07/2021 10:43:38
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 13/07/2021 22:28:19
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 13/07/2021 22:28:19
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 13/07/2021 22:28:28
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 13/07/2021 22:28:28
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:49
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:49
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:49
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 13/07/2021 22:28:52
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 13/07/2021 22:28:52
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 13/07/2021 22:28:55
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 13/07/2021 22:28:56
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:56
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 13/07/2021 22:28:56
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 13/07/2021 22:28:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 13/07/2021 22:28:58
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 13/07/2021 22:29:04
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 13/07/2021 22:29:04
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 13/07/2021 22:29:07
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 13/07/2021 22:29:07
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 13/07/2021 22:29:17
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 13/07/2021 22:29:17
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 13/07/2021 22:29:29
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 13/07/2021 22:29:29
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:38:05
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:38:06
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:38:11
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:38:12
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:38:18
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:38:18
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:38:22
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:38:22
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:25
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:25
+Usuario: 1 - Iniciando el metodo: Getid de ClientImpl - Fecha: 02/08/2021 18:38:27
+Usuario: 1 - Ejecucion Correcta del metodo: Getid de ClientImpl - Fecha: 02/08/2021 18:38:27
+Usuario: 1 - Iniciando el metodo: Getid de ClientImpl - Fecha: 02/08/2021 18:38:30
+Usuario: 1 - Ejecucion Correcta del metodo: Getid de ClientImpl - Fecha: 02/08/2021 18:38:30
+Usuario: 1 - Iniciando el metodo: DeleteForId de ClientImpl - Fecha: 02/08/2021 18:38:35
+Usuario: 1 - Ejecucion Correcta del metodo: DeleteForId de ClientImpl - Fecha: 02/08/2021 18:38:35
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:35
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:35
+Usuario: 1 - Iniciando el metodo: DeleteForId de ClientImpl - Fecha: 02/08/2021 18:38:39
+Usuario: 1 - Ejecucion Correcta del metodo: DeleteForId de ClientImpl - Fecha: 02/08/2021 18:38:39
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:39
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:38:39
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:38:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:38:51
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:15
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:15
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Iniciando el metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de ClientImpl - Fecha: 02/08/2021 18:39:16
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:39:19
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:39:19
+Usuario: 1 - Iniciando el metodo: InsertAvancedTransaction de OrderImpl - Fecha: 02/08/2021 18:39:22
+Usuario: 1 - Ejecucion Correcta del metodo: InsertAvancedTransaction de OrderImpl - Fecha: 02/08/2021 18:39:22
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:39:25
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:39:25
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:39:27
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:39:27
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:39:35
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:39:35
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 02/08/2021 18:39:41
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 02/08/2021 18:39:41
+Usuario: 1 - Iniciando el metodo: SelectLike de Spare - Fecha: 02/08/2021 18:39:42
+Usuario: 1 - Ejecucion Correcta del metodo: SelectLike de Spare - Fecha: 02/08/2021 18:39:42
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 02/08/2021 18:39:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 02/08/2021 18:39:48
+Usuario: 1 - Iniciando el metodo: Delete de FactoryImpl - Fecha: 02/08/2021 18:40:01
+Usuario: 1 - Ejecucion Correcta del metodo: Delete de FactoryImpl - Fecha: 02/08/2021 18:40:01
+Usuario: 1 - Iniciando el metodo: Select de FactoryImpl - Fecha: 02/08/2021 18:40:01
+Usuario: 1 - Ejecucion Correcta del metodo: Select de FactoryImpl - Fecha: 02/08/2021 18:40:01
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:40:03
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:40:03
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:05
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:05
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:54
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:54
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:58
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:40:58
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:40:59
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:40:59
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:41:13
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:41:13
+Usuario: 1 - Iniciando el metodo: Select de Spare - Fecha: 02/08/2021 18:41:23
+Usuario: 1 - Ejecucion Correcta del metodo: Select de Spare - Fecha: 02/08/2021 18:41:23
+Usuario: 1 - Iniciando el metodo: Select de ClientImpl - Fecha: 02/08/2021 18:41:48
+Usuario: 1 - Ejecucion Correcta del metodo: Select de ClientImpl - Fecha: 02/08/2021 18:41:48
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:41:51
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:41:51
+Usuario: 0 - Iniciando el metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:57:24
+Usuario: 0 - Ejecucion Correcta del metodo: Login de EmployeeImpl - Fecha: 02/08/2021 18:57:25
+Usuario: 1 - Iniciando el metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:57:31
+Usuario: 1 - Ejecucion Correcta del metodo: Select de EmployeeImpl - Fecha: 02/08/2021 18:57:31
