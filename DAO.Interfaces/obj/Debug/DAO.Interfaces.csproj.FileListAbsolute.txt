@@ -22,3 +22,15 @@ E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Interfaces.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Interfaces.pdb
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Model.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\WpfAnimatedGif.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Model.pdb
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\bin\Debug\WpfAnimatedGif.xml
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.AssemblyReference.cache
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb

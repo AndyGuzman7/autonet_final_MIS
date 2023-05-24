@@ -12,7 +12,7 @@ namespace DAO.Implementacion
     class DataBase
     {
 
-        private static string connectionString = @"data source = (local); initial catalog = BDDAUTONET; user id= autoNet; password=Univalle";
+        private static string connectionString = @"Server=DESKTOP-4CU10NM\SQLEXPRESS;Database=BDDAUTONET;User Id=sa;Password=univalle123;";
 
         public static SqlCommand CreateBasicCommand()
         {

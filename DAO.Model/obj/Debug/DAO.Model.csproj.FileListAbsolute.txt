@@ -18,3 +18,13 @@ E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
 E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
+C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
