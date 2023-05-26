@@ -11,8 +11,8 @@ namespace DAO.Model
 
         #region Properties
 
-        public int Quantity { get; set; }
-        public double Total { get; set; }
+        public int Quantity { get; set; } //Esto quitar
+        public double Total { get; set; } //Esto quitar
         public int IdSpare { get; set; }
         public string Description { get; set; }
         public string NameProduct { get; set; }
