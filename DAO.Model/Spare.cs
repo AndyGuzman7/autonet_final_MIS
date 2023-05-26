@@ -11,8 +11,8 @@ namespace DAO.Model
 
         #region Properties
 
-        public int Quantity { get; set; } //Esto quitar
-        public double Total { get; set; } //Esto quitar
+        //public int Quantity { get; set; } //Esto quitar
+        //public double Total { get; set; } //Esto quitar
         public int IdSpare { get; set; }
         public string Description { get; set; }
         public string NameProduct { get; set; }
@@ -67,8 +67,8 @@ namespace DAO.Model
             ProductCode = productCode;
             IdFactory = idFactory;
             IdSpareType = idSpareType;
-            Quantity++;
-            Total = Quantity * BasePrice;
+            //Quantity++;
+            //Total = Quantity * BasePrice;
             ListaString = listString;
         }
 
@@ -102,8 +102,8 @@ namespace DAO.Model
             ProductCode = productCode;
             IdFactory = idFactory;
             IdSpareType = idSpareType;
-            Quantity++;
-            Total = Quantity * BasePrice;
+            //Quantity++;
+            //Total = Quantity * BasePrice;
         }
 
         /// <summary>
@@ -138,7 +138,7 @@ namespace DAO.Model
 
         # region Methods
 
-        public void MasCantidad()
+        /*public void MasCantidad()
         {
             Quantity++;
             Total = Quantity * BasePrice;
@@ -148,7 +148,7 @@ namespace DAO.Model
             Quantity--;
             Total = Quantity * BasePrice;
         }
-
+        */
         #endregion
     }
 }

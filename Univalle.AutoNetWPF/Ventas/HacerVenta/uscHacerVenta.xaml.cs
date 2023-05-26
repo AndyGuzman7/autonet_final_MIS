@@ -167,7 +167,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         private void btnConfirmarAñadirProducto_Click(object sender, RoutedEventArgs e)
         {
             AñadirDatos();
-            txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
+            //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
         }
 
         private void btnCancelarAñdirProdcutos_Click(object sender, RoutedEventArgs e)
@@ -181,11 +181,13 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             
             foreach (var item in listOrder)
             {
-                orderSpares.Add(new OrderSpare(item.IdSpare, item.Quantity, item.BasePrice, Session.IdSession, item.Total));
+                //orderSpares.Add(new OrderSpare(item.IdSpare, item.Quantity, item.BasePrice, Session.IdSession, item.Total));
+                //orderSpares.Add(new OrderSpare(item.IdSpare, item.BasePrice, Session.IdSession));
+
             }
         }
 
-        public double SacarTotal(List<Spare> sp)
+        /*public double SacarTotal(List<Spare> sp)
         {
             double total = 0;
             foreach (var item in sp)
@@ -194,8 +196,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             }
             return total;
    
-        }
-
+        }*/
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -207,7 +208,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                     listOrder.Remove(sp);
                     listAñadidos.Remove(sp.NameProduct);
                     AñadirDatos();
-                    txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
+                    //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
                 }
 
             }
@@ -225,9 +226,9 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                 Spare sp = ((Spare)((Button)e.Source).DataContext);
                 int idProduct = sp.IdSpare;
                 Spare spare = listOrder.Find(x => x.IdSpare == idProduct);
-                spare.MasCantidad();
+                //spare.MasCantidad();
                 AñadirDatos();
-                txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
+                //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
             }
             catch (Exception)
             {
@@ -246,9 +247,9 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                 Spare sp = ((Spare)((Button)e.Source).DataContext);
                 int idProduct = sp.IdSpare;
                 Spare spare = listOrder.Find(x => x.IdSpare == idProduct);
-                spare.MenosCantidad();
+                //spare.MenosCantidad();
                 AñadirDatos();
-                txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
+                //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
             }
             catch (Exception ex)
             {
