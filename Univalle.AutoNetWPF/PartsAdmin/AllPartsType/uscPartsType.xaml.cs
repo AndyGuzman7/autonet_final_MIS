@@ -68,7 +68,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
             spareTypes = new List<SpareType>();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
-                spareTypes.Add( new SpareType(byte.Parse(dataTable.Rows[i][0].ToString()), dataTable.Rows[i][1].ToString(), byte.Parse(dataTable.Rows[i][2].ToString()), short.Parse(dataTable.Rows[i][3].ToString()), byte.Parse(dataTable.Rows[i][4].ToString()), DateTime.Parse(dataTable.Rows[i][5].ToString()), DateTime.Parse(dataTable.Rows[i][6].ToString())));
+                spareTypes.Add( new SpareType(byte.Parse(dataTable.Rows[i][0].ToString()), dataTable.Rows[i][1].ToString(), short.Parse(dataTable.Rows[i][2].ToString()), byte.Parse(dataTable.Rows[i][3].ToString()), DateTime.Parse(dataTable.Rows[i][4].ToString()), DateTime.Parse(dataTable.Rows[i][5].ToString())));
             }
             return spareTypes;
         }
@@ -165,8 +165,8 @@ namespace Univalle.AutoNetWPF.PartsAdmin
             for (int i = 0; i < cant; i++)
             {
                 buttons[i] = new Button();
-                buttons[i].Name = spareTypes[i].NameSpareType;
-                buttons[i].Content = spareTypes[i].NameSpareType;
+                buttons[i].Name = spareTypes[i].NameSpareCategory;
+                buttons[i].Content = spareTypes[i].NameSpareCategory;
                 buttons[i].FontSize = 20;
                 buttons[i].Foreground = Brushes.Black;
                 buttons[i].Background = null;
@@ -231,7 +231,7 @@ Fila2";
             SpareType spareType = new SpareType();
             foreach (var item in spareTypes)
             {
-                if (((Button)sender).Name == item.NameSpareType)
+                if (((Button)sender).Name == item.NameSpareCategory)
                 {
                     spareType = item;
                     ViewsPartsType ViewsPartsType = new ViewsPartsType(spareType);
