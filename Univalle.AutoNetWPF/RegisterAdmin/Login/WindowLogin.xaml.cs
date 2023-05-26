@@ -77,11 +77,11 @@ namespace Univalle.AutoNetWPF
                         Session.IdSession = short.Parse(dt.Rows[0][0].ToString());
                         Session.SessionUserName = dt.Rows[0][1].ToString();
                         Session.SessionRole = dt.Rows[0][2].ToString();
-                        ConfigImpl configImpl = new ConfigImpl();
-                        DataTable dtConfig = configImpl.SelectConfigData();
+                        //ConfigImpl configImpl = new ConfigImpl();
+                        //DataTable dtConfig = configImpl.SelectConfigData();
 
-                        Config.ClientImagePath = dtConfig.Rows[0][1].ToString();
-                        Config.ProductImagePath = dtConfig.Rows[0][0].ToString();
+                        //Config.ClientImagePath = dtConfig.Rows[0][1].ToString();
+                        //Config.ProductImagePath = dtConfig.Rows[0][0].ToString();
                         
                         
                        

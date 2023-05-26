@@ -77,7 +77,7 @@ namespace DAO.Implementacion
             try
             {
                 logWrite.MensajeInicio();
-                string query = @"SELECT idEmployee, nameUser, UserType, registrationDate, dateUpdate
+                string query = @"SELECT idEmployee, nameUser, type, registerDate, updateDate
                             FROM Employee
                             WHERE status = 1 AND nameUser = @nameUser AND password = HASHBYTES('md5',@password)";
 
