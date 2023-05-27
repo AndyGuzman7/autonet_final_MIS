@@ -41,15 +41,15 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int rest = 0;
-            string query = @"INSERT INTO Order (idEmployee, dateUpdate, idClient, clientPay)
-                                            VALUES (@idEmployee,CURRENT_TIMESTAMP ,@idClient, @clientPay)";
+            string query = @"INSERT INTO Order (idEmployee, updateDate, idClient, change)
+                                            VALUES (@idEmployee,CURRENT_TIMESTAMP ,@idClient, @change)";
             try
             {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 command.Parameters.AddWithValue("@idClient", t.IdClient);
-                command.Parameters.AddWithValue("@clientPay", t.ClientPay);
+                command.Parameters.AddWithValue("@Change", t.Change);
         
 
                 rest = DataBase.ExecuteBasicCommand(command);
@@ -68,10 +68,10 @@ namespace DAO.Implementacion
 
             List<SqlCommand> commands = new List<SqlCommand>();
             
-            string queryOrder = @"INSERT INTO [Order](idEmployee, dateUpdate,  idClient, clientPay)
-                                                VALUES(@idEmployee, CURRENT_TIMESTAMP, @idClient, @ClientPay);";
+            string queryOrder = @"INSERT INTO [Order](idEmployee, updateDate,  idClient, change)
+                                                VALUES(@idEmployee, CURRENT_TIMESTAMP, @idClient, @change);";
 
-            string queryOrderSpare = @"INSERT INTO [OrderSpare] (idOrder, idSpare, quantity, unitPrice, idEmploye, dateUpdate, total)
+            string queryOrderSpare = @"INSERT INTO [OrderSpare] (idOrder, idSpare, quantity, unitPrice, idEmploye, updateDate, total)
 		                               VALUES(@idOrder, @idSpare, @quantity, @unitPrice, @idEmploye,CURRENT_TIMESTAMP, @total)";
             int id = int.Parse(DataBase.GetGenerateIDTable("Order"));
             try
@@ -88,7 +88,7 @@ namespace DAO.Implementacion
                         commands[i].CommandText = queryOrder;
                         commands[i].Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                         commands[i].Parameters.AddWithValue("@idClient", t.IdClient);
-                        commands[i].Parameters.AddWithValue("@clientPay", t.ClientPay);
+                        commands[i].Parameters.AddWithValue("@change", t.Change);
                     }
                     else
                     {
@@ -172,7 +172,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Update";
             int rest = 0;
-            string query = @"UPDATE Order SET  idEmployee = @idEmployee, dateUpdate = CURRENT_TIMESTAMP, idClient = @idClient, clientPay = @clientPay 
+            string query = @"UPDATE Order SET  idEmployee = @idEmployee, updateDate = CURRENT_TIMESTAMP, idClient = @idClient, Change = @Change 
                                 WHERE idOrder = @idOrder";
             try
             {
@@ -181,7 +181,7 @@ namespace DAO.Implementacion
                 command.Parameters.AddWithValue("@idOrder", t.IdOrder);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 command.Parameters.AddWithValue("@idClient", t.IdClient);
-                command.Parameters.AddWithValue("@clientPay", t.ClientPay);
+                command.Parameters.AddWithValue("@change", t.Change);
                 rest = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
             }
