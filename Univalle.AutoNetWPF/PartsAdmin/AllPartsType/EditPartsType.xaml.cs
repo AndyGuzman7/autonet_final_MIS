@@ -35,8 +35,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         {
             try
             {
-                spareTypeDate.NameSpareType = txtNombreTipoProducto.Text;
-                spareTypeDate.IdSpareCategory = byte.Parse(txbCategoria.Text);
+                spareTypeDate.NameSpareCategory = txtNombreCategoriaProducto.Text;
                 spareTypeDate.IdEmploye = 1;
 
                 spareTypeImpl = new SpareTypeImpl();
@@ -75,9 +74,8 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         }
         public void CargarDatos()
         {
-            txtNombreTipoProducto.Text = spareTypeDate.NameSpareType;
-            txbCategoria.Text = spareTypeDate.IdSpareCategory.ToString();
-            
+            txtNombreCategoriaProducto.Text = spareTypeDate.NameSpareCategory;
+                        
 
         }
     }
