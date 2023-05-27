@@ -45,7 +45,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
                 spareDate.IdFactory = int.Parse(txtFabrica.Text);
                 spareDate.Weight = double.Parse(txtPeso.Text);
                 spareDate.ProductCode = txtCodigoProducto.Text;
-                spareDate.IdSpareType = int.Parse(txtTipoRepuesto.Text);
+                spareDate.IdSpareCategory = int.Parse(txtCategoriaRepuesto.Text);
                 spareImpl = new SpareImpl();
                 int res = spareImpl.Update(spareDate);
                 if(res > 0)
@@ -86,7 +86,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
             txtCodigoProducto.Text = spareDate.ProductCode;
             txtFabrica.Text = spareDate.IdFactory.ToString();
             txtPeso.Text = spareDate.Weight.ToString();
-            txtTipoRepuesto.Text = spareDate.IdSpareType.ToString();
+            txtCategoriaRepuesto.Text = spareDate.IdSpareCategory.ToString();
             txtPrecioBase.Text = spareDate.BasePrice.ToString();
         }
         private async void LlamarTiempo()

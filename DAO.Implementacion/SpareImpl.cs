@@ -59,8 +59,8 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int rest = 0;
-            string query = @"INSERT INTO Spare (description, nameProduct, currentBalance, basePrice,    weight, productCode, idFactory, idSpareType, idEmployee, dateUpdate)
-                                            VALUES (@description, @nameProduct, @currentBalance, @basePrice, @weight, @productCode, @idFactory ,@idSpareType, @idEmployee, CURRENT_TIMESTAMP )";
+            string query = @"INSERT INTO Spare (description, nameProduct, currentBalance, basePrice, weight, productCode, idFactory, idSpareCategory, idEmployee, dateUpdate)
+                                            VALUES (@description, @nameProduct, @currentBalance, @basePrice, @weight, @productCode, @idFactory ,@idSpareCategory, @idEmployee, CURRENT_TIMESTAMP )";
             try
             {
                 logWrite.MensajeInicio();
@@ -72,7 +72,7 @@ namespace DAO.Implementacion
                 command.Parameters.AddWithValue("@weight", t.Weight);
                 command.Parameters.AddWithValue("@productCode", t.ProductCode);
                 command.Parameters.AddWithValue("@idFactory", t.IdFactory);
-                command.Parameters.AddWithValue("@idSpareType", t.IdSpareType);
+                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
 
                 rest = DataBase.ExecuteBasicCommand(command);
@@ -203,7 +203,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Update";
             int rest = 0;
-            string query = @"UPDATE Spare SET  description = @description, nameProduct = @nameProduct, currentBalance = @currentBalance, basePrice = @basePrice,    weight = @weight, productCode = @productCode, idFactory = @idFactory, idSpareType = @idSpareType, idEmployee = @idEmployee, dateUpdate = CURRENT_TIMESTAMP
+            string query = @"UPDATE Spare SET  description = @description, nameProduct = @nameProduct, currentBalance = @currentBalance, basePrice = @basePrice,    weight = @weight, productCode = @productCode, idFactory = @idFactory, idSpareCategory = @idSpareCategory, idEmployee = @idEmployee, dateUpdate = CURRENT_TIMESTAMP
                                 WHERE idSpare = @idSpare";
             try
             {
@@ -216,7 +216,7 @@ namespace DAO.Implementacion
                 command.Parameters.AddWithValue("@weight", t.Weight);
                 command.Parameters.AddWithValue("@productCode", t.ProductCode);
                 command.Parameters.AddWithValue("@idFactory", t.IdFactory);
-                command.Parameters.AddWithValue("@idSpareType", t.IdSpareType);
+                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 command.Parameters.AddWithValue("@idSpare", t.IdSpare);
                 rest = DataBase.ExecuteBasicCommand(command);

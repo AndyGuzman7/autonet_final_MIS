@@ -110,7 +110,7 @@
 
 
                                             <TextBox x:Name="txtFabrica" materialDesign:HintAssist.Hint="Fabrica o Marca" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
-                                            <TextBox x:Name="txtTipoRepuesto" Grid.Column="1" materialDesign:HintAssist.Hint="Tipo de Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
+                                            <TextBox x:Name="txtCategoriaRepuesto" Grid.Column="1" materialDesign:HintAssist.Hint="Categoria de Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
                                         </Grid>
 
 
