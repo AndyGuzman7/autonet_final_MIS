@@ -91,13 +91,14 @@
                             <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Visible">
                                 <Grid x:Name="gridParts"  VerticalAlignment="Top" >
                                     <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
-                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="auto"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
 
                                             <DataGrid.Columns >
-                                                <DataGridTextColumn Width="*"  Header="Nombre Fabrica o Marca"  Binding="{Binding Path='NameFactory'}"/>
+                                                <DataGridTextColumn Width="*"  Header="Nombre Proveedor"  Binding="{Binding Path='ContactName'}"/>
 
-                                                <DataGridTextColumn Width="*" Header="Procedencia" Binding="{Binding Path='NameCityOrCountry'}"/>
-
+                                                <DataGridTextColumn Width="*" Header="Dirección" Binding="{Binding Path='Address'}"/>
+                                                <DataGridTextColumn Width="*" Header="Celular" Binding="{Binding Path='Phone'}"/>
+                                                <DataGridTextColumn Width="*" Header="Nit" Binding="{Binding Path='Nit'}"/>
                                                 <DataGridTemplateColumn Header="Editar">
                                                     <DataGridTemplateColumn.CellTemplate>
                                                         <DataTemplate>

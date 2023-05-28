@@ -46,9 +46,9 @@ namespace Univalle.AutoNetWPF.Providers
 
         public void InsertDataTableFactory()
         {
-            /*try
-            {*/
-            factory = new Suppliers(txtNombreProveedor.Text, txtDirecciónProveedor.Text, int.Parse(txtCelularProveedor.Text), int.Parse(txtNit.Text), Session.IdSession);
+            try
+            {
+            factory = new Suppliers(txtNombreProveedor.Text, txtDirecciónProveedor.Text, int.Parse(txtCelularProveedor.Text), Session.IdSession, txtNit.Text);
             factoryImpl = new SuppliersImpl();
             int res = factoryImpl.Insert(factory);
             if (res > 0)
@@ -59,11 +59,11 @@ namespace Univalle.AutoNetWPF.Providers
                     recargarDatosProviders();
                 }
             }
-            /*}
+            }
             catch (Exception)
             {
                 NotificacionMensaje("Comuniquese con el encargado de sistemas", 1);
-            }*/
+            }
         }
 
         private async void NotificacionMensaje(string mensaje, int tipo)
@@ -85,6 +85,7 @@ namespace Univalle.AutoNetWPF.Providers
             task.Start();
             await task;
             snackbarMessage.IsActive = false;
+            this.Close();
         }
 
         private void Tiempo()

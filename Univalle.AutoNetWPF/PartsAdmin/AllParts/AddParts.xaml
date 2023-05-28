@@ -41,7 +41,7 @@
                             <Border  Margin="0 80 0 0" Padding="15" materialDesign:ShadowAssist.ShadowDepth="Depth3" Grid.Column="0" CornerRadius=" 0 15 15 0" Background="#F7F7F7">
 
                                 <StackPanel >
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
                                             <Grid Margin="5" Background="#F7F7F7" >
                                                 <Grid.ColumnDefinitions>
@@ -78,13 +78,13 @@
 
 
 
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
                                             <TextBox x:Name="txtNombreProducto" materialDesign:HintAssist.Hint="Nombre Producto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
                                         </StackPanel>
                                     </materialDesign:Card>
 
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
                                             <TextBox
                                             x:Name="txtDescripcion"
@@ -127,7 +127,7 @@
 
 
 
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"  Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <Grid  >
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
@@ -146,7 +146,7 @@
                                         </Grid>
 
                                     </materialDesign:Card>
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
 
 
@@ -155,7 +155,7 @@
                                         </StackPanel>
 
                                     </materialDesign:Card>
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="*"/>
