@@ -13,9 +13,9 @@ namespace DAO.Model
     public class SpareType : BaseModel
     {
         #region properties
-        public byte IdSpareType { get; set; }
+        //public byte IdSpareType { get; set; }
         public byte IdSpareCategory { get; set; }
-        public string NameSpareType { get; set; }
+        public string NameSpareCategory { get; set; }
         #endregion
 
         #region Constructors
@@ -27,31 +27,28 @@ namespace DAO.Model
         /// <summary>
         /// Get 
         /// </summary>
-        /// <param name="idSpareType"></param>
-        /// <param name="nameSpareType"></param>
+        /// <param name="nameSpareCategory"></param>
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
         /// <param name="dateUpdate"></param>
         /// <param name="idEmploye"></param>
 
-        public SpareType(byte idSpareType, string nameSpareType, byte idSpareCategory, short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate )
+        public SpareType(byte idSpareCategory, string nameSpareCategory, short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate )
             :base( status, registrationDate, dateUpdate, idEmploye)
         { 
-            IdSpareType = idSpareType;
             IdSpareCategory = idSpareCategory;
-            NameSpareType = nameSpareType;
+            NameSpareCategory = nameSpareCategory;
         }
 
         /// <summary>
         /// Insert
         /// </summary>
-        /// <param name="nameSpareType"></param>
+        /// <param name="nameSpareCategory"></param>
         /// <param name="idSpareCategory"></param>
         /// <param name="idEmploye"></param>
-        public SpareType(string nameSpareType, byte idSpareCategory, short idEmploye)
+        public SpareType(string nameSpareCategory, short idEmploye)
         {
-            NameSpareType = nameSpareType;
-            IdSpareCategory = idSpareCategory;
+            NameSpareCategory = nameSpareCategory;
             IdEmploye = idEmploye;
         }
 

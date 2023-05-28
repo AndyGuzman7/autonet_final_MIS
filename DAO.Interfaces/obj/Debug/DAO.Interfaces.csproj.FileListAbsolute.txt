@@ -46,3 +46,15 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Deb
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Interfaces.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Interfaces.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Model.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\WpfAnimatedGif.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Model.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\WpfAnimatedGif.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\WpfAnimatedGif.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.AssemblyReference.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CoreCompileInputs.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb

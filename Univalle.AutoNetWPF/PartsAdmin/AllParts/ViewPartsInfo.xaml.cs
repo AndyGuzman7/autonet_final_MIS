@@ -42,7 +42,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
             txbCodigoProducto.Text = spareDate.ProductCode;
             txbMarca.Text = spareDate.IdFactory.ToString();
             txbPeso.Text = spareDate.Weight.ToString();
-            txbTipoRepuesto.Text = spareDate.IdSpareType.ToString();
+            txbCategoriaRepuesto.Text = spareDate.IdSpareCategory.ToString();
             lblPrecioBase.Content = spareDate.BasePrice;
             
         }

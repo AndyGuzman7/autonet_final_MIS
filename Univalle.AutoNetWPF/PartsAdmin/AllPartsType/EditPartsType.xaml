@@ -52,16 +52,11 @@
 
                                     <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
-                                            <TextBox Name="txtNombreTipoProducto" materialDesign:HintAssist.Hint="Nombre Tipo Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
+                                            <TextBox Name="txtNombreCategoriaProducto" materialDesign:HintAssist.Hint="Nombre Categoria Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
                                         </StackPanel>
                                     </materialDesign:Card>
                                     <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
-                                        <StackPanel>
-
-
-                                            <TextBox x:Name="txbCategoria" materialDesign:HintAssist.Hint="Categoria" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
-
-                                        </StackPanel>
+                                        
 
                                     </materialDesign:Card>
 
