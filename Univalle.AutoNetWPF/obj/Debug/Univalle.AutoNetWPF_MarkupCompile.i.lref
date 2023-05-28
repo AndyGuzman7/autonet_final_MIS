@@ -1,4 +1,37 @@
 ﻿
-
-FC:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\PartsAdmin\AllParts\AddParts.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\App.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\AboutAdmin\uscAbout.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\FactoryAdmin\AddFactoryxaml.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\FactoryAdmin\EditFactory.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\FactoryAdmin\uscViewAllFactory.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\HomeAdmin\uscHome.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\ClientT\AddClient.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\ClientT\EditClient.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\ClientT\ViewClientInfo.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\AddEmployeeSimple.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\EditEmployeeSimple.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Providers\AddProvider.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Providers\ViewAllProviders.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Reports\UserReport.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\User\DataUser.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\RegisterAdmin\Other\WindowTime.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PrincipalAdmin\PrincipalView.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllParts\AddParts.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllPartsType\AddPartsType.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllParts\EditParts.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllPartsType\EditPartsType.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllParts\uscViewAllParts.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllPartsType\uscPartsType.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllParts\ViewPartsInfo.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PartsAdmin\AllPartsType\ViewsPartsType.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\EditEmployee.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\ViewEmployeeDetails.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\ClientT\uscViewAllClients.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\uscViewEmployee.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\RegisterAdmin\RestorePassword\ChangePassword.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\RegisterAdmin\RestorePassword\WindowRestorePassword.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\RegisterAdmin\Login\WindowLogin.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\HacerVenta\uscHacerVenta.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\HacerVenta\windowsRecibo.xaml;;
+FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\ListaVentas\uscListaVentas.xaml;;
 
