@@ -41,7 +41,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int rest = 0;
-            string query = @"INSERT INTO Factory (nameFactory, nameCityOrCountry, idEmploye, dateUpdate)
+            string query = @"INSERT INTO Factory (factory, country, idEmploye, updateDate)
                                             VALUES (@nameFactory, @nameCityOrCountry,@idEmploye, CURRENT_TIMESTAMP )";
             try
             {

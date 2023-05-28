@@ -106,7 +106,7 @@
                                     <Separator Margin=" 10 0 10 0"/>
                                     <StackPanel Margin="5" Orientation="Horizontal" >
                                         <TextBlock Style="{StaticResource MaterialDesignSubtitle1TextBlock}" Margin="10 10  30 10" Text="Tipo Repuesto" />
-                                        <TextBlock x:Name="txbTipoRepuesto" Style="{StaticResource MaterialDesignSubtitle1TextBlock}" Margin="10" Text="0" />
+                                        <TextBlock x:Name="txbCategoriaRepuesto" Style="{StaticResource MaterialDesignSubtitle1TextBlock}" Margin="10" Text="0" />
 
                                     </StackPanel>
 

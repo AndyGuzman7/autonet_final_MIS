@@ -38,14 +38,14 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         private void btnGuadar_Click(object sender, RoutedEventArgs e)
         {
             AñadirProducto();
-            this.Close();
+            //this.Close();
         }
 
         public void AñadirProducto()
         {
             try
             {
-                spareType = new SpareType(txtNombreTipo.Text, byte.Parse(txtCategoria.Text), 1);
+                spareType = new SpareType(txtNombreCategoria.Text, 1);
                 spareTypeImpl = new SpareTypeImpl();
                 int res = spareTypeImpl.Insert(spareType);
                 if (res > 0)

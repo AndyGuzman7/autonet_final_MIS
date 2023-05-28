@@ -35,7 +35,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
 
         public void CargarProducto()
         {
-            txbnombre.Text = spareTypeDate.NameSpareType;
+            txbnombre.Text = spareTypeDate.NameSpareCategory;
             txbFechaCreacion.Text = spareTypeDate.RegistrationDate.ToString();
             txbFechaModificacion.Text = spareTypeDate.DateUpdate.ToString();
             txbEmpleado.Text = spareTypeDate.IdEmploye.ToString();

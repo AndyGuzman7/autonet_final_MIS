@@ -11,8 +11,8 @@ namespace DAO.Model
 
         #region Properties
 
-        public int Quantity { get; set; }
-        public double Total { get; set; }
+        //public int Quantity { get; set; } //Esto quitar
+        //public double Total { get; set; } //Esto quitar
         public int IdSpare { get; set; }
         public string Description { get; set; }
         public string NameProduct { get; set; }
@@ -21,7 +21,7 @@ namespace DAO.Model
         public double Weight { get; set; }
         public string ProductCode { get; set; }
         public int IdFactory { get; set; }
-        public int IdSpareType { get; set; }
+        public int IdSpareCategory { get; set; }
         public List<string> ListaString { get; set; }
 
         #endregion
@@ -50,12 +50,12 @@ namespace DAO.Model
         /// <param name="weight"></param>
         /// <param name="productCode"></param>
         /// <param name="idFactory"></param>
-        /// <param name="idSpareType"></param>
+        /// <param name="idSpareCategory"></param>
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
         /// <param name="dateUpdate"></param>
         /// <param name="idEmploye"></param>
-        public Spare(int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareType, byte status, DateTime registrationDate, DateTime dateUpdate, short idEmploye, List<string> listString)
+        public Spare(int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareCategory, byte status, DateTime registrationDate, DateTime dateUpdate, short idEmploye, List<string> listString)
                      : base(status, registrationDate, dateUpdate, idEmploye)
         {
             IdSpare = idSpare;
@@ -66,9 +66,8 @@ namespace DAO.Model
             Weight = weight;
             ProductCode = productCode;
             IdFactory = idFactory;
-            IdSpareType = idSpareType;
-            Quantity++;
-            Total = Quantity * BasePrice;
+            IdSpareCategory = idSpareCategory;
+            
             ListaString = listString;
         }
 
@@ -85,12 +84,12 @@ namespace DAO.Model
         /// <param name="weight"></param>
         /// <param name="productCode"></param>
         /// <param name="idFactory"></param>
-        /// <param name="idSpareType"></param>
+        /// <param name="idSpareCategory"></param>
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
         /// <param name="dateUpdate"></param>
         /// <param name="idEmploye"></param>
-        public Spare(int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareType, byte status, DateTime registrationDate, DateTime dateUpdate, short idEmploye)
+        public Spare(int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareCategory, byte status, DateTime registrationDate, DateTime dateUpdate, short idEmploye)
                      :base(status, registrationDate, dateUpdate, idEmploye)
         {
             IdSpare = idSpare;
@@ -101,9 +100,8 @@ namespace DAO.Model
             Weight = weight;
             ProductCode = productCode;
             IdFactory = idFactory;
-            IdSpareType = idSpareType;
-            Quantity++;
-            Total = Quantity * BasePrice;
+            IdSpareCategory = idSpareCategory;
+            
         }
 
         /// <summary>
@@ -116,9 +114,9 @@ namespace DAO.Model
         /// <param name="weight"></param>
         /// <param name="productCode"></param>
         /// <param name="idFactory"></param>
-        /// <param name="idSpareType"></param>
+        /// <param name="idSpareCategory"></param>
         /// <param name="idEmploye"></param>
-        public Spare(string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareType, short idEmploye)
+        public Spare(string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareCategory, short idEmploye)
         {
             Description = description;
             NameProduct = nameProduct;
@@ -127,7 +125,7 @@ namespace DAO.Model
             Weight = weight;
             ProductCode = productCode;
             IdFactory = idFactory;
-            IdSpareType = idSpareType;
+            IdSpareCategory = idSpareCategory;
             IdEmploye = idEmploye;
         }
 
@@ -138,7 +136,7 @@ namespace DAO.Model
 
         # region Methods
 
-        public void MasCantidad()
+        /*public void MasCantidad()
         {
             Quantity++;
             Total = Quantity * BasePrice;
@@ -148,7 +146,7 @@ namespace DAO.Model
             Quantity--;
             Total = Quantity * BasePrice;
         }
-
+        */
         #endregion
     }
 }

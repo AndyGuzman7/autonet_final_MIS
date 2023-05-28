@@ -46,6 +46,29 @@ C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Implementacion\o
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CopyComplete
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.dll
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.pdb
+<<<<<<< HEAD
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Implementacion.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Implementacion.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Interfaces.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Model.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\Strategys.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\WpfAnimatedGif.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Interfaces.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\DAO.Model.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\Strategys.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\bin\Debug\WpfAnimatedGif.xml
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.AssemblyReference.cache
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CopyComplete
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.AssemblyReference.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CoreCompileInputs.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementacion.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementacion.pdb
+=======
+>>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Implementacion.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Implementacion.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Interfaces.dll
@@ -57,8 +80,12 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\Strategys.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\WpfAnimatedGif.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\WpfAnimatedGif.xml
+<<<<<<< HEAD
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CopyComplete
+=======
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.AssemblyReference.cache
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CoreCompileInputs.cache
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CopyComplete
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementacion.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\obj\Debug\DAO.Implementacion.pdb
+>>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
