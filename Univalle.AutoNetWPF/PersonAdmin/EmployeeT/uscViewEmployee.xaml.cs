@@ -50,7 +50,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin
             employeeImpl = new EmployeeImpl();
             DataTable dataTable = employeeImpl.Select();
 
-            CrearColumansFila(LlenarLista(dataTable).Count);
+           //  CrearColumansFila(LlenarLista(dataTable).Count);
 
 
 
@@ -59,7 +59,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin
 
 
         }
-
+ /*
         public List<Employeee> LlenarLista(DataTable dataTable)
         {
             employees = new List<Employeee>();
@@ -87,7 +87,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin
                                             )); //ci
             }
             return employees;
-        }
+        } 
 
         /* <MenuItem Name="btnMasTardeHoy" Icon="{materialDesign:PackIcon Kind=ClockOut}"  Foreground="Black"  Header="Mas tarde hoy" Click="btnMasTardeHoy_Click"/>
                                                         <Separator/>

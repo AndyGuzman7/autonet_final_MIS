@@ -45,7 +45,7 @@ namespace Univalle.AutoNetWPF.PersonAdmin.EmployeeT
                 employeee.NameUser = txtNombreUusuario.Text;
                 employeee.Password = txtPassword.Password;
                 employeee.Phone = int.Parse(txtTelefono.Text);
-                employeee.UserType = cmbTipoUsuario.Text;
+                employeee.Type = cmbTipoUsuario.Text;
 
                 employeeImpl = new EmployeeImpl();
                 int res = employeeImpl.Update(employeee);
@@ -106,7 +106,7 @@ namespace Univalle.AutoNetWPF.PersonAdmin.EmployeeT
             txtPrimerApellido.Text = employeee.LastName.Split(' ')[0];
             txtSegundoApellido.Text = employeee.LastName.Split(' ')[1];
             txtNombreUusuario.Text = employeee.NameUser;
-            switch (employeee.UserType)
+            switch (employeee.Type)
             {
                 case "Administrador":
                     cmbTipoUsuario.SelectedIndex = 0;

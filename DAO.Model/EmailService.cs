@@ -17,7 +17,8 @@ namespace DAO.Model
         {
             bool llave = false;
             string destino = email;
-            string remitente = "autonet.2021.serve@gmail.com";
+            string remitente = "autonetsysytem@gmail.com";
+            string contraseñaGmail = "hablcnvfohbdknaf";
             string asunto = "Nueva contraseña Auto net";
             string cuerpoMensaje = $"Su nueva contraseña es {contraseña}";
             MailMessage ms = new MailMessage(remitente, destino, asunto, cuerpoMensaje);
@@ -50,7 +51,8 @@ namespace DAO.Model
         {
             bool llave = false;
             string destino = email;
-            string remitente = "autonet.2021.serve@gmail.com";
+            string remitente = "autonetsysytem@gmail.com";
+            string contraseñaGmail = "hablcnvfohbdknaf";
             string asunto = "Datos de registro";
             string cuerpoMensaje = $"Su Nombre Usuario es: {nameUser}\nSu Contraseña es: {contraseña}";
             MailMessage ms = new MailMessage(remitente, destino, asunto, cuerpoMensaje);

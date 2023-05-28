@@ -28,3 +28,13 @@ C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
+C:\Users\fabri\OneDrive\Escritorio\MIS\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
