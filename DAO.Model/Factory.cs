@@ -30,7 +30,7 @@ namespace DAO.Model
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
         /// <param name="dateUpdate"></param>
-        public Factory(int idFactory, string nameFactory, string nameCityOrCountry, short idEmployeeAdd, byte status, DateTime registrationDate, DateTime dateUpdate)
+        public Factory(int idFactory, string nameFactory, string nameCityOrCountry,  byte status, DateTime registrationDate, DateTime dateUpdate, short idEmployeeAdd)
         : base(status, registrationDate, dateUpdate, idEmployeeAdd)
         {
             IdFactory = idFactory;
