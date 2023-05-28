@@ -328,6 +328,7 @@ C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.CopyComplete
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.exe
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.pdb
+<<<<<<< HEAD
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe.config
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.pdb
@@ -486,6 +487,8 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF_MarkupCompile.lref
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.exe
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.pdb
+=======
+>>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe.config
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.pdb
@@ -569,3 +572,4 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\ViewAllProviders.baml
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\AddProvider.g.cs
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\AddProvider.baml
+>>>>>>> 8162d5ab63aed4453901a72a54a1826c7a2acc94

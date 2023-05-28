@@ -34,6 +34,7 @@ C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\D
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
+<<<<<<< HEAD
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Interfaces.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Interfaces.pdb
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\bin\Debug\DAO.Model.dll
@@ -46,6 +47,8 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Deb
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
+=======
+>>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Interfaces.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Interfaces.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\DAO.Model.dll

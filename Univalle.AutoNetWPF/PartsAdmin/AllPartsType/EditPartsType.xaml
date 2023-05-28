@@ -29,36 +29,18 @@
                         <Grid >
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                                
                             </Grid.ColumnDefinitions>
                             <Border VerticalAlignment="top" Padding="15" Margin="0 80 0 0" materialDesign:ShadowAssist.ShadowDepth="Depth3" Grid.Column="2" CornerRadius=" 0 120 15 0" Background="#F7F7F7">
 
                                 <StackPanel >
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
-                                        <StackPanel>
-                                            <Grid Margin="5" Background="#F7F7F7" >
-                                                <Image Margin="10" Width="70" Source="/PartsAdmin/image/logo2Recurso 12logoBalnco.png" >
-
-                                                </Image>
-                                            </Grid>
-
-
-                                            <Button Margin="5" BorderBrush="{x:Null}"   Background="#FF175CC1"   Content="Añadir Imagen" Foreground="White" FontWeight="Normal"/>
-                                        </StackPanel>
-                                    </materialDesign:Card>
-
 
 
                                     <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
-                                            <TextBox Name="txtNombreCategoriaProducto" materialDesign:HintAssist.Hint="Nombre Categoria Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
+                                            <TextBox Name="txtNombreCategoriaProducto" FontSize="22" materialDesign:HintAssist.Hint="Nombre Categoria Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
                                         </StackPanel>
                                     </materialDesign:Card>
-                                    <materialDesign:Card Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
-                                        
-
-                                    </materialDesign:Card>
+                               
 
 
 
