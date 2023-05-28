@@ -55,6 +55,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
                 spareImpl = new SpareImpl();
                 int res = spareImpl.Insert(spare);
                 int id = spareImpl.GetGenerateId();
+
                 if(res > 0)
                 {
                     MessageBox.Show("Registro Insertado con exito");

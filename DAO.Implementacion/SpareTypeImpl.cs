@@ -20,13 +20,13 @@ namespace DAO.Implementacion
             logWrite.NameMethod = "Delete";
             int res = 0;
 
-            string query = @"UPDATE SpareType SET status = 0
-                                WHERE idSpareType = @idSpareType";
+            string query = @"UPDATE ProductCategory SET status = 0
+                                WHERE idSpareCategory = @idSpareCategory";
             try
             {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
-                command.Parameters.AddWithValue("@idSpareType", t.IdSpareType);
+                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
                 res = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
             }
@@ -43,7 +43,7 @@ namespace DAO.Implementacion
             logWrite.NameMethod = "Get";
 
             SpareType spareType = null;
-            string query = @"SELECT*FROM SpareType WHERE idSpareType = @idSpareType";
+            string query = @"SELECT*FROM ProductCategory WHERE idSpareCategory = @idSpareCategory";
             SqlCommand sqlCommand = null;
             SqlDataReader sqlDataReader = null;
             try
@@ -51,12 +51,12 @@ namespace DAO.Implementacion
                 logWrite.MensajeInicio();
                 //UTILIZANDO UN DATA READER
                 sqlCommand = DataBase.CreateBasicCommand(query);
-                sqlCommand.Parameters.AddWithValue("@idSpareType", id);
+                sqlCommand.Parameters.AddWithValue("@idSpareCategory", id);
                 sqlDataReader =  DataBase.ExecuteDataReaderCommand(sqlCommand);
 
                 while(sqlDataReader.Read())
                 {   
-                    spareType = new SpareType(byte.Parse(sqlDataReader[0].ToString()), sqlDataReader[1].ToString(), byte.Parse(sqlDataReader[2].ToString()), short.Parse(sqlDataReader[2].ToString()), byte.Parse(sqlDataReader[3].ToString()), DateTime.Parse(sqlDataReader[4].ToString()), DateTime.Parse(sqlDataReader[5].ToString()));
+                    spareType = new SpareType(byte.Parse(sqlDataReader[0].ToString()), sqlDataReader[1].ToString(), short.Parse(sqlDataReader[2].ToString()), byte.Parse(sqlDataReader[3].ToString()), DateTime.Parse(sqlDataReader[4].ToString()), DateTime.Parse(sqlDataReader[5].ToString()));
                 }
                 logWrite.MensajeFinalizado();
             }
@@ -77,14 +77,13 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int res = 0;
-            string query = @"INSERT INTO SpareType (nameSpareType, idSpareCategory, idEmployee, dateUpdate)
-                            VALUES (@nameSpareType, @idSpareCategory, @idEmployee, CURRENT_TIMESTAMP )";
+            string query = @"INSERT INTO ProductCategory (spareCategory, idEmploye, updateDate)
+                            VALUES (@nameSpareCategory, @idEmployee, CURRENT_TIMESTAMP )";
             try
             {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
-                command.Parameters.AddWithValue("@nameSpareType", t.NameSpareType);
-                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
+                command.Parameters.AddWithValue("@nameSpareCategory", t.NameSpareCategory);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 res =  DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
@@ -101,7 +100,7 @@ namespace DAO.Implementacion
             logWrite.NameMethod = "Select";
             DataTable dt = new DataTable();
             string query = @"SELECT*
-                            FROM SpareType
+                            FROM ProductCategory
                             WHERE status = 1";
             try
             {
@@ -122,17 +121,16 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Update";
             int res = 0;
-            string query = @"UPDATE SpareType SET  nameSpareType = @nameSpareType, idSpareCategory = @idSpareCategory, idEmployee =@idEmployee, dateUpdate = CURRENT_TIMESTAMP
-                                WHERE idSpareType = @idSpareType";
+            string query = @"UPDATE ProductCategory SET  nameSpareCategory = @nameSpareCategory, idEmployee =@idEmployee, dateUpdate = CURRENT_TIMESTAMP
+                                WHERE idSpareCategory = @idSpareCategory";
             try
             {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
-                command.Parameters.AddWithValue("@nameSpareType", t.NameSpareType);
-                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
+                command.Parameters.AddWithValue("@nameSpareCategory", t.NameSpareCategory);
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 command.Parameters.AddWithValue("@dateUpdate", t.DateUpdate);
-                command.Parameters.AddWithValue("@idSpareType", t.IdSpareType);
+                command.Parameters.AddWithValue("@idSpareCategory", t.IdSpareCategory);
                 res = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
             }

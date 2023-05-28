@@ -156,9 +156,9 @@
                                 <MenuItem Name="menuItemRepuesto" FontFamily="Montserrat Regular" Background="White" Foreground="Black" Icon="{materialDesign:PackIcon Kind =Abacus}" TextBlock.TextAlignment="Left" Header="Repuestos" Height="50"  Padding="10"       MouseRightButtonUp="MenuItem_MouseRightButtonUp" MouseRightButtonDown="MenuItem_MouseRightButtonDown" FontSize="13" >
                                     <MenuItem Name="mITodoLosRepuestos" Foreground="Black"  Header="Todos los repuestos" Click="mITodoLosRepuestos_Click"/>
                                     <Separator/>
-                                    <MenuItem Name="mITipoRepuesto" Foreground="Black" Header="Tipos de repuestos" Click="mITipoRepuesto_Click" />
+                                    <MenuItem Name="mITipoRepuesto" Foreground="Black" Header="Categorias de repuestos" Click="mITipoRepuesto_Click" />
                                     <Separator/>
-                                    <MenuItem Header="Categoria de respuestos"  Foreground="Black"  />
+                                    <MenuItem Name="btnLayoutFabricaRepuestos"  Foreground="Black"  Header="Fabricas de Repuestos" Click="btnLayoutFabricaRepuestos_Click"/>
 
                                 </MenuItem>
 
@@ -183,11 +183,9 @@
 
                             <Menu  Background="White" VerticalContentAlignment="Center" Padding="0"  BorderBrush="{x:Null}">
                                 <MenuItem  FontFamily="Montserrat Regular" Background="White" Foreground="Black" Icon="{materialDesign:PackIcon Kind =Abacus}" TextBlock.TextAlignment="Left" Header="Otros" Height="50"  Padding="10"       FontSize="13" >
-                                    <MenuItem  Foreground="Black"  Header="Proveedores"/>
+                                    <MenuItem Name="btnLayoutProveedores" Click="btnLayoutProveedores_Click"  Foreground="Black"  Header="Proveedores"/>
                                     <Separator/>
-                                    <MenuItem Name="btnLayoutFabricaRepuestos"  Foreground="Black"  Header="Fabricas de Repuestos" Click="btnLayoutFabricaRepuestos_Click"/>
-                                    <Separator/>
-                                    <MenuItem Foreground="Black"  Header="Categoria de respuestos" />
+                                    
 
                                 </MenuItem>
 

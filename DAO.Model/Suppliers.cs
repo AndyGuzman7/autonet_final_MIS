@@ -40,7 +40,7 @@ namespace DAO.Model
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
         /// <param name="nit"></param>
-        public Suppliers(int idSuppliers, string contactName, string address, int phone, DateTime dateUpdate, short idEmployeeAdd, byte status, DateTime registrationDate, string nit)
+        public Suppliers(int idSuppliers, string contactName, string address, int phone, string nit, DateTime dateUpdate, short idEmployeeAdd, byte status, DateTime registrationDate)
          : base(status, registrationDate, dateUpdate, idEmployeeAdd)
         {
             IdSuppliers = idSuppliers;
