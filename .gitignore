@@ -1,0 +1,23 @@
+# Ignorar archivos y carpetas generados por Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar archivos de caché
+*.cache
+
+# Ignorar archivos de respaldo generados por el editor
+*~
+
+# Excluir archivos específicos (agrega los archivos que deseas excluir)
+# example.txt
+
+# Excluir carpetas específicas (agrega las carpetas que deseas excluir)
+# excluded_folder/
+
+# Ignorar archivos y carpetas específicos (agrega los archivos y carpetas que deseas excluir)
+# excluded_file.txt
+# excluded_folder/
+
+# Mantener las bibliotecas y dependencias
+!lib/
