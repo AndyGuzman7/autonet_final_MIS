@@ -138,7 +138,11 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "SelectDetails";
             DataTable dt = new DataTable();
-            string query = @"SELECT * FROM view_detalle_venta;";
+            string query = @"SELECT O.registerDate AS 'Fecha/Hora', CONCAT(C.firstName, ' ', C.lastName) AS 'Cliente', 
+		                                E.nameUser AS 'Vendedor', O.total AS 'Total Venta'
+                                FROM [Order] O
+                                LEFT JOIN Client C ON O.idClient = C.idClient
+                                LEFT JOIN Employee E ON O.idEmployee = E.idEmployee";
             try
             {
                 logWrite.MensajeInicio();
