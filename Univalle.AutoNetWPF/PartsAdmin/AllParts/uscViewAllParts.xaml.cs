@@ -410,5 +410,13 @@ Fila2";
             addParts.ShowDialog();
 
         }
+
+        private void ComboBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            ComboBox comboBox = (ComboBox)sender;
+            string valorIngresado = comboBox.Text;
+            MessageBox.Show(valorIngresado);
+            // Hacer algo con el valor ingresado...
+        }
     }
 }
