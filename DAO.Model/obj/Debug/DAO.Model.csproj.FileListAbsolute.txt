@@ -28,3 +28,13 @@ C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
 C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
