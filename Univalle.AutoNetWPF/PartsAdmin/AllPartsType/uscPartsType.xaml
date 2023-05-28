@@ -24,7 +24,7 @@
                 <Border CornerRadius="15" Background="White" >
                     <Grid>
                         <Grid VerticalAlignment="Top" Height="60" >
-                            <TextBlock Padding="20" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Tipo Repuestos" />
+                            <TextBlock Padding="20" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Categoria Repuestos" />
                         </Grid>
                         <Grid  Margin="0  60 0 0" Height="60" VerticalAlignment="top" Background="#F7F7F7">
                             <StackPanel Orientation="Horizontal" >
@@ -32,7 +32,7 @@
                                     <StackPanel VerticalAlignment="Center">
                                         <StackPanel Height="auto" Orientation="Horizontal">
                                             <!--<materialDesign:PackIcon Kind="Nut" Height="auto" Margin="0 5 0 0 "  />-->
-                                            <TextBlock VerticalAlignment="Center" Text="+ Tipo Repuesto"  Margin="5" Height="auto"/>
+                                            <TextBlock VerticalAlignment="Center" Text="+ Categoria Repuesto"  Margin="5" Height="auto"/>
                                         </StackPanel>
                                     </StackPanel>
 
