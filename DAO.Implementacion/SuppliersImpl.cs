@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DAO.Implementacion
 {
-    class SuppliersImpl : ISuppliers
+    public class SuppliersImpl : ISuppliers
     {
         LogWrite logWrite = new LogWrite("ISuppliers", Session.IdSession);
         public int Delete(Suppliers t)
