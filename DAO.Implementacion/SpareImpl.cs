@@ -59,7 +59,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int rest = 0;
-            string query = @"INSERT INTO Spare (description, nameProduct, currentBalance, unitPrice, weight, productCode, idFactory, idSpareCategory, idEmployee, dateUpdate)
+            string query = @"INSERT INTO Spare (description, nameProduct, currentBalance, unitPrice, weight, productCode, idFactory, idSpareCategory, idEmploye, updateDate)
                                             VALUES (@description, @nameProduct, @currentBalance, @unitPrice, @weight, @productCode, @idFactory ,@idSpareCategory, @idEmployee, CURRENT_TIMESTAMP )";
             try
             {
@@ -114,48 +114,9 @@ namespace DAO.Implementacion
 
                 dt.Columns.Add(column);
 
-                // Se crea una fila por cada registro que necesitemos agregar
-                // 
-
-                List<String> listadeStrings = new List<string>() { "Hola", "Como estas?", "holaaa" };
-                //System.Windows.Forms.ComboBox comboBox = new ComboBox();
-                //ComboBoxItem comboBoxItem = new ComboBoxItem();
-                List<ComboBoxItem> comboBoxItems = new List<ComboBoxItem>();
-                foreach (var item in listadeStrings)
-                {
-                    ComboBoxItem comboBoxItem = new ComboBoxItem();
-                    comboBoxItem.Content = item;
-                    comboBoxItems.Add(comboBoxItem);
-                }
-
-
-                List<ComboData> ListData = new List<ComboData>();
-                ListData.Add(new ComboData { Id = 1, Value = "One" });
-                ListData.Add(new ComboData { Id = 2, Value = "Two" });
-                ListData.Add(new ComboData { Id = 3, Value = "Three" });
-                ListData.Add(new ComboData { Id = 4, Value = "Four" });
-                ListData.Add(new ComboData { Id = 5, Value = "Five" });
-
-                /*cbotest.ItemsSource = ListData;
-                cbotest.DisplayMemberPath = "Value";
-                cbotest.SelectedValuePath = "Id";
-
-                cbotest.SelectedValue = "2";*/
 
                 int count = dt.Rows.Count;
                 int countColumn = dt.Columns.Count;
-                //for (int i = 0; i < countColumn; i++)
-                //{
-                for (int j = 0; j < count; j++)
-                {
-                    // row = dt.NewRow();
-                    //row["Codigo"] = listadeStrings;
-
-                    dt.Rows[j]["Codigo"] = ListData;
-                    Console.WriteLine(j);
-                }
-                //}
-
 
                 logWrite.MensajeFinalizado();
 
@@ -203,7 +164,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Update";
             int rest = 0;
-            string query = @"UPDATE Spare SET  description = @description, nameProduct = @nameProduct, currentBalance = @currentBalance, unitPrice = @unitPrice,    weight = @weight, productCode = @productCode, idFactory = @idFactory, idSpareCategory = @idSpareCategory, idEmployee = @idEmployee, dateUpdate = CURRENT_TIMESTAMP
+            string query = @"UPDATE Spare SET  description = @description, nameProduct = @nameProduct, currentBalance = @currentBalance, unitPrice = @unitPrice,    weight = @weight, productCode = @productCode, idFactory = @idFactory, idSpareCategory = @idSpareCategory, idEmploye = @idEmployee, updateDate = CURRENT_TIMESTAMP
                                 WHERE idSpare = @idSpare";
             try
             {

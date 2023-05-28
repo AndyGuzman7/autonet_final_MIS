@@ -38,7 +38,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         private void btnGuadar_Click(object sender, RoutedEventArgs e)
         {
             AñadirProducto();
-            this.Close();
+            //this.Close();
         }
 
         public void AñadirProducto()

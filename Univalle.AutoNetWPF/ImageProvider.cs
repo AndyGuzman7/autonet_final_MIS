@@ -21,7 +21,10 @@ namespace Strategys
     {
         public Images imageMain;
         public event ImageProviders getImage;
-        private string path = @"C:\Users\hp\source\repos\camaraweb\camaraweb\image";
+
+        //Andy - private string path = @"C:\Users\hp\source\repos\camaraweb\camaraweb\image";
+        //Niky
+        private string path = @"C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet-Imagenes";
         private string pathImage;
         private FilterInfoCollection filterInfoCollection;
         private VideoCaptureDevice videoCaptureDevice;

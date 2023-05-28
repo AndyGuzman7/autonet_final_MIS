@@ -94,9 +94,9 @@
                                         <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
 
                                             <DataGrid.Columns >
-                                                <DataGridTextColumn Width="*"  Header="Nombre Fabrica o Marca"  Binding="{Binding Path='NameFactory'}"/>
+                                                <DataGridTextColumn Width="*"  Header="Nombre Fabrica o Marca"  Binding="{Binding Path='factory'}"/>
 
-                                                <DataGridTextColumn Width="*" Header="Procedencia" Binding="{Binding Path='NameCityOrCountry'}"/>
+                                                <DataGridTextColumn Width="*" Header="Procedencia" Binding="{Binding Path='country'}"/>
                                                
                                                 <DataGridTemplateColumn Header="Editar">
                                                     <DataGridTemplateColumn.CellTemplate>
