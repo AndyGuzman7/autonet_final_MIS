@@ -33,7 +33,7 @@ namespace Univalle.AutoNetWPF.FactoryAdmin
             InitializeComponent();
         }
 
-        
+
 
         private void btnEditar_Click(object sender, RoutedEventArgs e)
         {
@@ -84,7 +84,14 @@ namespace Univalle.AutoNetWPF.FactoryAdmin
             List<Factory> f = new List<Factory>();
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                factory = new Factory(int.Parse(dt.Rows[i][0].ToString()), dt.Rows[i][1].ToString(), dt.Rows[i][2].ToString(), short.Parse(dt.Rows[i][3].ToString()), byte.Parse(dt.Rows[i][4].ToString()), DateTime.Parse(dt.Rows[i][5].ToString()), DateTime.Parse(dt.Rows[i][6].ToString()));
+                factory = new Factory(int.Parse(
+                                        dt.Rows[i][0].ToString()),
+                                        dt.Rows[i][1].ToString(),
+                                        dt.Rows[i][2].ToString(),
+                                        byte.Parse(dt.Rows[i][3].ToString()),
+                                        DateTime.Parse(dt.Rows[i][4].ToString()),
+                                        DateTime.Parse(dt.Rows[i][5].ToString()),
+                                        short.Parse(dt.Rows[i][6].ToString()));
                 f.Add(factory);
             }
             return f;
@@ -114,7 +121,7 @@ namespace Univalle.AutoNetWPF.FactoryAdmin
             try
             {
                 factoryImpl = new FactoryImpl();
-                dt =factoryImpl.Select();
+                dt = factoryImpl.Select();
             }
             catch (Exception)
             {
@@ -124,7 +131,7 @@ namespace Univalle.AutoNetWPF.FactoryAdmin
             return dt;
         }
 
-       
+
 
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {

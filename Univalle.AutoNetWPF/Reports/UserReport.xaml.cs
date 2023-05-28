@@ -34,8 +34,9 @@ namespace Univalle.AutoNetWPF.Reports
 
         public ReportDocument InitCrystalReport(string nameRpt)
         {
+            string projectPath = AppDomain.CurrentDomain.BaseDirectory;
 
-            string path = $@"E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\Univalle.AutoNetWPF\Reports\{nameRpt}";
+            string path = $@"{projectPath}\Univalle.AutoNet\Univalle.AutoNetWPF\Reports\{nameRpt}";
             string nameBase = "BDDAUTONET";
             string nameUserBD = "root";
             string passwordBD = "Univalle";

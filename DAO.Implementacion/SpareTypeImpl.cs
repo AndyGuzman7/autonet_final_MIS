@@ -77,7 +77,7 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "Insert";
             int res = 0;
-            string query = @"INSERT INTO ProductCategory (spareCategory, idEmployee, dateUpdate)
+            string query = @"INSERT INTO ProductCategory (spareCategory, idEmploye, updateDate)
                             VALUES (@nameSpareCategory, @idEmployee, CURRENT_TIMESTAMP )";
             try
             {

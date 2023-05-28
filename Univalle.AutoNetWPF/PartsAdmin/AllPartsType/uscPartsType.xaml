@@ -24,7 +24,7 @@
                 <Border CornerRadius="15" Background="White" >
                     <Grid>
                         <Grid VerticalAlignment="Top" Height="60" >
-                            <TextBlock Padding="20" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Tipo Repuestos" />
+                            <TextBlock Padding="20" VerticalAlignment="Center" Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Categoria Repuestos" />
                         </Grid>
                         <Grid  Margin="0  60 0 0" Height="60" VerticalAlignment="top" Background="#F7F7F7">
                             <StackPanel Orientation="Horizontal" >
@@ -32,7 +32,7 @@
                                     <StackPanel VerticalAlignment="Center">
                                         <StackPanel Height="auto" Orientation="Horizontal">
                                             <!--<materialDesign:PackIcon Kind="Nut" Height="auto" Margin="0 5 0 0 "  />-->
-                                            <TextBlock VerticalAlignment="Center" Text="+ Tipo Repuesto"  Margin="5" Height="auto"/>
+                                            <TextBlock VerticalAlignment="Center" Text="+ Categoria Repuesto"  Margin="5" Height="auto"/>
                                         </StackPanel>
                                     </StackPanel>
 
@@ -46,8 +46,25 @@
                                 <TextBlock Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Todavía no hay Repuestos " />
                             </StackPanel>-->
                             <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Visible">
-                                <Grid x:Name="gridParts" VerticalAlignment="Top">
-                                    
+                                <Grid x:Name="gridParts"  VerticalAlignment="Top" >
+                                    <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
+                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+
+                                            <DataGrid.Columns >
+                                                <DataGridTextColumn  Width="*"  Header="Id Cliente"  Binding="{Binding Path='idSpareCategory'}" Visibility="Collapsed" />
+
+                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Categoria"  Binding="{Binding Path='spareCategory'}"/>
+
+                                                <DataGridTextColumn Width="*" Header="Fecha de registro" Binding="{Binding Path='registerDate'}"/>
+                                                <DataGridTextColumn Width="*" Header="Fecha de actualizacion" Binding="{Binding Path='updateDate'}"/>
+
+
+
+
+
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </WrapPanel>
                                 </Grid>
                             </ScrollViewer>
                         </Grid>
