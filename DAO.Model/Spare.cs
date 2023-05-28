@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,6 +24,7 @@ namespace DAO.Model
         public int IdFactory { get; set; }
         public int IdSpareCategory { get; set; }
         public List<string> ListaString { get; set; }
+
 
         #endregion
 
@@ -130,11 +132,42 @@ namespace DAO.Model
         }
 
 
+   
 
+
+
+        public Spare(int idSpare, 
+                        int idFactory, 
+                        int idSpareCategory,
+                        string descrirption,
+                        string nameProduct,
+                        int currentBalance,
+                        double unitPrice,
+                        double weight,
+                        string productCode,
+                        byte status,
+                        DateTime registerDate,
+                        DateTime updateDate,
+                        short idEmploye)
+        {
+            this.IdSpare = idSpare;
+            this.IdFactory = idFactory;
+            this.IdSpareCategory = idSpareCategory;
+            this.Description= descrirption; 
+            this.NameProduct= nameProduct;
+            this.CurrentBalance = currentBalance;
+            this.BasePrice= unitPrice;
+            this.Weight = weight;
+            this.ProductCode = productCode;
+            this.Status = status;
+            this.RegistrationDate= registerDate;
+            this.DateUpdate= updateDate;
+            this.IdEmploye= idEmploye;
+        }
 
         #endregion
 
-        # region Methods
+        #region Methods
 
         /*public void MasCantidad()
         {

@@ -87,7 +87,26 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
              List<Spare> spares = new List<Spare>();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
-                spares.Add(new Spare(int.Parse(dataTable.Rows[i][0].ToString()), dataTable.Rows[i][1].ToString(), dataTable.Rows[i][2].ToString(), int.Parse(dataTable.Rows[i][3].ToString()), double.Parse(dataTable.Rows[i][4].ToString()), double.Parse(dataTable.Rows[i][5].ToString()), dataTable.Rows[i][6].ToString(), int.Parse(dataTable.Rows[i][7].ToString()), int.Parse(dataTable.Rows[i][8].ToString()), byte.Parse(dataTable.Rows[i][9].ToString()), DateTime.Parse(dataTable.Rows[i][10].ToString()), DateTime.Parse(dataTable.Rows[i][11].ToString()), short.Parse(dataTable.Rows[i][12].ToString())));
+                spares.Add(new Spare(
+                    int.Parse(dataTable.Rows[i][0].ToString()),
+                    int.Parse(dataTable.Rows[i][1].ToString()),
+                    int.Parse(dataTable.Rows[i][2].ToString()),
+
+                    dataTable.Rows[i][3].ToString(),
+                    dataTable.Rows[i][4].ToString(),
+
+                    int.Parse(dataTable.Rows[i][5].ToString()), 
+
+                    double.Parse(dataTable.Rows[i][6].ToString()),
+                    double.Parse(dataTable.Rows[i][7].ToString()),
+
+                    dataTable.Rows[i][8].ToString(),
+                    
+ 
+                    byte.Parse(dataTable.Rows[i][9].ToString()), 
+                    DateTime.Parse(dataTable.Rows[i][10].ToString()), 
+                    DateTime.Parse(dataTable.Rows[i][11].ToString()), 
+                    short.Parse(dataTable.Rows[i][12].ToString())));
             }
             return spares;
         }
