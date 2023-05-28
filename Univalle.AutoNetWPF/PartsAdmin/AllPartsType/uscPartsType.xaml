@@ -46,8 +46,25 @@
                                 <TextBlock Style="{StaticResource MaterialDesignHeadline4TextBlock}" Text="Todavía no hay Repuestos " />
                             </StackPanel>-->
                             <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Visible">
-                                <Grid x:Name="gridParts" VerticalAlignment="Top">
-                                    
+                                <Grid x:Name="gridParts"  VerticalAlignment="Top" >
+                                    <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
+                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+
+                                            <DataGrid.Columns >
+                                                <DataGridTextColumn  Width="*"  Header="Id Cliente"  Binding="{Binding Path='idSpareCategory'}" Visibility="Collapsed" />
+
+                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Categoria"  Binding="{Binding Path='spareCategory'}"/>
+
+                                                <DataGridTextColumn Width="*" Header="Fecha de registro" Binding="{Binding Path='registerDate'}"/>
+                                                <DataGridTextColumn Width="*" Header="Fecha de actualizacion" Binding="{Binding Path='updateDate'}"/>
+
+
+
+
+
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </WrapPanel>
                                 </Grid>
                             </ScrollViewer>
                         </Grid>

@@ -50,17 +50,32 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         public void LoadData()
         {
             
+            spareTypeImpl = new SpareTypeImpl();
+            //DataTable dataTable = spareTypeImpl.Select();
+
+            //CrearColumansFila(LlenarLista(dataTable).Count);
+
+
+            dataGridProgram.ItemsSource = SelectSpare().DefaultView;
+
+
+
+        }
+
+        DataTable SelectSpare()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
                 spareTypeImpl = new SpareTypeImpl();
-                DataTable dataTable = spareTypeImpl.Select();
+                dt = spareTypeImpl.Select();
 
-                CrearColumansFila(LlenarLista(dataTable).Count);
-           
-
-
-
-
-
-
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Comuniquese con el encargado de Sistemas");
+            }
+            return dt;
         }
 
         public List<SpareType> LlenarLista(DataTable dataTable)
