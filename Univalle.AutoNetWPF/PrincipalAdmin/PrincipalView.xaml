@@ -183,7 +183,7 @@
 
                             <Menu  Background="White" VerticalContentAlignment="Center" Padding="0"  BorderBrush="{x:Null}">
                                 <MenuItem  FontFamily="Montserrat Regular" Background="White" Foreground="Black" Icon="{materialDesign:PackIcon Kind =Abacus}" TextBlock.TextAlignment="Left" Header="Otros" Height="50"  Padding="10"       FontSize="13" >
-                                    <MenuItem  Foreground="Black"  Header="Proveedores"/>
+                                    <MenuItem Name="btnLayoutProveedores" Click="btnLayoutProveedores_Click"  Foreground="Black"  Header="Proveedores"/>
                                     <Separator/>
                                     
 

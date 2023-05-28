@@ -11,6 +11,7 @@ namespace DAO.Implementacion
 {
     class DataBase
     {
+//Server=(local);Database=nombre_base_datos;Integrated Security=True;
 
         private static string connectionString = @"Server=ANDYHP\SQLEXPRESS01;Database=BDDAUTONET;Integrated Security=True";
 

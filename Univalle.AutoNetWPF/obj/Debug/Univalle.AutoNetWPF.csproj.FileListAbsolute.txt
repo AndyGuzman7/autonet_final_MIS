@@ -530,47 +530,6 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\WpfAnimatedGif.xml
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\DAO.Interfaces.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\Strategys.pdb
-<<<<<<< HEAD
-=======
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.AssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.SuggestedBindingRedirects.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\AboutAdmin\uscAbout.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\FactoryAdmin\AddFactoryxaml.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\FactoryAdmin\EditFactory.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\FactoryAdmin\uscViewAllFactory.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\HomeAdmin\uscHome.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\ClientT\AddClient.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\ClientT\EditClient.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\ClientT\ViewClientInfo.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\EmployeeT\AddEmployeeSimple.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\EmployeeT\EditEmployeeSimple.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Reports\UserReport.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\User\DataUser.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\RegisterAdmin\Other\WindowTime.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PrincipalAdmin\PrincipalView.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllParts\AddParts.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllPartsType\AddPartsType.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllParts\EditParts.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllPartsType\EditPartsType.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllParts\uscViewAllParts.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllPartsType\uscPartsType.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllParts\ViewPartsInfo.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PartsAdmin\AllPartsType\ViewsPartsType.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\EmployeeT\EditEmployee.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\EmployeeT\ViewEmployeeDetails.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\ClientT\uscViewAllClients.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\PersonAdmin\EmployeeT\uscViewEmployee.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\RegisterAdmin\RestorePassword\ChangePassword.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\RegisterAdmin\RestorePassword\WindowRestorePassword.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\RegisterAdmin\Login\WindowLogin.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Ventas\HacerVenta\uscHacerVenta.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Ventas\HacerVenta\windowsRecibo.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Ventas\ListaVentas\uscListaVentas.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\App.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF_Content.g.cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF_MarkupCompile.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF_MarkupCompile.lref
->>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\App.baml
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\AboutAdmin\uscAbout.baml
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\FactoryAdmin\AddFactoryxaml.baml
@@ -609,8 +568,8 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.GenerateResource.cache
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.CoreCompileInputs.cache
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.CopyComplete
-<<<<<<< HEAD
-=======
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.exe
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.pdb
->>>>>>> c525ac9d290e2407e55c8ef07d0c50c7cfa34613
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\ViewAllProviders.g.cs
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\ViewAllProviders.baml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\AddProvider.g.cs
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Providers\AddProvider.baml
+>>>>>>> 8162d5ab63aed4453901a72a54a1826c7a2acc94

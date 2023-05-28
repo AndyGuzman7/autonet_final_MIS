@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DAO.Implementacion
 {
-    class SuppliersImpl : ISuppliers
+    public class SuppliersImpl : ISuppliers
     {
         LogWrite logWrite = new LogWrite("ISuppliers", Session.IdSession);
         public int Delete(Suppliers t)
@@ -38,27 +38,27 @@ namespace DAO.Implementacion
         public int Insert(Suppliers t)
         {
             logWrite.NameMethod = "Insert";
-            string query = @"INSERT INTO Suppliers (ContactName, Address, Phone, dateUpdate, idEmploye, nit)
-                                           VALUES(@ContactName, @Address, @Phone, CURRENT_TIMESTAMP, @idEmploye, @nit";
+            string query = @"INSERT INTO Suppliers (contactName, address, phone, nit, updateDate, idEmploye, status, registerDate)
+                                           VALUES(@ContactName, @Address, @Phone, @Nit, CURRENT_TIMESTAMP, @IdEmployee, 1, CURRENT_TIMESTAMP);";
             int res = 0;
-            try
-            {
+            //try
+           // {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
                 command.Parameters.AddWithValue("@ContactName", t.ContactName);
                 command.Parameters.AddWithValue("@Address", t.Address).SqlDbType = SqlDbType.VarChar;
                 command.Parameters.AddWithValue("@Phone", t.Phone);
-                command.Parameters.AddWithValue("@idEmploye", t.IdEmploye);
-                command.Parameters.AddWithValue("@nit", t.Nit);
-
+                command.Parameters.AddWithValue("@Nit", t.Nit);
+                command.Parameters.AddWithValue("@IdEmployee", t.IdEmploye);
+                
 
                 res =  DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
-            }
+           /* }
             catch (Exception ex)
             {
                 logWrite.MensajeError(ex);
-            }
+            }*/
             return res;
         }
 

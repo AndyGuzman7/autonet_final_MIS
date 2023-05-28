@@ -21,6 +21,7 @@ using Univalle.AutoNetWPF.Login;
 using Univalle.AutoNetWPF.Reports;
 using Univalle.AutoNetWPF.Ventas.HacerVenta;
 using Univalle.AutoNetWPF.Ventas.ListaVentas;
+using Univalle.AutoNetWPF.Providers;
 
 namespace Univalle.AutoNetWPF
 {
@@ -419,6 +420,19 @@ namespace Univalle.AutoNetWPF
                 gridMain.Children.Add(usc);
                 CambiarBotones(1);
                 txbNamePage.Text = "Reportes";
+            }
+        }
+
+        private void btnLayoutProveedores_Click(object sender, RoutedEventArgs e)
+        {
+            UserControl usc = null;
+            gridMain.Children.Clear();
+            usc = new UserControl1();
+            if (usc != null)
+            {
+                gridMain.Children.Add(usc);
+                CambiarBotones(1);
+                txbNamePage.Text = "Proveedores";
             }
         }
     }

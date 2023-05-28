@@ -116,6 +116,12 @@
     <Compile Include="PersonAdmin\EmployeeT\EditEmployeeSimple.xaml.cs">
       <DependentUpon>EditEmployeeSimple.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Providers\AddProvider.xaml.cs">
+      <DependentUpon>AddProvider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\ViewAllProviders.xaml.cs">
+      <DependentUpon>ViewAllProviders.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Reports\CrystalReport_reportOne.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -204,6 +210,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PersonAdmin\EmployeeT\EditEmployeeSimple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Providers\AddProvider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Providers\ViewAllProviders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
