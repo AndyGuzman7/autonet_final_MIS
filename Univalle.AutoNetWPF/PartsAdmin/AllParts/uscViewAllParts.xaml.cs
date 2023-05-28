@@ -16,6 +16,7 @@ using DAO.Model;
 using DAO.Implementacion;
 using System.Data;
 using System.Text.RegularExpressions;
+using Univalle.AutoNetWPF.PartsAdmin.AllParts;
 
 namespace Univalle.AutoNetWPF.PartsAdmin
 {
@@ -400,6 +401,14 @@ Fila2";
         {
             ComboBox comboBox = (ComboBox)sender;
             MessageBox.Show(comboBox.SelectedItem.ToString());
+        }
+
+        private void btnCompraProveedor_Click(object sender, RoutedEventArgs e)
+        {
+            CompraProveedor addParts = new CompraProveedor();
+            //addParts.recargarPagina += LoadData;
+            addParts.ShowDialog();
+
         }
     }
 }

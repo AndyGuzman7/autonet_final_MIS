@@ -101,6 +101,9 @@
       <DependentUpon>uscViewAllFactory.xaml</DependentUpon>
     </Compile>
     <Compile Include="ImageProvider.cs" />
+    <Compile Include="PartsAdmin\AllParts\CompraProveedor.xaml.cs">
+      <DependentUpon>CompraProveedor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PersonAdmin\ClientT\AddClient.xaml.cs">
       <DependentUpon>AddClient.xaml</DependentUpon>
     </Compile>
@@ -190,6 +193,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HomeAdmin\uscHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PartsAdmin\AllParts\CompraProveedor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

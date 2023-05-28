@@ -59,8 +59,21 @@
 
 
                                 </Button>
-                                
-                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                                <Button Background="Green" Width="100" HorizontalAlignment="Left" x:Name="btnCompraProveedor" Margin="20,0,10,0.4" Padding="0" Click="btnCompraProveedor_Click" >
+                                    <StackPanel VerticalAlignment="Center">
+                                        <StackPanel Height="auto" Orientation="Horizontal">
+                                            <!--<materialDesign:PackIcon Kind="Nut" Height="auto" Margin="0 5 0 0 "  />-->
+                                            <TextBlock VerticalAlignment="Center" Text="+ Compra"  Margin="5" Height="auto"/>
+
+                                        </StackPanel>
+
+                                    </StackPanel>
+
+
+                                </Button>
+
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                                        
                                         <materialDesign:ColorZone Width="500" Mode="Standard" Padding="8 4 8 4" CornerRadius="2" Panel.ZIndex="1" Margin="16 0 0 0" materialDesign:ShadowAssist.ShadowDepth="Depth1">
                                             <Grid>
