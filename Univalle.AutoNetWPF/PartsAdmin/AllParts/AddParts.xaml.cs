@@ -53,28 +53,42 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         {
             try
             {
-                spare = new Spare(txtDescripcion.Text, txtNombreProducto.Text, int.Parse(txtSaldoActual.Text), double.Parse(txtPrecioBase.Text), double.Parse(txtPeso.Text), txtCodigoProducto.Text, cmbMarca.SelectedIndex, cmbTipo.SelectedIndex, 1);
-                spareImpl = new SpareImpl();
-                int res = spareImpl.Insert(spare);
-                //int id = spareImpl.GetGenerateId();
+                spare = new Spare(
+                        txtDescripcion.Text,
+                        txtNombreProducto.Text,
+                        int.Parse(txtSaldoActual.Text),
+                        double.Parse(txtPrecioBase.Text),
+                        double.Parse(txtPeso.Text),
+                        txtCodigoProducto.Text,
+                        int.Parse(cmbMarca.SelectedValue.ToString()),
+                        int.Parse(cmbTipo.SelectedValue.ToString()),
+                        1
+                    );
 
-                if(res > 0)
-                {
-                    MessageBox.Show("Registro Insertado con exito");
-                    //SaveImage(id.ToString());
+                    //MessageBox.Show(spare.Description + "\n" + spare.NameProduct + "\n" + spare.CurrentBalance + "\n" + spare.BasePrice + "\n" + spare.Weight + "\n" + spare.ProductCode + "\n" + cmbMarca.SelectedValue.ToString() + "\n" + cmbTipo.SelectedValue.ToString() + "\n" + spare.IdEmploye);
 
-                }
-                if(recargarPagina != null)
-                {
-                    recargarPagina();
-                }
-            }
-            catch (Exception ex )
-            {
-                MessageBox.Show(ex.Message);
+                    spareImpl = new SpareImpl();
+                    int res = spareImpl.Insert(spare);
+                    //int id = spareImpl.GetGenerateId();
+
+                    if (res > 0)
+                    {
+                        MessageBox.Show("Registro Insertado con éxito");
+                        //SaveImage(id.ToString());
+                    }
+
+                    if (recargarPagina != null)
+                    {
+                        recargarPagina();
+                    }
                 
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
+
 
         public List<Factory> ConvertirDataTableFactory(DataTable dt)
         {
@@ -89,7 +103,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
                                       DateTime.Parse(dt.Rows[i][4].ToString()),
                                       DateTime.Parse(dt.Rows[i][5].ToString()),
                                       short.Parse(dt.Rows[i][6].ToString()));
-                f.Add(factory);                
+                f.Add(factory);              
             }
             return f;
         }
