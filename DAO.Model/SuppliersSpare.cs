@@ -31,7 +31,7 @@ namespace DAO.Model
         /// <param name="registrationDate"></param>
         /// <param name="dateUpdate"></param>
         /// <param name="idEmploye"></param>
-        public SuppliersSpare(int idSpare, string name int idSuppliers, int quantity, double total, double acquiredprice, short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate)
+        public SuppliersSpare(int idSpare, string name, int idSuppliers, int quantity, double total, double acquiredprice, short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate)
         :base(status, registrationDate,dateUpdate,idEmploye)
         {
             IdSpare = idSpare;
