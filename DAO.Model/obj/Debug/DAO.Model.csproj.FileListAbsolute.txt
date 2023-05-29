@@ -61,3 +61,6 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Mod
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\stdole.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll

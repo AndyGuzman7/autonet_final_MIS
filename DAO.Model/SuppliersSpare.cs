@@ -6,96 +6,65 @@ using System.Threading.Tasks;
 
 namespace DAO.Model
 {
-    internal class SuppliersSpare : BaseModel
+    public class SuppliersSpare:BaseModel
     {
-        #region Properties
+        #region Atributes
+        public int IdSpare { get; set; }
+        public string Name { get; set; }
         public int IdSuppliers { get; set; }
-        public string ContactName { get; set; }
-        public string Address { get; set; }
-        public int Phone { get; set; }
-        public string Nit { get; set; }
-
+        public int Quantity { get; set; }
+        public double Total { get; set; }
+        public double AcquiredPrice { get; set; }
 
         #endregion
-
-
-        #region Constructor
-        /// <summary>
-        /// Defecto
-        /// </summary>
-        public SuppliersSpare()
-        {
-
-        }
+        #region Constructors
 
         /// <summary>
         /// Select
         /// </summary>
+        /// <param name="idSpare"></param>
         /// <param name="idSuppliers"></param>
-        /// <param name="contactName"></param>
-        /// <param name="address"></param>
-        /// <param name="phone"></param>
-        /// <param name="dateUpdate"></param>
-        /// <param name="idEmployeeAdd"></param>
+        /// <param name="quantity"></param>
+        /// <param name="total"></param>
+        /// <param name="acquiredprice"></param>
         /// <param name="status"></param>
         /// <param name="registrationDate"></param>
-        /// <param name="nit"></param>
-        public SuppliersSpare(int idSuppliers, string contactName, string address, int phone, string nit, DateTime dateUpdate, short idEmployeeAdd, byte status, DateTime registrationDate)
-         : base(status, registrationDate, dateUpdate, idEmployeeAdd)
+        /// <param name="dateUpdate"></param>
+        /// <param name="idEmploye"></param>
+        public SuppliersSpare(int idSpare, string name int idSuppliers, int quantity, double total, double acquiredprice, short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate)
+        :base(status, registrationDate,dateUpdate,idEmploye)
         {
+            IdSpare = idSpare;
             IdSuppliers = idSuppliers;
-            ContactName = contactName;
-            Address = address;
-            Phone = phone;
-            Nit = nit;
+            Quantity = quantity;
+            AcquiredPrice = acquiredprice;
+            Total = total;
+            Name = name;
         }
+
         /// <summary>
         /// Insert
         /// </summary>
+        /// <param name="idSpare"></param>
         /// <param name="idSuppliers"></param>
-        /// <param name="contactName"></param>
-        /// <param name="address"></param>
-        /// <param name="phone"></param>
-        /// <param name="idEmployeeAdd"></param>
-        /// <param name="nit"></param>
-        public SuppliersSpare(string contactName, string address, int phone, short idEmployeeAdd, string nit)
+        /// <param name="quantity"></param>
+        /// <param name="total"></param>
+        /// <param name="acquiredprice"></param>
+        /// <param name="status"></param>
+        /// <param name="registrationDate"></param>
+        /// <param name="dateUpdate"></param>
+        /// <param name="idEmploye"></param>
+
+        public SuppliersSpare(int idSpare, int idSuppliers, int quantity, double total, double acquiredprice, short idEmployeeAdd)
         {
-
-            ContactName = contactName;
-            Address = address;
-            Phone = phone;
-            Nit = nit;
-            IdEmploye = idEmployeeAdd;
-        }
-
-
-        /// <summary>
-        /// Update
-        /// </summary>
-        /// <param name="idSuppliers"></param>
-        /// <param name="contactName"></param>
-        /// <param name="address"></param>
-        /// <param name="phone"></param>
-        /// <param name="idEmployeeAdd"></param>
-        /// <param name="nit"></param>
-        public SuppliersSpare(int idSuppliers, string contactName, string address, int phone, short idEmployeeAdd, string nit)
-
-        {
+            IdSpare = idSpare;
             IdSuppliers = idSuppliers;
-            ContactName = contactName;
-            Address = address;
-            Phone = phone;
-            Nit = nit;
+            Quantity = quantity;
+            AcquiredPrice = acquiredprice;
+            Total = total;
             IdEmploye = idEmployeeAdd;
         }
-
-
-
-
-
-
-
-
         #endregion
+
     }
 }

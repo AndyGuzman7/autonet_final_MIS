@@ -126,7 +126,7 @@
                                                                 <DataGridTemplateColumn Header="Cantidad">
                                                                     <DataGridTemplateColumn.CellTemplate>
                                                                         <DataTemplate>
-                                                                            <TextBox Name="txtCant" SelectionChanged="txtCant_SelectionChanged" Height="40" LostFocus="TextBox_LostFocus" Text="{Binding Path=IdSpare}" BorderBrush="{x:Null}"/>
+                                                                            <TextBox Name="txtCant" SelectionChanged="txtCant_SelectionChanged" Height="40" Text="{Binding Path=IdSpare}" BorderBrush="{x:Null}"/>
 
                                                                         </DataTemplate>
                                                                     </DataGridTemplateColumn.CellTemplate>

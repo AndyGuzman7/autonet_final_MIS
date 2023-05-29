@@ -25,6 +25,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin.AllParts
         private Suppliers suppliers;
         private SuppliersImpl suppliersImpl;
         private List<Spare> spares = new List<Spare>();
+        List<SuppliersSpare> li = new List<SuppliersSpare>();
         public CompraProveedor()
         {
             InitializeComponent();
@@ -78,7 +79,21 @@ namespace Univalle.AutoNetWPF.PartsAdmin.AllParts
             SpareImpl spareImpl = new SpareImpl();
             List<Spare> s = LlenarLista(spareImpl.Select());
 
+          
+            
+    
+
             cbxProductos.ItemsSource = s;
+        }
+
+
+
+       
+
+        private SuppliersSpare SpareToSuplierSpare(Spare spare)
+        {
+            //short idEmploye, byte status, DateTime registrationDate, DateTime dateUpdate)
+            return new SuppliersSpare(spare.IdSpare, spare.NameProduct, 0, 1, spare.BasePrice, spare.BasePrice, Session.IdSession, 1, DateTime.Now, DateTime.Now);
         }
 
         private void cbxProveedor_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -99,9 +114,11 @@ namespace Univalle.AutoNetWPF.PartsAdmin.AllParts
             ComboBox comboBox = (ComboBox)sender;
             //MessageBox.Show(comboBox.Text);
             Spare spare = comboBox.SelectedItem as Spare;
-            spares.Add(spare);
+            //spares.Add(spare);
+
+            li.Add(SpareToSuplierSpare(spare));
             dataGridProgram.ItemsSource = null;
-            dataGridProgram.ItemsSource = spares;
+            dataGridProgram.ItemsSource = li;
 
         }
 
@@ -144,13 +161,13 @@ namespace Univalle.AutoNetWPF.PartsAdmin.AllParts
         private void TextBox_LostFocus(object sender, RoutedEventArgs e)
         {
             Spare ft = ((Spare)((TextBox)e.Source).DataContext);
-            MessageBox.Show(ft.NameProduct);
+            //MessageBox.Show(ft.NameProduct);
         }
 
         private void txtCant_SelectionChanged(object sender, RoutedEventArgs e)
         {
             Spare ft = ((Spare)((TextBox)e.Source).DataContext);
-            MessageBox.Show(ft.NameProduct);
+            //MessageBox.Show(ft.NameProduct);
         }
     }
 }
