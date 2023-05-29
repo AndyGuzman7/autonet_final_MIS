@@ -11,7 +11,7 @@ namespace DAO.Model
         public byte IdEmployee { get; set; }
         public string NameUser { get; set; }
         public string Password { get; set; }
-        public string UserType { get; set; }
+        public string Type { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime  BirthDate { get; set; }
@@ -37,7 +37,7 @@ namespace DAO.Model
         /// <param name="idEmployee"></param>
         /// <param name="nameUser"></param>
         /// <param name="password"></param>
-        /// <param name="idUserType"></param>
+        /// <param name="type"></param>
         /// <param name="idEmployeeAdd"></param>
 
         /// <param name="firstName"></param>
@@ -46,7 +46,7 @@ namespace DAO.Model
         /// <param name="address"></param>
         /// <param name="phone"></param>
         /// <param name="gender"></param>
-        public Employeee(byte idEmployee, string nameUser, string password, string userType,
+        public Employeee(byte idEmployee, string nameUser, string password, string type,
             short idEmployeeAdd, byte status, DateTime registrationDate, DateTime dateUpdate,
             string firstName, string lastName, DateTime birthDate, string address, int phone,
             string gender, string email,  string ci, float latitud, float longitud, string photo)
@@ -55,7 +55,7 @@ namespace DAO.Model
             IdEmployee = idEmployee;
             NameUser = nameUser;
             Password = password;
-            UserType = userType;
+            Type = type;
             FirstName = firstName;
             LastName = lastName;
             BirthDate = birthDate;
@@ -73,7 +73,7 @@ namespace DAO.Model
         /// </summary>
         /// <param name="nameUser"></param>
         /// <param name="password"></param>
-        /// <param name="idUserType"></param>
+        /// <param name="type"></param>
         /// <param name="idEmployeeAdd"></param>
         /// <param name="names"></param>
         /// <param name="firstName"></param>
@@ -83,11 +83,11 @@ namespace DAO.Model
         /// <param name="phone"></param>
         /// <param name="gender"></param>
 
-        public Employeee(string nameUser, string password, string userType, short idEmployee,  string firstName, string lastName, DateTime birthDate, string address, int phone, string gender, string email, string ci, float latitud, float longitud, string photo)
+        public Employeee(string nameUser, string password, string type, short idEmployee,  string firstName, string lastName, DateTime birthDate, string address, int phone, string gender, string email, string ci, float latitud, float longitud, string photo)
         {
             NameUser = nameUser;
             Password = password;
-            UserType = userType;
+            Type = type;
             FirstName = firstName;
             LastName = lastName;
             BirthDate = birthDate;
