@@ -400,14 +400,14 @@ Fila2";
         private void cmbTipos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ComboBox comboBox = (ComboBox)sender;
-            MessageBox.Show(comboBox.SelectedItem.ToString());
+            //MessageBox.Show(comboBox.SelectedItem.ToString());
         }
 
         private void btnCompraProveedor_Click(object sender, RoutedEventArgs e)
         {
-            CompraProveedor addParts = new CompraProveedor();
+            //CompraProveedor addParts = new CompraProveedor();
             //addParts.recargarPagina += LoadData;
-            addParts.ShowDialog();
+            //addParts.ShowDialog();
 
         }
 
@@ -415,7 +415,7 @@ Fila2";
         {
             ComboBox comboBox = (ComboBox)sender;
             string valorIngresado = comboBox.Text;
-            MessageBox.Show(valorIngresado);
+            //MessageBox.Show(valorIngresado);
             // Hacer algo con el valor ingresado...
         }
     }
