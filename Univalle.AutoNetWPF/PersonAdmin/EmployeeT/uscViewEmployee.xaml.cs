@@ -50,7 +50,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin
             employeeImpl = new EmployeeImpl();
             DataTable dataTable = employeeImpl.Select();
 
-            CrearColumansFila(LlenarLista(dataTable).Count);
+           // CrearColumansFila(LlenarLista(dataTable).Count);
 
 
 
@@ -59,7 +59,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin
 
 
         }
-
+        /*
         public List<Employeee> LlenarLista(DataTable dataTable)
         {
             employees = new List<Employeee>();

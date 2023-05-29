@@ -4,17 +4,25 @@
 winexe
 C#
 .cs
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\
 Univalle.AutoNetWPF
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\App.xaml
 34-635600288
 1-1061910631
 43-1203500386
 291472324022
+=======
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\App.xaml
+341381859558
+1484136221
+43-952782768
+29-304501430
+>>>>>>> 3843010463160e86b603632e0712a583e4d14418
 AboutAdmin\uscAbout.xaml;FactoryAdmin\AddFactoryxaml.xaml;FactoryAdmin\EditFactory.xaml;FactoryAdmin\uscViewAllFactory.xaml;HomeAdmin\uscHome.xaml;PersonAdmin\ClientT\AddClient.xaml;PersonAdmin\ClientT\EditClient.xaml;PersonAdmin\ClientT\ViewClientInfo.xaml;PersonAdmin\EmployeeT\AddEmployeeSimple.xaml;PersonAdmin\EmployeeT\EditEmployeeSimple.xaml;Providers\AddProvider.xaml;Providers\ViewAllProviders.xaml;Reports\UserReport.xaml;User\DataUser.xaml;RegisterAdmin\Other\WindowTime.xaml;PrincipalAdmin\PrincipalView.xaml;PartsAdmin\AllParts\AddParts.xaml;PartsAdmin\AllPartsType\AddPartsType.xaml;PartsAdmin\AllParts\EditParts.xaml;PartsAdmin\AllPartsType\EditPartsType.xaml;PartsAdmin\AllParts\uscViewAllParts.xaml;PartsAdmin\AllPartsType\uscPartsType.xaml;PartsAdmin\AllParts\ViewPartsInfo.xaml;PartsAdmin\AllPartsType\ViewsPartsType.xaml;PersonAdmin\EmployeeT\EditEmployee.xaml;PersonAdmin\EmployeeT\ViewEmployeeDetails.xaml;PersonAdmin\ClientT\uscViewAllClients.xaml;PersonAdmin\EmployeeT\uscViewEmployee.xaml;RegisterAdmin\RestorePassword\ChangePassword.xaml;RegisterAdmin\RestorePassword\WindowRestorePassword.xaml;RegisterAdmin\Login\WindowLogin.xaml;Ventas\HacerVenta\uscHacerVenta.xaml;Ventas\HacerVenta\windowsRecibo.xaml;Ventas\ListaVentas\uscListaVentas.xaml;
 
-False
+True
 

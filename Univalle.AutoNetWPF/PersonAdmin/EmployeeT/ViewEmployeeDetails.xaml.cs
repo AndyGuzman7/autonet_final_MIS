@@ -42,7 +42,7 @@ namespace Univalle.AutoNetWPF.PersonasAdmin.Employee
             txbFechaNacimiento.Text = employeee.BirthDate.ToString();
             txbGenero.Text = employeee.Gender;
             txbTelefono.Text = employeee.Phone.ToString();
-            txbTipoUsuario.Text = employeee.UserType.ToString();
+            txbTipoUsuario.Text = employeee.Type.ToString();
         }
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)

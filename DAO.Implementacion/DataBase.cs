@@ -11,9 +11,11 @@ namespace DAO.Implementacion
 {
     class DataBase
     {
-//Server=(local);Database=nombre_base_datos;Integrated Security=True;
+        //Server=(local);Database=nombre_base_datos;Integrated Security=True;
 
         private static string connectionString = @"Server=ANDYHP\SQLEXPRESS01;Database=BDDAUTONET;Integrated Security=True";
+        //nikyprivate static string connectionString = @"Server=NIKY\SQLEXPRESS;Database=BDDAUTONET;User Id=autoNet;Password=Univalle;";
+        //private static string connectionString = @"Server=NIKY\SQLEXPRESS;Database=BDDAUTONET;User Id=autoNet;Password=Univalle;";
 
         public static SqlCommand CreateBasicCommand()
         {

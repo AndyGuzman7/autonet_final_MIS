@@ -3,6 +3,7 @@ using DAO.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -32,6 +33,8 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         private List<Spare> listOrder = new List<Spare>();
         private List<Spare> listTotal = new List<Spare>();
         private List<string> listAñadidos = new List<string>();
+
+        List<ExpandoObject> personas = new List<ExpandoObject>();
 
         double pagoCliente = 0;
 
@@ -153,8 +156,20 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             dataGridProgram.Width = width - 200;
             dataGridProgram.Height = height - 20;
             dataGridProgram.ItemsSource = null;
-            dataGridProgram.ItemsSource= listOrder;
+            //dataGridProgram.ItemsSource= listOrder;
+           
+           
+
+            // Crear un objeto dinámico para la primera persona
+            dynamic spareOrder = new ExpandoObject();
+            spareOrder.NameProduct = "Juan";
+            spareOrder.Edad = 25;
+            //spareOrder.Spare = 
+            personas.Add(spareOrder);
+            dataGridProgram.ItemsSource = personas;
             DialogoHost1.IsOpen = false;
+
+
         }
 
 
@@ -564,6 +579,11 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         }
 
         private void btnListaVentas_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void dataGridProgram_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

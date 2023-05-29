@@ -25,6 +25,7 @@ namespace DAO.Model
         public int IdSpareCategory { get; set; }
         public List<string> ListaString { get; set; }
 
+
         #endregion
 
         #region Constructors
@@ -131,22 +132,7 @@ namespace DAO.Model
         }
 
 
-        public Spare(int quantity, double total, int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareType, List<string> listaString)
-        {
-            Quantity = quantity;
-            Total = total;
-            IdSpare = idSpare;
-            Description = description;
-            NameProduct = nameProduct;
-            CurrentBalance = currentBalance;
-            BasePrice = basePrice;
-            Weight = weight;
-            ProductCode = productCode;
-            IdFactory = idFactory;
-            IdSpareType = idSpareType;
-            ListaString = listaString;
-        }
-
+   
 
 
 
@@ -166,7 +152,7 @@ namespace DAO.Model
         {
             this.IdSpare = idSpare;
             this.IdFactory = idFactory;
-            this.IdSpareType = idSpareCategory;
+            this.IdSpareCategory = idSpareCategory;
             this.Description= descrirption; 
             this.NameProduct= nameProduct;
             this.CurrentBalance = currentBalance;

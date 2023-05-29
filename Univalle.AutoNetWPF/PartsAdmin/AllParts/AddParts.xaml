@@ -41,43 +41,7 @@
                             <Border  Margin="0 80 0 0" Padding="15" materialDesign:ShadowAssist.ShadowDepth="Depth3" Grid.Column="0" CornerRadius=" 0 15 15 0" Background="#F7F7F7">
 
                                 <StackPanel >
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
-                                        <StackPanel>
-                                            <Grid Margin="5" Background="#F7F7F7" >
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="*"/>
-                                                    <ColumnDefinition Width="auto"/>
-                                                </Grid.ColumnDefinitions>
-                                                <StackPanel x:Name="stackPanelButtons" Visibility="Collapsed" Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center">
-                                                    <Button x:Name="btnTomarFotografia" BorderBrush="{x:Null}"  Grid.Column="1" Padding="0"   Width="30" Height="30" Margin="10" Foreground="Black" Background="{x:Null}"  Click="btnTomarFotografia_Click" >
-                                                        <materialDesign:PackIcon Kind="camera" Width="30" Height="30"/>
-                                                    </Button>
-                                                    <Button x:Name="btnTomarNuevaFoto" BorderBrush="{x:Null}"  Grid.Column="1" Padding="0"   Width="30" Height="30" Margin="10" Foreground="Black" Background="{x:Null}"  Click="btnTomarNuevaFoto_Click" >
-                                                        <materialDesign:PackIcon Kind="Reload" Width="30" Height="30"/>
-                                                    </Button>
-                                                </StackPanel>
-                                              
-                                                <Image x:Name="imgSpare" Margin="10" Width="auto"  Height="150" >
-
-                                                </Image>
-                                            </Grid>
-
-                                            <Grid>
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition/>
-                                                    <ColumnDefinition/>
-                                                </Grid.ColumnDefinitions>
-                                                <Button x:Name="btnAñadirImagen" Margin="5" BorderBrush="{x:Null}"   Background="#FF175CC1"   Content="Añadir de Galeria" Foreground="White" FontWeight="Normal" Click="btnAñadirImagen_Click"/>
-                                                <Button x:Name="btnAñadirImagenGaleria" Grid.Column="1" Margin="5" BorderBrush="{x:Null}"   Background="#FF175CC1"   Content="Añadir con camara" Foreground="White" FontWeight="Normal" Click="btnAñadirImagenGaleria_Click"/>
-
-                                            </Grid>
-
-
-                                           </StackPanel>
-                                    </materialDesign:Card>
-
-
-
+                                    
                                     <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
                                         <StackPanel>
                                             <TextBox x:Name="txtNombreProducto" materialDesign:HintAssist.Hint="Nombre Producto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
@@ -101,11 +65,30 @@
                                         </StackPanel>
 
                                     </materialDesign:Card>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <ComboBox x:Name="cmbMarca" materialDesign:HintAssist.Hint="Fabrica o Marca" DisplayMemberPath="NameFactory" SelectedValuePath="IdFactory" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbMarca_SelectionChanged"/>
+
+                                        </Grid>
 
 
+                                    </materialDesign:Card>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
 
-                                    
-                                   
+                                            <ComboBox x:Name="cmbTipo" Grid.Column="1" DisplayMemberPath="NameSpareCategory" SelectedValuePath="IdSpareCategory" materialDesign:HintAssist.Hint="Tipo de Repuesto" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbTipo_SelectionChanged"/>
+
+                                        </Grid>
+
+
+                                    </materialDesign:Card>
 
 
 
@@ -122,7 +105,7 @@
                                             <ComboBox Margin="5" x:Name="cmbTipoUsuario"  materialDesign:HintAssist.Hint="Nombre Proveedor"  Style="{StaticResource MaterialDesignFilledComboBox}" IsEnabled="{Binding Path=IsChecked, ElementName=FilledComboBoxEnabledCheckBox}"/>
                                         </StackPanel>
                                     </materialDesign:Card>
-                                    <TextBlock Margin="10" Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="Datos de Compra"/>
+                                    <TextBlock Margin="10" Style="{StaticResource MaterialDesignHeadline5TextBlock}" Text="Detalles"/>
 
 
 
@@ -139,7 +122,7 @@
                                                 <RowDefinition/>
                                             </Grid.RowDefinitions>
 
-                                            <TextBox x:Name="txtSaldoActual" Grid.Column="0" Margin="0 10"  materialDesign:HintAssist.Hint="SaldoActual" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" Width="auto" BorderBrush="{x:Null}"/>
+                                            <TextBox x:Name="txtSaldoActual" Grid.Column="0" Margin="0 10"  materialDesign:HintAssist.Hint="Cantidad (Unidades)" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" Width="auto" BorderBrush="{x:Null}"/>
                                             <TextBox x:Name="txtPrecioBase" Grid.Row="1" Grid.Column="1" Margin="0 10" materialDesign:HintAssist.Hint="Precio Base" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" Width="auto" BorderBrush="{x:Null}"/>
                                             <TextBox x:Name="txtPeso" Grid.Column="2" Grid.Row="2" Margin="0 10" materialDesign:HintAssist.Hint="Peso" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" Width="auto" BorderBrush="{x:Null}"/>
 
@@ -155,22 +138,7 @@
                                         </StackPanel>
 
                                     </materialDesign:Card>
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
-                                        <Grid>
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="*"/>
-                                                <ColumnDefinition Width="*"/>
-                                            </Grid.ColumnDefinitions>
-
-
-
-                                            <TextBox x:Name="txtMarca" materialDesign:HintAssist.Hint="Fabrica o Marca" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
-                                            <TextBox x:Name="txtTipo" Grid.Column="1" materialDesign:HintAssist.Hint="Tipo de Repuesto" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
-
-                                        </Grid>
-
-
-                                    </materialDesign:Card>
+                                    
 
 
 
