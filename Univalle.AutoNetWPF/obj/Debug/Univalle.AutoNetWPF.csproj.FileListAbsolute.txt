@@ -702,10 +702,8 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\obj\Deb
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.exe
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.pdb
-<<<<<<< HEAD
 >>>>>>> b61d8f1d559ed7d8eb4ef3be26c16408a51364ad
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\obj\Debug\Univalle.AutoNetWPF.exe.config
-=======
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.Shared.dll
