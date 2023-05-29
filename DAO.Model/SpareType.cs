@@ -44,7 +44,6 @@ namespace DAO.Model
         /// Insert
         /// </summary>
         /// <param name="nameSpareCategory"></param>
-        /// <param name="idSpareCategory"></param>
         /// <param name="idEmploye"></param>
         public SpareType(string nameSpareCategory, short idEmploye)
         {
