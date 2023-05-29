@@ -43,3 +43,16 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\St
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.CopyComplete
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.pdb
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\Strategys.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\Strategys.pdb
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.Video.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.xml
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.Video.xml
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.AssemblyReference.cache
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.CoreCompileInputs.cache
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.CopyComplete
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.pdb
