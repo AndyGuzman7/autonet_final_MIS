@@ -71,7 +71,7 @@
                                                 <ColumnDefinition Width="*"/>
                                             </Grid.ColumnDefinitions>
 
-                                            <ComboBox x:Name="cmbMarca" materialDesign:HintAssist.Hint="Fabrica o Marca" DisplayMemberPath="NameFactory" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbMarca_SelectionChanged"/>
+                                            <ComboBox x:Name="cmbMarca" materialDesign:HintAssist.Hint="Fabrica o Marca" DisplayMemberPath="NameFactory" SelectedValuePath="IdFactory" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbMarca_SelectionChanged"/>
 
                                         </Grid>
 
@@ -83,16 +83,12 @@
                                                 <ColumnDefinition Width="*"/>
                                             </Grid.ColumnDefinitions>
 
-                                            <ComboBox x:Name="cmbTipo" Grid.Column="1" DisplayMemberPath="NameSpareCategory" materialDesign:HintAssist.Hint="Tipo de Repuesto" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbTipo_SelectionChanged"/>
+                                            <ComboBox x:Name="cmbTipo" Grid.Column="1" DisplayMemberPath="NameSpareCategory" SelectedValuePath="IdSpareCategory" materialDesign:HintAssist.Hint="Tipo de Repuesto" Style="{StaticResource MaterialDesignFilledComboBox}" Background="#F7F7F7" BorderBrush="{x:Null}" SelectionChanged="cmbTipo_SelectionChanged"/>
 
                                         </Grid>
 
 
                                     </materialDesign:Card>
-
-
-
-
 
 
 

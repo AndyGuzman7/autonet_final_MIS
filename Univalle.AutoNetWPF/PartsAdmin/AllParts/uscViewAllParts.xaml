@@ -98,7 +98,7 @@
 
                                                 <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Repuesto"  Binding="{Binding Path='nameProduct'}"/>
 
-                                                <DataGridTextColumn Width="*" Header="Precio" Binding="{Binding Path='basePrice'}"/>
+                                                <DataGridTextColumn Width="*" Header="Precio" Binding="{Binding Path='unitPrice'}"/>
                                                 <DataGridTextColumn Width="*" Header="Stock"  Binding="{Binding Path='currentBalance'}"/>
                                                 <DataGridTemplateColumn Header="Vista">
                                                     <DataGridTemplateColumn.CellTemplate>
