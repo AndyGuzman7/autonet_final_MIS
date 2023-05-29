@@ -39,8 +39,8 @@ namespace DAO.Implementacion
         public int Insert(Employeee t)
         {
             logWrite.NameMethod = "Insert";
-            string query = @"INSERT INTO Employee(nameUser, password, UserType, idEmployeAdd, firstName, lastName, birthDate, [Address], phone, gender, dateUpdate, email, ci)
-                                           VALUES(@nameUser, HASHBYTES('md5',@password), @UserType, @idEmployeAdd, @firstName, @lastName, @birthDate, @Address, @phone, @gender, CURRENT_TIMESTAMP, @email, @ci)";
+            string query = @"INSERT INTO Employee(nameUser,[password],[type],lastName,birthDate,[address],phone,gender,email,ci,latitud,longitud,photo,[updateDate],[idEmployeAdd],[firstName])
+                                           VALUES(@nameUser, HASHBYTES('md5',@password), @type, @lastName, @birthDate, @address, @phone, @gender, @email, @ci, @latitud, @longitud, 1 , CURRENT_TIMESTAMP, @idEmployeAdd, @firstName)";
             int res = 0;
             try
             {
@@ -48,17 +48,18 @@ namespace DAO.Implementacion
                 SqlCommand command = DataBase.CreateBasicCommand(query);
                 command.Parameters.AddWithValue("@nameUser", t.NameUser);
                 command.Parameters.AddWithValue("@password", t.Password).SqlDbType = SqlDbType.VarChar;
-                command.Parameters.AddWithValue("@UserType", t.UserType);
+                command.Parameters.AddWithValue("@type", t.Type);
                 command.Parameters.AddWithValue("@idEmployeAdd", t.IdEmploye);
                 command.Parameters.AddWithValue("@firstName", t.FirstName);
                 command.Parameters.AddWithValue("@lastName", t.LastName);
                 command.Parameters.AddWithValue("@birthDate", t.BirthDate);
-                command.Parameters.AddWithValue("@Address", t.Address);
+                command.Parameters.AddWithValue("@address", t.Address);
                 command.Parameters.AddWithValue("@phone", t.Phone);
                 command.Parameters.AddWithValue("@gender", t.Gender);
                 command.Parameters.AddWithValue("@email", t.Email);
                 command.Parameters.AddWithValue("@ci", t.Ci);
-
+                command.Parameters.AddWithValue("@latitud", t.Latitud);
+                command.Parameters.AddWithValue("@longitud", t.Longitud);
 
                 res = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
@@ -163,7 +164,7 @@ namespace DAO.Implementacion
                 SqlCommand command = DataBase.CreateBasicCommand(query);
                 command.Parameters.AddWithValue("@nameUser", t.NameUser);
                 command.Parameters.AddWithValue("@password", t.Password).SqlDbType = SqlDbType.VarChar;
-                command.Parameters.AddWithValue("@UserType", t.UserType);
+                command.Parameters.AddWithValue("@UserType", t.Type);
                 command.Parameters.AddWithValue("@idEmployeAdd", t.IdEmploye);
                 command.Parameters.AddWithValue("@firstName", t.FirstName);
                 command.Parameters.AddWithValue("@lastName", t.LastName);
