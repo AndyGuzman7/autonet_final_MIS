@@ -2,6 +2,7 @@
 using DAO.Implementacion;
 using DAO.Model;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -35,12 +36,15 @@ namespace Univalle.AutoNetWPF.Reports
         public ReportDocument InitCrystalReport(string nameRpt)
         {
             string projectPath = AppDomain.CurrentDomain.BaseDirectory;
+            string targetFolder = "Univalle.AutoNetWPF";
+            string pathO = System.IO.Path.GetFullPath(System.IO.Path.Combine(projectPath, "..\\..\\..\\" + targetFolder));
 
-            string path = $@"{projectPath}\Univalle.AutoNet\Univalle.AutoNetWPF\Reports\{nameRpt}";
+
+            string path = $@"{pathO}\Reports\{nameRpt}";
             string nameBase = "BDDAUTONET";
-            string nameUserBD = "sa";
-            string passwordBD = "0123";
-            string nameServerBD = @"DESKTOP-MMEF64L\SQLEXPRESS";
+            string nameUserBD = "autoNet";
+            string passwordBD = "Univalle";
+            string nameServerBD = @"NIKY\SQLEXPRESS";
             ReportDocument report = new ReportDocument();
             report.Load(path);
             report.SetDatabaseLogon(nameUserBD, passwordBD, nameServerBD, nameBase);
