@@ -25,7 +25,7 @@ namespace DAO.Implementacion
             {
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
-                command.Parameters.AddWithValue("@idEmployye", t.IdClient);
+                command.Parameters.AddWithValue("@idEmployee", t.IdClient);
                 res = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
             }

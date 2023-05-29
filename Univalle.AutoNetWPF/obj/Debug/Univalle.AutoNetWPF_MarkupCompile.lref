@@ -1,5 +1,8 @@
 ﻿
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\App.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\AboutAdmin\uscAbout.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\FactoryAdmin\AddFactoryxaml.xaml;;
@@ -11,6 +14,11 @@ FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\PersonAdmin\ClientT\ViewClientInfo.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\AddEmployeeSimple.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\PersonAdmin\EmployeeT\EditEmployeeSimple.xaml;;
+<<<<<<< Updated upstream
+=======
+FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Providers\AddProvider.xaml;;
+FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Providers\ViewAllProviders.xaml;;
+>>>>>>> Stashed changes
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Reports\UserReport.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\User\DataUser.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\RegisterAdmin\Other\WindowTime.xaml;;
@@ -33,6 +41,7 @@ FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Ventas\HacerVenta\uscHacerVenta.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Ventas\HacerVenta\windowsRecibo.xaml;;
 FC:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\Univalle.AutoNetWPF\Ventas\ListaVentas\uscListaVentas.xaml;;
+<<<<<<< Updated upstream
 =======
 FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\App.xaml;;
 FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\AboutAdmin\uscAbout.xaml;;
@@ -70,4 +79,6 @@ FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyect
 FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\HacerVenta\windowsRecibo.xaml;;
 FE:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\ListaVentas\uscListaVentas.xaml;;
 >>>>>>> 2a95731dfae055f84d04efd342fca270801b2a38
+=======
+>>>>>>> Stashed changes
 
