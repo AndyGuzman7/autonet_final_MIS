@@ -75,7 +75,7 @@
                                         </Grid>
 
                                     </materialDesign:Card>
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0" Background="white" UniformCornerRadius="15" Padding="10" Margin="5" Height="386">
                                         <!--<StackPanel>
 
 
@@ -90,11 +90,15 @@
                             </StackPanel>-->
 
                                             <Grid.RowDefinitions>
-                                                <RowDefinition>
+                                                <RowDefinition Height="*">
                                                     
                                                 </RowDefinition>
-                                                <RowDefinition>
+                                                <RowDefinition Height="3*">
                                                     
+                                                </RowDefinition>
+
+                                                <RowDefinition Height="*">
+
                                                 </RowDefinition>
                                             </Grid.RowDefinitions>
                                             <StackPanel Grid.Row="0" Margin="0 10 0 0" Orientation="Vertical">
@@ -109,18 +113,21 @@
                                             <ScrollViewer Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Visible">
                                                 <Grid x:Name="gridParts"  VerticalAlignment="Top" >
                                                     <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
-                                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"    CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+                                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"    CanUserAddRows="False" ScrollViewer.CanContentScroll="True" SelectionChanged="dataGridProgram_SelectionChanged" >
 
                                                             <DataGrid.Columns >
                                                                 <DataGridTextColumn  Width="*"  Header="Id Cliente"  Binding="{Binding Path='idSpare'}" Visibility="Collapsed" />
 
                                                                 <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Repuesto"  Binding="{Binding Path='NameProduct'}"/>
+                                                                <DataGridTextColumn x:Name="Precio" Width="*"  Header="Precio"  Binding="{Binding Path='BasePrice'}"/>
 
-                                                                
+
+
                                                                 <DataGridTemplateColumn Header="Cantidad">
                                                                     <DataGridTemplateColumn.CellTemplate>
                                                                         <DataTemplate>
-                                                                            <TextBox Name="txtCant" Height="40" Text="{Binding Path='idSpare'}"  BorderBrush="{x:Null}"/>
+                                                                            <TextBox Name="txtCant" SelectionChanged="txtCant_SelectionChanged" Height="40" LostFocus="TextBox_LostFocus" Text="{Binding Path=IdSpare}" BorderBrush="{x:Null}"/>
+
                                                                         </DataTemplate>
                                                                     </DataGridTemplateColumn.CellTemplate>
                                                                 </DataGridTemplateColumn>
@@ -133,6 +140,15 @@
                                                     </WrapPanel>
                                                 </Grid>
                                             </ScrollViewer>
+
+                                            <StackPanel Grid.Row="2">
+                                                <TextBlock FontSize="20" HorizontalAlignment="Right" Margin="0 0 20 0">
+                                                    Total 0
+                                                </TextBlock> 
+                                            </StackPanel>
+                                            
+                                            
+                                            
                                         </Grid>
 
 

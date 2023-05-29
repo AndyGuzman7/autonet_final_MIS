@@ -579,9 +579,7 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\ob
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Providers\ViewAllProviders.g.cs
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Providers\AddProvider.baml
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\obj\Debug\Providers\ViewAllProviders.baml
-<<<<<<< HEAD
 >>>>>>> 888d47e6ea535dd468dda0c7c1ee02ed490ca3ab
-=======
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe.config
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.exe
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\Univalle.AutoNetWPF.pdb

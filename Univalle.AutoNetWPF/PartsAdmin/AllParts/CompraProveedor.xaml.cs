@@ -136,5 +136,21 @@ namespace Univalle.AutoNetWPF.PartsAdmin.AllParts
             return spares;
         }
 
+        private void dataGridProgram_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            Spare ft = ((Spare)((TextBox)e.Source).DataContext);
+            MessageBox.Show(ft.NameProduct);
+        }
+
+        private void txtCant_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            Spare ft = ((Spare)((TextBox)e.Source).DataContext);
+            MessageBox.Show(ft.NameProduct);
+        }
     }
 }
