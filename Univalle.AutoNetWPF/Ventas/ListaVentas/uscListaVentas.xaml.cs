@@ -31,6 +31,7 @@ namespace Univalle.AutoNetWPF.Ventas.ListaVentas
         public uscListaVentas()
         {
             InitializeComponent();
+
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -52,16 +53,16 @@ namespace Univalle.AutoNetWPF.Ventas.ListaVentas
         public DataTable GetOrderSpareDetails()
         {
             DataTable dt = new DataTable();
-            try
-            {
+            /*try
+            {*/
                 OrderSpareImpl orderSpareImpl = new OrderSpareImpl();
                 dt = orderSpareImpl.SelectDetails();
 
-            }
+            /*}
             catch (Exception ex)
             {
                 MessageBox.Show("Comuniquese con el encargado de Sistemas");
-            }
+            }*/
             return dt;
         }
 
@@ -104,8 +105,8 @@ namespace Univalle.AutoNetWPF.Ventas.ListaVentas
         {
             DataRowView dataRowView = (DataRowView)((Button)e.Source).DataContext;
             int idOrder = int.Parse(dataRowView["idOrder"].ToString());
-            windowsRecibo windowsRecibo = new windowsRecibo(idOrder);
-            windowsRecibo.Show();
+            /*windowsRecibo windowsRecibo = new windowsRecibo(idOrder);
+            windowsRecibo.Show();*/
         }
     }
 }

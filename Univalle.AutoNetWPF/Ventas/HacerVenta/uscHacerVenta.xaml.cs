@@ -36,6 +36,10 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         List<ExpandoObject> personas = new List<ExpandoObject>();
 
+        List<TrolleySpare> listSparesSales = new List<TrolleySpare>();
+
+        List<TrolleySpare> shoList = new List<TrolleySpare>();
+
         double pagoCliente = 0;
 
         private List<OrderSpare> orderSpares = new List<OrderSpare>();
@@ -55,30 +59,30 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         private void btnAñadirRepuestoLista_Click(object sender, RoutedEventArgs e)
         {
             DialogoHost1.IsOpen = true;
-            AñadirDatosLista();
+            AñadirDatosListaBuscador();
         }
 
 
-        public void AñadirDatosLista()
+        public void AñadirDatosListaBuscador()
         {
             DataTable dt = SelecionarDatosDbb();
             List<Spare> sp = LlenarLista(dt);
-            listTotal = LlenarLista(dt);
+            //listTotal = LlenarLista(dt);
             Grid grid = new Grid();
             //lstProductos.Items.Clear();
             lstProductos.Items.Clear();
             for (int i = 0; i < sp.Count; i++)
             {
-               
-                if(!listAñadidos.Contains(sp[i].NameProduct))
-                {
-                    grid = new Grid();
-                    grid.Children.Add(CrearCheckBox(sp[i]));
-                    lstProductos.Items.Add(grid);
-                   
-                }
-                
-                
+
+                // if (!shoList.Contains(d => s == sp[i]))
+                //{
+                grid = new Grid();
+                grid.Children.Add(CrearCheckBox(sp[i]));
+                lstProductos.Items.Add(grid);
+
+                // }
+
+
             }
 
 
@@ -87,7 +91,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         public List<Spare> LlenarLista(DataTable dataTable)
         {
-             List<Spare> spares = new List<Spare>();
+            List<Spare> spares = new List<Spare>();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
                 spares.Add(new Spare(
@@ -98,17 +102,17 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                     dataTable.Rows[i][3].ToString(),
                     dataTable.Rows[i][4].ToString(),
 
-                    int.Parse(dataTable.Rows[i][5].ToString()), 
+                    int.Parse(dataTable.Rows[i][5].ToString()),
 
                     double.Parse(dataTable.Rows[i][6].ToString()),
                     double.Parse(dataTable.Rows[i][7].ToString()),
 
                     dataTable.Rows[i][8].ToString(),
-                    
- 
-                    byte.Parse(dataTable.Rows[i][9].ToString()), 
-                    DateTime.Parse(dataTable.Rows[i][10].ToString()), 
-                    DateTime.Parse(dataTable.Rows[i][11].ToString()), 
+
+
+                    byte.Parse(dataTable.Rows[i][9].ToString()),
+                    DateTime.Parse(dataTable.Rows[i][10].ToString()),
+                    DateTime.Parse(dataTable.Rows[i][11].ToString()),
                     short.Parse(dataTable.Rows[i][12].ToString())));
             }
             return spares;
@@ -117,6 +121,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         public CheckBox CrearCheckBox(Spare sp)
         {
             CheckBox checkBox = new CheckBox();
+            checkBox.Tag = sp;
             checkBox.Content = sp.NameProduct;
             checkBox.Margin = new Thickness(5);
 
@@ -125,17 +130,26 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             return checkBox;
         }
 
+
+        //añadir item a la lista del buscador
         private void CheckBoxAñadir_Click(object sender, RoutedEventArgs e)
         {
+            CheckBox checkBox = sender as CheckBox;
+            Spare spare = (Spare)checkBox.Tag;
 
-            string content = ((CheckBox)sender).Content.ToString();
+            shoList.Add(new TrolleySpare(spare));
+
+            /*string content = ((CheckBox)sender).Content.ToString();
             if (!listOrder.Exists(x => x.NameProduct == content))
             {
-                listOrder.Add(listTotal.Find(x => x.NameProduct == content));
-                listAñadidos.Add(content);
-            }
-            
-          
+              
+
+                shoList.Add(spare);
+                //listOrder.Add(listTotal.Find(x => x.NameProduct == content));
+                //listAñadidos.Add(content);
+            }*/
+
+
         }
 
         private void CheckBoxEliminarLista_Click(object sender, RoutedEventArgs e)
@@ -146,7 +160,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                 listOrder.Remove(listTotal.Find(x => x.NameProduct == content));
                 listAñadidos.Remove(content);
             }
-            
+
         }
 
         public void AñadirDatos()
@@ -157,19 +171,26 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             dataGridProgram.Height = height - 20;
             dataGridProgram.ItemsSource = null;
             //dataGridProgram.ItemsSource= listOrder;
-           
-           
+
+
 
             // Crear un objeto dinámico para la primera persona
-            dynamic spareOrder = new ExpandoObject();
-            spareOrder.NameProduct = "Juan";
-            spareOrder.Edad = 25;
+
             //spareOrder.Spare = 
-            personas.Add(spareOrder);
-            dataGridProgram.ItemsSource = personas;
+            //personas.Add(spareOrder);
+            dataGridProgram.ItemsSource = shoList;
             DialogoHost1.IsOpen = false;
 
+            double total = 0;
 
+            foreach (var item in shoList)
+            {
+                total = item.Total + total;
+            }
+
+
+
+            txbTotalVentaBs.Text = $"Total de la Venta: Bs {total}";
         }
 
 
@@ -201,7 +222,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         private void btnConfirmarAñadirProducto_Click(object sender, RoutedEventArgs e)
         {
             AñadirDatos();
-            //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
+
         }
 
         private void btnCancelarAñdirProdcutos_Click(object sender, RoutedEventArgs e)
@@ -212,7 +233,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         public void AñadirListaOrderSpare()
         {
             orderSpares = new List<OrderSpare>();
-            
+
             foreach (var item in listOrder)
             {
                 //orderSpares.Add(new OrderSpare(item.IdSpare, item.Quantity, item.BasePrice, Session.IdSession, item.Total));
@@ -257,10 +278,15 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         {
             try
             {
-                Spare sp = ((Spare)((Button)e.Source).DataContext);
-                int idProduct = sp.IdSpare;
+                TrolleySpare sp = ((TrolleySpare)((Button)e.Source).DataContext);
+
+                shoList.Find(x => x.Spare.IdSpare == sp.Spare.IdSpare).MasCantidad();
+
+
+                /*int idProduct = sp.Spare.IdSpare; 
+
                 Spare spare = listOrder.Find(x => x.IdSpare == idProduct);
-                //spare.MasCantidad();
+                //spare.MasCantidad();*/
                 AñadirDatos();
                 //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
             }
@@ -269,19 +295,24 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
                 throw;
             }
-            
-               
-                
+
+
+
         }
 
         private void btnAñadirMenos_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Spare sp = ((Spare)((Button)e.Source).DataContext);
-                int idProduct = sp.IdSpare;
+                TrolleySpare sp = ((TrolleySpare)((Button)e.Source).DataContext);
+
+                shoList.Find(x => x.Spare.IdSpare == sp.Spare.IdSpare).MenosCantidad();
+
+
+                /*int idProduct = sp.Spare.IdSpare; 
+
                 Spare spare = listOrder.Find(x => x.IdSpare == idProduct);
-                //spare.MenosCantidad();
+                //spare.MasCantidad();*/
                 AñadirDatos();
                 //txbTotalVentaBs.Text = $"Total de la Venta: Bs {SacarTotal(listOrder)}";
             }
@@ -308,7 +339,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void btnAbrirPagVenta_Click(object sender, RoutedEventArgs e)
         {
-            if(dataGridProgram.Items.Count > 0)
+            if (dataGridProgram.Items.Count > 0)
             {
                 AñadirDatosDetalles();
                 DialogoHost2.IsOpen = true;
@@ -317,7 +348,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             {
                 NotificacionMensaje("Primero debe de añadir un repuesto a su lista de ventas", 1);
             }
-           
+
         }
 
         public void AñadirDatosDetalles()
@@ -327,7 +358,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             double pagoClienteTotal = 0;
             double cambio = 0;
 
-            foreach (var item in orderSpares)
+            foreach (TrolleySpare item in shoList)
             {
                 totalPagar = totalPagar + item.Total;
             }
@@ -349,10 +380,10 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         public void ReestablecerDialoghost()
         {
-            txtVentaFechaDeVenta.Text = txtVentaPagoCliente.Text = txtVentaNombreClienteBuscar.Text ="";
+            txtVentaFechaDeVenta.Text = txtVentaPagoCliente.Text = txtVentaNombreClienteBuscar.Text = "";
             gridDataClient.Visibility = Visibility.Collapsed;
             lstVentaListaClientes.Items.Clear();
-            
+
         }
 
         public void RestablecerPrincipal()
@@ -361,39 +392,48 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             dataGridProgram.ItemsSource = null;
 
             spareImpl = new SpareImpl();
-             listOrder = new List<Spare>();
-             listTotal = new List<Spare>();
+            listOrder = new List<Spare>();
+            listTotal = new List<Spare>();
             listAñadidos = new List<string>();
 
-             pagoCliente = 0;
+            pagoCliente = 0;
 
-             orderSpares = new List<OrderSpare>();
+            orderSpares = new List<OrderSpare>();
 
             orderSpare = new OrderSpare();
 
             clientImpl = new ClientImpl();
-             datosClienteComprador = new Client();
-             ordenPrincipal = new Order();
+            datosClienteComprador = new Client();
+            ordenPrincipal = new Order();
 
-    }
-    
+        }
+
         public void AñadirPedidoDateBdd()
         {
             int id;
-            try
+            /*try
+            {*/
+            double total = 0;
+            foreach (var item in shoList)
             {
-                Order order = new Order(Session.IdSession, datosClienteComprador.IdClient, pagoCliente);
-                OrderImpl orderImpl = new OrderImpl();
-                id = orderImpl.InsertAvanced(order, orderSpares);
-                NotificacionMensaje("Se Realizo una venta", 2);
-                windowsRecibo windowsRecibo = new windowsRecibo(id);
-                windowsRecibo.Show();
-                
+                var a = new OrderSpare(item.Spare.IdSpare, item.Quantity, item.BasePrice, Session.IdSession, item.Total);
+                total += a.Total + total;
+                orderSpares.Add(a);
             }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+
+            Order order = new Order(Session.IdSession, datosClienteComprador.IdClient, pagoCliente, total);
+
+            OrderImpl orderImpl = new OrderImpl();
+            id = orderImpl.InsertAvanced(order, orderSpares);
+            NotificacionMensaje("Se Realizo una venta", 2);
+            /*windowsRecibo windowsRecibo = new windowsRecibo(id);
+            windowsRecibo.Show();*/
+
+            /* }
+             catch (Exception ex)
+             {
+                 throw ex;
+             }*/
         }
 
         private void btnVentaEliminarCliente_Click(object sender, RoutedEventArgs e)
@@ -416,7 +456,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void txtNombreBuscarCliente_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
-            
+
         }
 
 
@@ -442,17 +482,32 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             lstVentaListaClientes.Items.Clear();
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                lstVentaListaClientes.Items.Add(CrearCheckBox2(dt, i));
+
+                Client cl = new Client(int.Parse(dt.Rows[i][0].ToString()),
+                                                       dt.Rows[i][1].ToString(),
+                                                       dt.Rows[i][2].ToString(),
+                                                       dt.Rows[i][3].ToString(),
+
+
+                                                       byte.Parse(dt.Rows[i][4].ToString()),
+                                                       DateTime.Parse(dt.Rows[i][5].ToString()),
+                                                       DateTime.Parse(dt.Rows[i][6].ToString()),
+                                                        short.Parse(dt.Rows[i][7].ToString())
+                                                       );
+                lstVentaListaClientes.Items.Add(CrearCheckBox2(cl, i));
             }
         }
 
-        public CheckBox CrearCheckBox2(DataTable dt, int i)
+
+
+
+        public CheckBox CrearCheckBox2(Client dt, int i)
         {
             CheckBox checkBox = new CheckBox();
-            checkBox.Content = dt.Rows[i][6];
-            checkBox.Name = $"idClient{dt.Rows[i][0]}";
+            checkBox.Content = dt.FistName;
+            checkBox.Name = $"idClient{dt.IdClient}";
             checkBox.Margin = new Thickness(5);
-
+            checkBox.Tag = dt;
             checkBox.Checked += new RoutedEventHandler(CheckBoxAñadir2_Click);
             //checkBox.Unchecked += new RoutedEventHandler(CheckBoxEliminarLista_Click);
             return checkBox;
@@ -476,45 +531,26 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void CheckBoxAñadir2_Click(object sender, RoutedEventArgs e)
         {
+            CheckBox checkBox = sender as CheckBox;
+            Client cl = checkBox.Tag as Client;
 
-            string id = ((CheckBox)sender).Name.ToString();
-            datosClienteComprador = new Client();
-            DataTable dt = SeleccionarClientDbb();
-            for (int i = 0; i < dt.Rows.Count; i++)
-            {
-                if($"idClient{dt.Rows[i][0]}" == id)
-                {
-                    datosClienteComprador = new Client(int.Parse(dt.Rows[i][0].ToString()),
-                                                                 dt.Rows[i][1].ToString(),
-                                                       short.Parse(dt.Rows[i][2].ToString()),
-                                                       byte.Parse(dt.Rows[i][3].ToString()),
-                                                       DateTime.Parse(dt.Rows[i][4].ToString()),
-                                                       DateTime.Parse(dt.Rows[i][5].ToString()),
-                                                       dt.Rows[i][6].ToString(),
-                                                       dt.Rows[i][7].ToString()
-                                                       );
-                    gridDataClient.Visibility = Visibility.Visible;
-                    txbVentaNit.Text = $"Nit: {datosClienteComprador.Nit}";
-                    txbVentaNombre.Text = $"Nombre: {datosClienteComprador.FistName}";
-                    txbVentaApellido.Text = $"Apellido: {datosClienteComprador.LastName}";
-                    txtVentaFechaDeVenta.Text = DateTime.Now.ToString("M");
-                    txtVentaFechaDeVenta.IsEnabled = false;
-                    gridBuscador.Visibility = Visibility.Hidden;
-                    lstVentaListaClientes.Visibility = Visibility.Hidden;
-                    break;
-                }
-            }
-            //MessageBox.Show(id);
-            /*if (!listOrder.Exists(x => x.NameProduct == content))
-            {
-                listOrder.Add(listTotal.Find(x => x.NameProduct == content));
-                listAñadidos.Add(content);
-            }*/
+
+            datosClienteComprador = cl;
+
+            gridDataClient.Visibility = Visibility.Visible;
+            txbVentaNit.Text = $"Nit: {datosClienteComprador.Nit}";
+            txbVentaNombre.Text = $"Nombre: {datosClienteComprador.FistName}";
+            txbVentaApellido.Text = $"Apellido: {datosClienteComprador.LastName}";
+            txtVentaFechaDeVenta.Text = DateTime.Now.ToString("M");
+            txtVentaFechaDeVenta.IsEnabled = false;
+            gridBuscador.Visibility = Visibility.Hidden;
+            lstVentaListaClientes.Visibility = Visibility.Hidden;
+
         }
 
         private void txtNombreBuscarCliente_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
+
         }
 
         private void txtVentaNombreClienteBuscar_TextChanged(object sender, TextChangedEventArgs e)
@@ -524,21 +560,21 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void lstVentaListaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+
         }
 
         private void txtVentaPagoCliente_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(txtVentaPagoCliente.Text != "")
+            if (txtVentaPagoCliente.Text != "")
             {
-                if(double.Parse(txtVentaPagoCliente.Text) > 0)
+                if (double.Parse(txtVentaPagoCliente.Text) > 0)
                 {
                     pagoCliente = double.Parse(txtVentaPagoCliente.Text);
                     AñadirDatosDetalles();
                 }
-               
+
             }
-            
+
         }
 
         private void btnRegistrarCliente_Click(object sender, RoutedEventArgs e)
@@ -566,7 +602,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             task.Start();
             await task;
             snackbarMessage.IsActive = false;
-            if(listaVentas != null)
+            if (listaVentas != null)
             {
                 listaVentas();
             }
@@ -580,7 +616,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void btnListaVentas_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void dataGridProgram_SelectionChanged(object sender, SelectionChangedEventArgs e)

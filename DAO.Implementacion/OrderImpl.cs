@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DAO.Implementacion
 {
@@ -50,7 +51,7 @@ namespace DAO.Implementacion
                 command.Parameters.AddWithValue("@idEmployee", t.IdEmploye);
                 command.Parameters.AddWithValue("@idClient", t.IdClient);
                 command.Parameters.AddWithValue("@clientPay", t.ClientPay);
-        
+
 
                 rest = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
@@ -67,61 +68,65 @@ namespace DAO.Implementacion
             logWrite.NameMethod = "InsertAvancedTransaction";
 
             List<SqlCommand> commands = new List<SqlCommand>();
-            
-            string queryOrder = @"INSERT INTO [Order](idEmployee, dateUpdate,  idClient, clientPay)
-                                                VALUES(@idEmployee, CURRENT_TIMESTAMP, @idClient, @ClientPay);";
 
-            string queryOrderSpare = @"INSERT INTO [OrderSpare] (idOrder, idSpare, quantity, unitPrice, idEmploye, dateUpdate, total)
+            string queryOrder = @"INSERT INTO [Order](idEmployee, updateDate,  idClient, change, total)
+                                                VALUES(@idEmployee, CURRENT_TIMESTAMP, @idClient, @clientPay, @total);";
+
+            string queryOrderSpare = @"INSERT INTO [OrderSpare] (idOrder, idSpare, quantity, unitPrice, idEmploye, updateDate, total)
 		                               VALUES(@idOrder, @idSpare, @quantity, @unitPrice, @idEmploye,CURRENT_TIMESTAMP, @total)";
+
+
             int id = int.Parse(DataBase.GetGenerateIDTable("Order"));
-            try
+            /* try
+             {*/
+            logWrite.MensajeInicio();
+
+            commands = DataBase.CreateBasciComand(sp.Count + 1);
+            
+            for (int i = 0; i < commands.Count; i++)
             {
-                logWrite.MensajeInicio();
-
-                commands = DataBase.CreateBasciComand(sp.Count + 1);
-
-                for (int i = 0; i < commands.Count; i++)
+                if (i == 0)
                 {
-                    if(i == 0)
-                    {
-                        //Order
-                        commands[i].CommandText = queryOrder;
-                        commands[i].Parameters.AddWithValue("@idEmployee", t.IdEmploye);
-                        commands[i].Parameters.AddWithValue("@idClient", t.IdClient);
-                        commands[i].Parameters.AddWithValue("@clientPay", t.ClientPay);
-                    }
-                    else
-                    {
-                        commands[i].CommandText = queryOrderSpare;
-                        commands[i].Parameters.AddWithValue("@idOrder", id);
-                        commands[i].Parameters.AddWithValue("@idSpare", sp[i -1].IdSpare);
-                        commands[i].Parameters.AddWithValue("@quantity", sp[i - 1].Quantity);
-                        commands[i].Parameters.AddWithValue("@unitPrice", sp[i - 1].UnitPrice);
-                        commands[i].Parameters.AddWithValue("@idEmploye", sp[i - 1].IdEmploye);
-                        commands[i].Parameters.AddWithValue("@total", sp[i - 1].Total);
-
-                    }
+                    //Order
+                    commands[i].CommandText = queryOrder;
+                    commands[i].Parameters.AddWithValue("@idEmployee", t.IdEmploye);
+                    commands[i].Parameters.AddWithValue("@idClient", t.IdClient);
+                    commands[i].Parameters.AddWithValue("@clientPay", t.ClientPay);
+                    commands[i].Parameters.AddWithValue("@total", t.Total);
                 }
-                //Ejecutamos la transaccion
-                DataBase.ExecutenBasicCommand(commands);
+                else
+                {
+                   
+                    commands[i].CommandText = queryOrderSpare;
+                    commands[i].Parameters.AddWithValue("@idOrder", id);
+                    commands[i].Parameters.AddWithValue("@idSpare", sp[i-1].IdSpare);
+                    commands[i].Parameters.AddWithValue("@quantity", sp[i-1].Quantity);
+                    commands[i].Parameters.AddWithValue("@unitPrice", sp[i-1].UnitPrice);
+                    commands[i].Parameters.AddWithValue("@idEmploye", sp[i - 1].IdEmploye);
+                    commands[i].Parameters.AddWithValue("@total", sp[i - 1].Total);
 
-                
-                
-                logWrite.MensajeFinalizado();
-                
+                }
             }
+            //Ejecutamos la transaccion
+            DataBase.ExecutenBasicCommand(commands);
+
+
+
+            logWrite.MensajeFinalizado();
+
+            /*}
             catch (Exception ex)
             {
                 logWrite.MensajeError(ex);
-            }
+            }*/
             return id;
         }
 
         public DataTable Select()
         {
             logWrite.NameMethod = "Select";
-            string query = @"SELECT*
-                            FROM Order
+            string query = @"SELECT *
+                             FROM [Order]   
                             WHERE status = 1";
             DataTable dt = new DataTable();
             try
@@ -166,7 +171,7 @@ namespace DAO.Implementacion
             return dt;
         }
 
- 
+
 
         public int Update(Order t)
         {

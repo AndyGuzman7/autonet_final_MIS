@@ -138,19 +138,23 @@ namespace DAO.Implementacion
         {
             logWrite.NameMethod = "SelectDetails";
             DataTable dt = new DataTable();
-            string query = @"SELECT * FROM view_detalle_venta;";
-            try
-            {
+            string query = @"SELECT O.registerDate AS 'FechaCreacion', CONCAT(C.firstName, ' ', C.lastName) AS 'Cliente', E.nameUser AS 'Vendedor', O.total AS 'TotalVenta'
+                            FROM [Order] O
+                            INNER JOIN Client C ON O.idClient = C.idClient
+                            INNER JOIN Employee E ON O.idEmployee = E.idEmployee
+                            WHERE O.status = 1";
+           /* try
+            {*/
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
 
                 dt = DataBase.ExecuteDataTableCommand(command);
                 logWrite.MensajeFinalizado();
-            }
+            /*}
             catch (Exception ex)
             {
                 logWrite.MensajeError(ex);
-            }
+            }*/
             return dt;
         }
 
