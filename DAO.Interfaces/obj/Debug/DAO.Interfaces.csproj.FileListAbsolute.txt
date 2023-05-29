@@ -73,3 +73,5 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DA
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\bin\Debug\stdole.dll
