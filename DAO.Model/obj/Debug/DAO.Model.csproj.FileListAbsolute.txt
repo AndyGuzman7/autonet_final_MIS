@@ -50,12 +50,4 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-<<<<<<< HEAD
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
-=======
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
->>>>>>> 2a95731dfae055f84d04efd342fca270801b2a38

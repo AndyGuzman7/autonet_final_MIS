@@ -100,12 +100,8 @@
                                             <StackPanel Grid.Row="0" Margin="0 10 0 0" Orientation="Vertical">
                                                 <TextBlock>Buscar producto</TextBlock>
 
-                                                <ComboBox IsEditable="True"  Name="cbxProductos" DisplayMemberPath="ContactName" Cursor="" SelectionChanged="cbxProductos_SelectionChanged"  >
-                                                    <ComboBox.Style>
-                                                        <Style TargetType="ComboBox">
-                                                            <EventSetter Event="TextBox.TextChanged" Handler="ComboBox_TextChanged" />
-                                                        </Style>
-                                                    </ComboBox.Style>
+                                                <ComboBox  Name="cbxProductos" DisplayMemberPath="NameProduct" Cursor="" SelectionChanged="cbxProductos_SelectionChanged"  >
+                                                    
                                                 </ComboBox>
 
                                             </StackPanel>
@@ -113,19 +109,18 @@
                                             <ScrollViewer Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Visible">
                                                 <Grid x:Name="gridParts"  VerticalAlignment="Top" >
                                                     <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
-                                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+                                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"    CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
 
                                                             <DataGrid.Columns >
                                                                 <DataGridTextColumn  Width="*"  Header="Id Cliente"  Binding="{Binding Path='idSpare'}" Visibility="Collapsed" />
 
-                                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Repuesto"  Binding="{Binding Path='nameProduct'}"/>
+                                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Nombre Repuesto"  Binding="{Binding Path='NameProduct'}"/>
 
-                                                                <DataGridTextColumn Width="*" Header="Precio" Binding="{Binding Path='basePrice'}"/>
                                                                 
-                                                                <DataGridTemplateColumn Header="Vista">
+                                                                <DataGridTemplateColumn Header="Cantidad">
                                                                     <DataGridTemplateColumn.CellTemplate>
                                                                         <DataTemplate>
-                                                                            <Button Name="btnVistaProducto" Height="40" Content="Detalles"  Click="btnVistaProducto_Click" Background="Green"  BorderBrush="{x:Null}"/>
+                                                                            <TextBox Name="txtCant" Height="40" Text="{Binding Path='idSpare'}"  BorderBrush="{x:Null}"/>
                                                                         </DataTemplate>
                                                                     </DataGridTemplateColumn.CellTemplate>
                                                                 </DataGridTemplateColumn>

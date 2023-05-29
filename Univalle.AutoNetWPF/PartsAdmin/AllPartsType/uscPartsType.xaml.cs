@@ -51,11 +51,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
         {
             
             spareTypeImpl = new SpareTypeImpl();
-            //DataTable dataTable = spareTypeImpl.Select();
-
-            //CrearColumansFila(LlenarLista(dataTable).Count);
-
-
+          
             dataGridProgram.ItemsSource = SelectSpare().DefaultView;
 
 
