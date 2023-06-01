@@ -704,3 +704,10 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bi
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.Shared.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Univalle.AutoNetWPF\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\CrystalDecisions.Shared.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\log4net.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Univalle.AutoNetWPF\bin\Debug\log4net.xml

@@ -13,7 +13,7 @@ namespace DAO.Implementacion
     {
         //Server=(local);Database=nombre_base_datos;Integrated Security=True;
 
-        private static string connectionString = @"Server=ANDYHP\SQLEXPRESS01;Database=BDDAUTONET;Integrated Security=True";
+        private static string connectionString = @"Server=AndyHP\MSSQLSERVER_PRIV;Database=BDDAUTONET2023;User Id=sa; Password=Univalle";
         //nikyprivate static string connectionString = @"Server=NIKY\SQLEXPRESS;Database=BDDAUTONET;User Id=autoNet;Password=Univalle;";
         //private static string connectionString = @"Server=NIKY\SQLEXPRESS;Database=BDDAUTONET;User Id=autoNet;Password=Univalle;";
 
