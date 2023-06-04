@@ -1,69 +1,14 @@
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csprojAssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
-C:\Users\orope\OneDrive\Documentos\GitHub\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
-<<<<<<< HEAD
-=======
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
-C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
->>>>>>> 2a95731dfae055f84d04efd342fca270801b2a38
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\DAO.Model.pdb
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
-C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
->>>>>>> 3843010463160e86b603632e0712a583e4d14418
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\System.ValueTuple.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.pdb
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.xml
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\System.ValueTuple.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\WpfAnimatedGif.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
