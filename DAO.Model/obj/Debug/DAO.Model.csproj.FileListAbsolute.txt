@@ -62,3 +62,8 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Mod
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb
 >>>>>>> 3843010463160e86b603632e0712a583e4d14418
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\System.ValueTuple.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\AutoMapper.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\bin\Debug\System.ValueTuple.xml

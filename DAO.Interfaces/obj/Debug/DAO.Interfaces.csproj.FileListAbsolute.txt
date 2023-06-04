@@ -73,3 +73,8 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DA
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Interfaces\obj\Debug\DAO.Interfaces.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\AutoMapper.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\System.ValueTuple.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\AutoMapper.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\AutoMapper.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Interfaces\bin\Debug\System.ValueTuple.xml

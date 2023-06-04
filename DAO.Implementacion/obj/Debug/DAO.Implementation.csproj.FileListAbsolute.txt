@@ -97,3 +97,8 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Implementacion\obj\Debu
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementation.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\DAO.Implementacion\obj\Debug\DAO.Implementacion.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\AutoMapper.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\System.ValueTuple.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\AutoMapper.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\AutoMapper.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\System.ValueTuple.xml
