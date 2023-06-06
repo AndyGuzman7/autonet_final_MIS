@@ -82,30 +82,22 @@ namespace DAO.Implementacion
             logWrite.MensajeInicio();
 
             commands = DataBase.CreateBasciComand(sp.Count + 1);
-            
-            for (int i = 0; i < commands.Count; i++)
-            {
-                if (i == 0)
-                {
-                    //Order
-                    commands[i].CommandText = queryOrder;
-                    commands[i].Parameters.AddWithValue("@idEmployee", t.IdEmploye);
-                    commands[i].Parameters.AddWithValue("@idClient", t.IdClient);
-                    commands[i].Parameters.AddWithValue("@clientPay", t.ClientPay);
-                    commands[i].Parameters.AddWithValue("@total", t.Total);
-                }
-                else
-                {
-                   
-                    commands[i].CommandText = queryOrderSpare;
-                    commands[i].Parameters.AddWithValue("@idOrder", id);
-                    commands[i].Parameters.AddWithValue("@idSpare", sp[i-1].IdSpare);
-                    commands[i].Parameters.AddWithValue("@quantity", sp[i-1].Quantity);
-                    commands[i].Parameters.AddWithValue("@unitPrice", sp[i-1].UnitPrice);
-                    commands[i].Parameters.AddWithValue("@idEmploye", sp[i - 1].IdEmploye);
-                    commands[i].Parameters.AddWithValue("@total", sp[i - 1].Total);
+            //Order
+            commands[0].CommandText = queryOrder;
+            commands[0].Parameters.AddWithValue("@idEmployee", t.IdEmploye);
+            commands[0].Parameters.AddWithValue("@idClient", t.IdClient);
+            commands[0].Parameters.AddWithValue("@clientPay", t.ClientPay);
+            commands[0].Parameters.AddWithValue("@total", t.Total);
 
-                }
+            for (int i = 1; i < commands.Count; i++)
+            {
+                commands[i].CommandText = queryOrderSpare;
+                commands[i].Parameters.AddWithValue("@idOrder", id);
+                commands[i].Parameters.AddWithValue("@idSpare", sp[i - 1].IdSpare);
+                commands[i].Parameters.AddWithValue("@quantity", sp[i - 1].Quantity);
+                commands[i].Parameters.AddWithValue("@unitPrice", sp[i - 1].UnitPrice);
+                commands[i].Parameters.AddWithValue("@idEmploye", sp[i - 1].IdEmploye);
+                commands[i].Parameters.AddWithValue("@total", sp[i - 1].Total);
             }
             //Ejecutamos la transaccion
             DataBase.ExecutenBasicCommand(commands);
