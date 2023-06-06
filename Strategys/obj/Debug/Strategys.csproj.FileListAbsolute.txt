@@ -71,4 +71,8 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strateg
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.pdb
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\stdole.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 >>>>>>> 3843010463160e86b603632e0712a583e4d14418
+>>>>>>> 3452709ff3f623cca2a302bd88abbe7711b3b712

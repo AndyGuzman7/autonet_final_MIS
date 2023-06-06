@@ -143,8 +143,8 @@ namespace DAO.Implementacion
             // WHERE status = 1 AND ((SELECT CHARINDEX( @cadenaBuscar, nameProduct)) >= 1 OR @cadenaBuscar = ' ')";
             DataTable dt = new DataTable();
             //SELECT CHARINDEX ('ZUR', primerApellido)) >= 1
-            try
-            {
+            /*try
+            {*/
                 logWrite.MensajeInicio();
                 SqlCommand command = DataBase.CreateBasicCommand(query);
                 command.Parameters.AddWithValue("@cadenaBuscar", $"%{cadenaBuscar}%");
@@ -152,11 +152,11 @@ namespace DAO.Implementacion
                 dt = DataBase.ExecuteDataTableCommand(command);
                 logWrite.MensajeFinalizado();
 
-            }
+           /* }
             catch (Exception ex)
             {
                 logWrite.MensajeError(ex);
-            }
+            }*/
             return dt;
         }
 

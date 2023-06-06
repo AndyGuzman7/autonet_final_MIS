@@ -1,5 +1,6 @@
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Implementacion.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Implementacion.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Interfaces.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\DAO.Model.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Implementacion\bin\Debug\Strategys.dll
