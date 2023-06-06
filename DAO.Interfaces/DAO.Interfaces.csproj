@@ -64,13 +64,13 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\DAO.Model\DAO.Model.csproj">
       <Project>{4ccc5689-8ecd-4a69-b6b6-f8b8dae68ae5}</Project>
       <Name>DAO.Model</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

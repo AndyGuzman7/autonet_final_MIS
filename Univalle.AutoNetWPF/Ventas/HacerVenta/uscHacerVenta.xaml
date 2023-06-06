@@ -124,7 +124,7 @@
                             <ScrollViewer Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Visible">
                                 <Grid x:Name="gridParts"  VerticalAlignment="Top" >
                                     <WrapPanel Margin="20,0,20,20" HorizontalAlignment="Center">
-                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" >
+                                        <DataGrid AutoGenerateColumns="False" Background="White"  Name="dataGridProgram" SelectionMode="Single"  FontSize="15"  IsReadOnly="true" Height="auto"  Width="700"  CanUserAddRows="False" ScrollViewer.CanContentScroll="True" SelectionChanged="dataGridProgram_SelectionChanged" >
 
                                             <DataGrid.Columns >
                                                 <DataGridTextColumn  Width="*"  Header="Id"  Binding="{Binding Path='IdSpare'}" Visibility="Collapsed"/>

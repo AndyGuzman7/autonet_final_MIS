@@ -41,10 +41,10 @@ namespace Univalle.AutoNetWPF.Reports
 
 
             string path = $@"{pathO}\Reports\{nameRpt}";
-            string nameBase = "BDDAUTONET";
-            string nameUserBD = "autoNet";
+            string nameBase = "BDDAUTONET2023";
+            string nameUserBD = "sa";
             string passwordBD = "Univalle";
-            string nameServerBD = @"NIKY\SQLEXPRESS";
+            string nameServerBD = @"AndyHP\MSSQLSERVER_PRIV";
             ReportDocument report = new ReportDocument();
             report.Load(path);
             report.SetDatabaseLogon(nameUserBD, passwordBD, nameServerBD, nameBase);

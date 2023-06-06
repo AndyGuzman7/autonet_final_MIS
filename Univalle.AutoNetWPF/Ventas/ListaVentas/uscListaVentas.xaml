@@ -96,11 +96,11 @@
                                             <DataGrid.Columns >
                                                 <DataGridTextColumn  Width="*"  Header="Id Cliente"  Binding="{Binding Path='idSpare'}" Visibility="Collapsed" />
 
-                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Fecha/Hora"  Binding="{Binding Path='DateSale'}"/>
+                                                <DataGridTextColumn x:Name="dtdd" Width="*"  Header="Fecha/Hora"  Binding="{Binding Path='FechaCreacion'}"/>
 
-                                                <DataGridTextColumn Width="*" Header="Cliente" Binding="{Binding Path='NameClient'}"/>
-                                                <DataGridTextColumn Width="*" Header="Vendedor"  Binding="{Binding Path='NameEmployee'}"/>
-                                                <DataGridTextColumn Width="*" Header="Total Venta"  Binding="{Binding Path='Total'}"/>
+                                                <DataGridTextColumn Width="*" Header="Cliente" Binding="{Binding Path='Cliente'}"/>
+                                                <DataGridTextColumn Width="*" Header="Vendedor"  Binding="{Binding Path='Vendedor'}"/>
+                                                <DataGridTextColumn Width="*" Header="Total Venta"  Binding="{Binding Path='TotalVenta'}"/>
                                                 <DataGridTemplateColumn Header="Eliminar">
                                                     <DataGridTemplateColumn.CellTemplate>
                                                         <DataTemplate>

@@ -43,6 +43,21 @@ C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\St
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.csproj.CopyComplete
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.dll
 C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\Strategys\obj\Debug\Strategys.pdb
+<<<<<<< HEAD
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\Strategys.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\Strategys.pdb
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.DirectShow.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.DirectShow.xml
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.AssemblyReference.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.CoreCompileInputs.cache
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.CopyComplete
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.dll
+E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.pdb
+=======
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\Strategys.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\Strategys.pdb
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\AForge.dll
@@ -58,17 +73,6 @@ C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strateg
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\obj\Debug\Strategys.pdb
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\fabri\OneDrive\Escritorio\autonet_final_MIS\Strategys\bin\Debug\stdole.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\Strategys.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\Strategys.pdb
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.DirectShow.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.xml
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.xml
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\bin\Debug\AForge.Video.DirectShow.xml
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.AssemblyReference.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.CoreCompileInputs.cache
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.csproj.CopyComplete
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.dll
-E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\Strategys\obj\Debug\Strategys.pdb
+>>>>>>> 3843010463160e86b603632e0712a583e4d14418
+>>>>>>> 3452709ff3f623cca2a302bd88abbe7711b3b712

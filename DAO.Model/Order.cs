@@ -14,6 +14,7 @@ namespace DAO.Model
        
         public int IdClient { get; set; }
         public double ClientPay { get; set; }
+        public double Total { get; set; }
 
 
         #endregion
@@ -36,12 +37,13 @@ namespace DAO.Model
         /// <param name="dateUpdate"></param>
         /// <param name="total"></param>
         /// <param name="idClient"></param>
-        public Order(int idOrder, short idEmployeeAdd, byte status, DateTime registrationDate, DateTime dateUpdate,  int idClient, double clientPay)
+        public Order(int idOrder, short idEmployeeAdd, byte status, DateTime registrationDate, DateTime dateUpdate,  int idClient, double clientPay, double total)
              : base(status, registrationDate, dateUpdate, idEmployeeAdd)
         {
             IdOrder = idOrder;
             ClientPay = clientPay;
             IdClient = idClient;
+            Total = total;
         }
 
         /// <summary>
@@ -50,12 +52,13 @@ namespace DAO.Model
         /// <param name="idEmployeeAdd"></param>
         /// <param name="total"></param>
         /// <param name="idClient"></param>
-        public Order(short idEmployeeAdd, int idClient, double clientPay)
+        public Order(short idEmployeeAdd, int idClient, double clientPay, double total)
         {
             
             IdClient = idClient;
             ClientPay = clientPay;
             IdEmploye = idEmployeeAdd;
+            Total = total;
         }
 
 

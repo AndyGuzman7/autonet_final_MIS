@@ -1,5 +1,7 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Policy;
 using System.Text;
@@ -69,7 +71,7 @@ namespace DAO.Model
             ProductCode = productCode;
             IdFactory = idFactory;
             IdSpareCategory = idSpareCategory;
-            
+
             ListaString = listString;
         }
 
@@ -92,7 +94,7 @@ namespace DAO.Model
         /// <param name="dateUpdate"></param>
         /// <param name="idEmploye"></param>
         public Spare(int idSpare, string description, string nameProduct, int currentBalance, double basePrice, double weight, string productCode, int idFactory, int idSpareCategory, byte status, DateTime registrationDate, DateTime dateUpdate, short idEmploye)
-                     :base(status, registrationDate, dateUpdate, idEmploye)
+                     : base(status, registrationDate, dateUpdate, idEmploye)
         {
             IdSpare = idSpare;
             Description = description;
@@ -103,7 +105,7 @@ namespace DAO.Model
             ProductCode = productCode;
             IdFactory = idFactory;
             IdSpareCategory = idSpareCategory;
-            
+
         }
 
         /// <summary>
@@ -132,12 +134,12 @@ namespace DAO.Model
         }
 
 
-   
 
 
 
-        public Spare(int idSpare, 
-                        int idFactory, 
+
+        public Spare(int idSpare,
+                        int idFactory,
                         int idSpareCategory,
                         string descrirption,
                         string nameProduct,
@@ -153,16 +155,16 @@ namespace DAO.Model
             this.IdSpare = idSpare;
             this.IdFactory = idFactory;
             this.IdSpareCategory = idSpareCategory;
-            this.Description= descrirption; 
-            this.NameProduct= nameProduct;
+            this.Description = descrirption;
+            this.NameProduct = nameProduct;
             this.CurrentBalance = currentBalance;
-            this.BasePrice= unitPrice;
+            this.BasePrice = unitPrice;
             this.Weight = weight;
             this.ProductCode = productCode;
             this.Status = status;
-            this.RegistrationDate= registerDate;
-            this.DateUpdate= updateDate;
-            this.IdEmploye= idEmploye;
+            this.RegistrationDate = registerDate;
+            this.DateUpdate = updateDate;
+            this.IdEmploye = idEmploye;
         }
 
         #endregion
@@ -181,5 +183,37 @@ namespace DAO.Model
         }
         */
         #endregion
+
+
+        Spare FromDataTable(DataRow data)
+        {
+            List<Spare> spares = new List<Spare>();
+
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<DataRow, Spare>()
+                    .ForMember(dest => dest.IdSpare, opt => opt.MapFrom(src => Convert.ToInt32(src["idSpare"].ToString())))
+                    .ForMember(dest => dest.IdFactory, opt => opt.MapFrom(src => Convert.ToInt32(src["idFactory"])))
+                    .ForMember(dest => dest.IdSpareCategory, opt => opt.MapFrom(src => Convert.ToInt32(src["idSpareCategory"])))
+                    .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src["description"]))
+                    .ForMember(dest => dest.NameProduct, opt => opt.MapFrom(src => src["nameProduct"]))
+                    .ForMember(dest => dest.CurrentBalance, opt => opt.MapFrom(src => Convert.ToInt32(src["currentBalance"])))
+                    .ForMember(dest => dest.BasePrice, opt => opt.MapFrom(src => Convert.ToDouble(src["unitPrice"])))
+                    .ForMember(dest => dest.Weight, opt => opt.MapFrom(src => Convert.ToDouble(src["weight"])))
+                    .ForMember(dest => dest.ProductCode, opt => opt.MapFrom(src => src["productCode"]))
+                    .ForMember(dest => dest.Status, opt => opt.MapFrom(src => Convert.ToInt32(src["status"])))
+                    .ForMember(dest => dest.RegistrationDate, opt => opt.MapFrom(src => Convert.ToDateTime(src["registerDate"])))
+                    .ForMember(dest => dest.DateUpdate, opt => opt.MapFrom(src => Convert.ToDateTime(src["updateDate"])))
+                    .ForMember(dest => dest.IdEmploye, opt => opt.MapFrom(src => Convert.ToInt32(src["idEmploye"])));
+            });
+
+            IMapper mapper = config.CreateMapper();
+
+
+            Spare persona = mapper.Map<DataRow, Spare>(data);
+            return persona;
+
+
+        }
     }
 }

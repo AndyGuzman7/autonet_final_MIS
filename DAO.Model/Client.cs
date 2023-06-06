@@ -38,7 +38,16 @@ namespace DAO.Model
         /// <param name="dateUpdate"></param>
         /// <param name="fistName"></param>
         /// <param name="lastName"></param>
-        public Client(int idClient, string nit, short idEmployeeAdd, byte status, DateTime registrationDate, DateTime dateUpdate, string fistName, string lastName)
+        public Client(
+            int idClient,
+            string fistName,
+            string lastName,
+            string nit,            
+            byte status, 
+            DateTime registrationDate, 
+            DateTime dateUpdate,
+            short idEmployeeAdd
+            )
              : base(status, registrationDate, dateUpdate, idEmployeeAdd)
         {
             IdClient = idClient;
