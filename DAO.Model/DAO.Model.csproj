@@ -63,7 +63,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Employeee.cs" />
     <Compile Include="Suppliers.cs" />
+    <Compile Include="SuppliersSpare.cs" />
     <Compile Include="TrolleySpare.cs" />
+    <Compile Include="TrolleySpareSuppliers.cs" />
     <Compile Include="UserName.cs" />
   </ItemGroup>
   <ItemGroup>

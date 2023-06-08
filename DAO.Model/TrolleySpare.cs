@@ -16,17 +16,23 @@ namespace DAO.Model
         public double BasePrice { get; set; }
         public string ProductCode { get; set; }
 
-        public TrolleySpare() { }   
+        public TrolleySpare() { }
 
         public TrolleySpare(Spare spare)
         {
             this.NameProduct = spare.NameProduct;
             this.Quantity = 1;
-            this.BasePrice= spare.BasePrice;
-            this.ProductCode= spare.ProductCode;
+            this.BasePrice = spare.BasePrice;
+            this.ProductCode = spare.ProductCode;
 
             this.Total = spare.BasePrice;
             this.Spare = spare;
+        } 
+
+
+        public void ChangeQuantity(int quantity)
+        {
+            this.Quantity = quantity;
         }
 
         public void MasCantidad()

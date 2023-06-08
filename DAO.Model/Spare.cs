@@ -185,7 +185,7 @@ namespace DAO.Model
         #endregion
 
 
-        Spare FromDataTable(DataRow data)
+        public Spare FromDataTable(DataRow data)
         {
             List<Spare> spares = new List<Spare>();
 
