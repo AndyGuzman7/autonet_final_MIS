@@ -12,3 +12,18 @@ E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\Proyecto
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.dll
 E:\Archivos Andy\UNIVERSIDAD\7MO-SEMESTRE\MANAGMENT INFORMATION SYSTEMS\ProyectoFinalMateria\Univalle.AutoNet\DAO.Model\obj\Debug\DAO.Model.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\DAO.Model.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\AutoMapper.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\System.ValueTuple.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\AutoMapper.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\AutoMapper.xml
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\System.ValueTuple.xml
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\bin\Debug\WpfAnimatedGif.xml
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.AssemblyReference.cache
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CoreCompileInputs.cache
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.csproj.CopyComplete
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.dll
+C:\Users\pnico\UNIVALLE\7mo\MIS\Autonet\autonet_final_MIS\DAO.Model\obj\Debug\DAO.Model.pdb

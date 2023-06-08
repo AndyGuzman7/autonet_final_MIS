@@ -189,5 +189,39 @@ namespace DAO.Implementacion
             }
             return rest;
         }
+
+        public DataTable SelectProductsBelowStock(int stockThreshold)
+        {
+            logWrite.NameMethod = "SelectProductsBelowStock";
+            string query = @"SELECT idSpare, nameProduct, currentBalance
+                     FROM Spare
+                     WHERE status = 1 AND currentBalance < @stockThreshold";
+            DataTable dt = new DataTable();
+
+            try
+            {
+                logWrite.MensajeInicio();
+                SqlCommand command = DataBase.CreateBasicCommand(query);
+                command.Parameters.AddWithValue("@stockThreshold", stockThreshold);
+
+                dt = DataBase.ExecuteDataTableCommand(command);
+
+                DataColumn column = new DataColumn("Codigo");
+                dt.Columns.Add(column);
+
+                int count = dt.Rows.Count;
+                int countColumn = dt.Columns.Count;
+
+                logWrite.MensajeFinalizado();
+            }
+            catch (Exception ex)
+            {
+                logWrite.MensajeError(ex);
+            }
+
+            return dt;
+        }
+
+
     }
 }

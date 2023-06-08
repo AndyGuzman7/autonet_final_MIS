@@ -61,7 +61,7 @@ namespace Univalle.AutoNetWPF.PartsAdmin
             return dt;
         }
 
-        public  void LoadData()
+        public void LoadData()
         {
 
 
@@ -313,10 +313,55 @@ Fila2";
             //Editar();
         }
 
-        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        private async void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             LoadData();
+
+            try
+            {
+                await Task.Delay(100); 
+
+                spareImpl = new SpareImpl();
+                DataTable dt = spareImpl.SelectProductsBelowStock(15); 
+                if (dt.Rows.Count > 0)
+                {
+                    string productosFaltantes = string.Join(Environment.NewLine, dt.AsEnumerable().Select(row => row.Field<string>("nameProduct") + ": " + row.Field<int>("currentBalance")));
+                    MessageBox.Show("Los siguientes productos tienen un stock menor de 5 unidades:" + Environment.NewLine + productosFaltantes, "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("No hay productos con stock menor de 5 unidades.", "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ha ocurrido un error al obtener los productos faltantes: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
+
+        private void Window_ContentRendered(object sender, EventArgs e)
+        {
+            try
+            {
+                spareImpl = new SpareImpl();
+                DataTable dt = spareImpl.SelectProductsBelowStock(15); // Cambiar el valor de 15 a 5 para obtener los productos con stock menor de 5 unidades
+                if (dt.Rows.Count > 0)
+                {
+                    string productosFaltantes = string.Join(Environment.NewLine, dt.AsEnumerable().Select(row => row.Field<string>("nameProduct") + ": " + row.Field<int>("currentBalance")));
+                    MessageBox.Show("Los siguientes productos tienen un stock menor de 5 unidades:" + Environment.NewLine + productosFaltantes, "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("No hay productos con stock menor de 5 unidades.", "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ha ocurrido un error al obtener los productos faltantes: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+
 
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
@@ -348,6 +393,29 @@ Fila2";
         {
             SelectLike();
         }
+
+        /*private void MostrarProductosFaltantes()
+        {
+            try
+            {
+                spareImpl = new SpareImpl();
+                DataTable dt = spareImpl.SelectProductsBelowStock(15); // Cambiar el valor de 15 a 5 para obtener los productos con stock menor de 5 unidades
+                if (dt.Rows.Count > 0)
+                {
+                    string productosFaltantes = string.Join(", ", dt.AsEnumerable().Select(row => row.Field<string>("nameProduct")));
+                    MessageBox.Show("Los siguientes productos tienen un stock menor de 5 unidades: " + productosFaltantes, "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("No hay productos con stock menor de 5 unidades.", "Productos Faltantes", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ha ocurrido un error al obtener los productos faltantes: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+        */
 
         private void Style_BadgeChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {

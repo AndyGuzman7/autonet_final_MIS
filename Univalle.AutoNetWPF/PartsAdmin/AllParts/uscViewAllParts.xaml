@@ -11,8 +11,7 @@
              TextElement.FontWeight="Regular"
              TextElement.FontSize="13"
              TextOptions.TextFormattingMode="Ideal"
-             TextOptions.TextRenderingMode="Auto"
-             
+             TextOptions.TextRenderingMode="Auto" 
              FontFamily="Montserrat Regular" Loaded="UserControl_Loaded">
     <UserControl.Resources>
         <!-- DataGrid style -->

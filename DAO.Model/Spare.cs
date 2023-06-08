@@ -42,7 +42,12 @@ namespace DAO.Model
             NameProduct = nameProduct;
         }
 
-
+        public Spare(int idSpare, string nameProduct, int currentBalance)
+        {
+            IdSpare = idSpare;
+            NameProduct = nameProduct;
+            CurrentBalance = currentBalance;
+        }
         /// <summary>
         /// SelectExt
         /// </summary>
