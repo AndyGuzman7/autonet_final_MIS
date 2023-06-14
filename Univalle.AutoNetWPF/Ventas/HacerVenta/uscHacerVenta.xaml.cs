@@ -426,8 +426,8 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             OrderImpl orderImpl = new OrderImpl();
             id = orderImpl.InsertAvanced(order, orderSpares);
             NotificacionMensaje("Se Realizo una venta", 2);
-            /*windowsRecibo windowsRecibo = new windowsRecibo(id);
-            windowsRecibo.Show();*/
+            windowsRecibo windowsRecibo = new windowsRecibo(id);
+            windowsRecibo.Show();
 
             /* }
              catch (Exception ex)
@@ -492,7 +492,8 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                                                        byte.Parse(dt.Rows[i][4].ToString()),
                                                        DateTime.Parse(dt.Rows[i][5].ToString()),
                                                        DateTime.Parse(dt.Rows[i][6].ToString()),
-                                                        short.Parse(dt.Rows[i][7].ToString())
+                                                        short.Parse(dt.Rows[i][7].ToString()),
+                                                        dt.Rows[i][7].ToString()
                                                        );
                 lstVentaListaClientes.Items.Add(CrearCheckBox2(cl, i));
             }

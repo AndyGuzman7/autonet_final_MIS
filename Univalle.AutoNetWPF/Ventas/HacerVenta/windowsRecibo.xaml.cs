@@ -39,16 +39,42 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         public ReportDocument InitCrystalReport(string nameRpt)
         {
 
-            string path = $@"E:\Archivos Andy\UNIVERSIDAD\3ER-SEMESTRE\BASE DE DATOS II\proyecto\PBDD_AUTONET\PBDD_AUTONET\Univalle.AutoNet\Univalle.AutoNetWPF\Ventas\HacerVenta\{nameRpt}";
-            string nameBase = "BDDAUTONET";
-            string nameUserBD = "root";
+            string projectPath = AppDomain.CurrentDomain.BaseDirectory;
+            string targetFolder = "Univalle.AutoNetWPF";
+            string pathO = System.IO.Path.GetFullPath(System.IO.Path.Combine(projectPath, "..\\..\\..\\" + targetFolder));
+
+
+            string path = $@"{pathO}\Reports\{nameRpt}";
+            string nameBase = "BDDAUTONET2023";
+            string nameUserBD = "sa";
             string passwordBD = "Univalle";
-            string nameServerBD = @"ANDYHP\SQLEXPRESS";
+            string nameServerBD = @"AndyHP\MSSQLSERVER_PRIV";
+            ReportDocument report = new ReportDocument();
+            report.Load(path);
+            report.SetDatabaseLogon(nameUserBD, passwordBD, nameServerBD, nameBase);
+            report.SaveAs("Comida111111111.pdf");
+            return report;
+        }
+
+        //"E:\\Archivos Andy\\UNIVERSIDAD\\7MO-SEMESTRE\\MANAGMENT INFORMATION SYSTEMS\\ProyectoFinalMateria\\Univalle.AutoNet\\Univalle.AutoNetWPF\\Reports\\CrystalReport_recibo.rpt"
+        /*
+         string projectPath = AppDomain.CurrentDomain.BaseDirectory;
+            string targetFolder = "Univalle.AutoNetWPF";
+            string pathO = System.IO.Path.GetFullPath(System.IO.Path.Combine(projectPath, "..\\..\\..\\" + targetFolder));
+
+
+            string path = $@"{pathO}\Reports\{nameRpt}";
+            string nameBase = "BDDAUTONET2023";
+            string nameUserBD = "sa";
+            string passwordBD = "Univalle";
+            string nameServerBD = @"AndyHP\MSSQLSERVER_PRIV";
             ReportDocument report = new ReportDocument();
             report.Load(path);
             report.SetDatabaseLogon(nameUserBD, passwordBD, nameServerBD, nameBase);
             return report;
-        }
-
+         
+         
+         
+         */
     }
 }

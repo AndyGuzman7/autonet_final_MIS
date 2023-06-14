@@ -15,7 +15,7 @@ namespace DAO.Model
         public string FistName { get; set; }
         public string LastName { get; set; }
 
-
+        public string Email { get; set; }
 
 
 
@@ -46,7 +46,8 @@ namespace DAO.Model
             byte status, 
             DateTime registrationDate, 
             DateTime dateUpdate,
-            short idEmployeeAdd
+            short idEmployeeAdd,
+            string email
             )
              : base(status, registrationDate, dateUpdate, idEmployeeAdd)
         {
@@ -54,6 +55,7 @@ namespace DAO.Model
             Nit = nit;
             FistName = fistName;
             LastName = lastName;
+            Email = email;
         }
 
         /// <summary>
@@ -62,12 +64,13 @@ namespace DAO.Model
         /// <param name="nit"></param>
         /// <param name="fistName"></param>
         /// <param name="lastName"></param>
-        public Client(string nit,string fistName, string lastName, short idEmploye)  
+        public Client(string nit,string fistName, string lastName, short idEmploye, string email)  
         {
             Nit = nit;
             FistName = fistName;
             LastName = lastName;
             IdEmploye = idEmploye;
+            Email = email;
         }
 
         /// <summary>

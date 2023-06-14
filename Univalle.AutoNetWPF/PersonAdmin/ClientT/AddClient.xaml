@@ -29,7 +29,7 @@
 
         </Grid>
         <!--with original = "780"-->
-        <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth5" Height="330" Width="500" UniformCornerRadius="15" >
+        <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth5" Height="430" Width="500" UniformCornerRadius="15" >
             
             <materialDesign:TransitioningContent OpeningEffectsOffset="{materialDesign:IndexedItemOffsetMultiplier 0:0:0.05}">
                 <materialDesign:TransitioningContent.OpeningEffects>
@@ -74,6 +74,12 @@
                                     <materialDesign:Card Background="{x:Null}" UniformCornerRadius="15"  Margin="5">
                                         <StackPanel>
                                             <TextBox Margin="5" x:Name="txtNombres" materialDesign:HintAssist.Hint="Nombres" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
+                                        </StackPanel>
+                                    </materialDesign:Card>
+
+                                    <materialDesign:Card Background="{x:Null}" UniformCornerRadius="15"  Margin="5">
+                                        <StackPanel>
+                                            <TextBox Margin="5" x:Name="txtCorreoElectronico" materialDesign:HintAssist.Hint="Correo" Style="{StaticResource MaterialDesignOutlinedTextBox}" Background="#F7F7F7" BorderBrush="{x:Null}"/>
                                         </StackPanel>
                                     </materialDesign:Card>
 

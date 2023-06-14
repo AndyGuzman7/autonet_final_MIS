@@ -104,13 +104,13 @@ namespace Univalle.AutoNetWPF.Reports
             gridGif.Visibility = Visibility.Collapsed;
             DialogoHostTime.IsOpen = false;
 
-            DateTime fechaInicio = fechaInicioDTThree.SelectedDate.Value;
-            DateTime fechaFinal = fechaFinalDTThree.SelectedDate.Value;
+            /*DateTime fechaInicio = fechaInicioDTThree.SelectedDate.Value;
+            DateTime fechaFinal = fechaFinalDTThree.SelectedDate.Value;*/
 
             string nameRpt = "CrystalReport_repotThree.rpt";
             ReportDocument report = InitCrystalReport(nameRpt);
-            report.SetParameterValue("@inicio", Convert.ToString(fechaInicio));
-            report.SetParameterValue("@final", Convert.ToString(fechaFinal));
+            /*report.SetParameterValue("@inicio", Convert.ToString(fechaInicio));
+            report.SetParameterValue("@final", Convert.ToString(fechaFinal));*/
             report.SetParameterValue("@idSpare", Convert.ToString(spareGlobal.IdSpare));
             //report.Refresh();
             VisorDelReporte.ViewerCore.ReportSource = report;
@@ -169,9 +169,15 @@ namespace Univalle.AutoNetWPF.Reports
 
         private void btnReportTwo_Click(object sender, RoutedEventArgs e)
         {
-            DialogoHostTime.IsOpen = true;
-            DialogoHostTime.Visibility = Visibility.Visible;
+            /*DialogoHostTime.IsOpen = true;
+            DialogoHostTime.Visibility = Visibility.Visible;*/
             reportName = "CrystalReport_reportTwo.rpt";
+
+            string nameRpt = reportName;
+            ReportDocument report = InitCrystalReport(nameRpt);
+            
+            //report.Refresh();
+            VisorDelReporte.ViewerCore.ReportSource = report;
         }
     }
 }

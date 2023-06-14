@@ -111,8 +111,8 @@ namespace DAO.Implementacion
         public int Insert(Client t)
         {
             logWrite.NameMethod = "Insert";
-            string query = @"INSERT INTO Client(firstName, lastName, nit, updateDate, idEmployee)
-                              VALUES(@firstName, @lastName, @nit, CURRENT_TIMESTAMP, @idEmployee)";
+            string query = @"INSERT INTO Client(firstName, lastName, nit, updateDate, idEmployee, email)
+                              VALUES(@firstName, @lastName, @nit, CURRENT_TIMESTAMP, @idEmployee, @email)";
             int res = 0;
             try
             {
@@ -122,6 +122,7 @@ namespace DAO.Implementacion
                 command.Parameters.AddWithValue("@lastName", t.LastName);
                 command.Parameters.AddWithValue("@nit", t.Nit);
                 command.Parameters.AddWithValue("@idEmployee", Session.IdSession);
+                command.Parameters.AddWithValue("@email", t.Email);
                 res = DataBase.ExecuteBasicCommand(command);
                 logWrite.MensajeFinalizado();
             }

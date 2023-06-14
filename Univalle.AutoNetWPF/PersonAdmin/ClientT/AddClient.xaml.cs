@@ -51,7 +51,7 @@ namespace Univalle.AutoNetWPF.PersonAdmin.ClientT
         {
             try
             {
-                client = new Client(txtNit.Text, txtNombres.Text, txtPrimerApellido.Text + " " + txtSegundoApellido.Text, Session.IdSession);
+                client = new Client(txtNit.Text, txtNombres.Text, txtPrimerApellido.Text + " " + txtSegundoApellido.Text, Session.IdSession, txtCorreoElectronico.Text);
                 clientImpl = new ClientImpl();                         
                 
                 int res = clientImpl.Insert(client);
