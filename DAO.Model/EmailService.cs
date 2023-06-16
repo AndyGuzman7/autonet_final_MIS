@@ -13,6 +13,44 @@ namespace DAO.Model
     {
         public static event CambiarPantalla cambiarPantalla;
         private static string contraseñaGmail = "AUTOnet1172021";
+
+
+
+
+        public static bool EnviarCorreoContraña2(string email, string message)
+        {
+            bool llave = false;
+            string destino = email;
+            string remitente = "autonetsysytem@gmail.com";
+            string contraseñaGmail = "hablcnvfohbdknaf";
+            string asunto = "Oferta mensual";
+            string cuerpoMensaje = message;
+            MailMessage ms = new MailMessage(remitente, destino, asunto, cuerpoMensaje);
+
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.EnableSsl = true;
+            smtp.Credentials = new NetworkCredential(remitente, contraseñaGmail);
+            try
+            {
+                Task.Run(() =>
+                {
+                    smtp.Send(ms);
+                    ms.Dispose();
+                    if (cambiarPantalla != null)
+                    {
+                        cambiarPantalla();
+                    }
+
+                    llave = true;
+                });
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return llave;
+        }
         public static bool EnviarCorreoContraña(string contraseña, string email)
         {
             bool llave = false;

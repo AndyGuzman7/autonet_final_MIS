@@ -22,6 +22,11 @@ using Univalle.AutoNetWPF.Reports;
 using Univalle.AutoNetWPF.Ventas.HacerVenta;
 using Univalle.AutoNetWPF.Ventas.ListaVentas;
 using Univalle.AutoNetWPF.Providers;
+using System.Data.SqlClient;
+using DAO.Model;
+using System.Windows.Threading;
+using System.Net.Mail;
+using System.Net;
 
 namespace Univalle.AutoNetWPF
 {
@@ -85,6 +90,7 @@ namespace Univalle.AutoNetWPF
         private async void LlamarTiempo()
         {
             snackbarMessage.IsActive = true;
+            
             Task task = new Task(Tiempo);
             task.Start();
             await task;
@@ -322,6 +328,76 @@ namespace Univalle.AutoNetWPF
                 txbNamePage.Text = "Inicio";
             }
 
+            int hora = DateTime.Now.Hour;
+            int min = DateTime.Now.Minute + 1;
+            int seg = DateTime.Now.Second;
+            TimeSpan s = new TimeSpan(0, hora, min, seg);
+            Alarma(s);
+
+        }
+
+        void Alert(object sender, EventArgs e)
+        {
+            //enviarEmails3compra();
+        }
+
+        public void Alarma(TimeSpan sp)
+        {
+            DispatcherTimer dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Interval = TimeSpan.FromMinutes(2);
+            dispatcherTimer.Tick += enviarEmails3compra;
+            dispatcherTimer.Start();
+            //MessageBox.Show($"Se agrego correctamente una alarma a las {sp} ");
+        }
+
+         void enviarEmails3compra(object sender, EventArgs e)
+        {
+            messageSend.Content = "Se envio los descuentos";
+            LlamarTiempo();
+            string connectionString = @"Server=AndyHP\MSSQLSERVER_PRIV;Database=BDDAUTONET2023;User Id=sa; Password=Univalle";
+
+            // Consulta SQL para obtener los emails
+            string query = @"SELECT c.idClient, c.email AS c_email
+                            FROM Client c
+                            INNER JOIN[Order] o ON c.idClient = o.idClient
+                            WHERE o.registerDate >= CAST(GETDATE() AS DATE)
+                            GROUP BY c.idClient, c.email
+                            HAVING COUNT(o.idOrder) >= 3;
+                            ";
+            // Crear la conexión a la base de datos
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Ejecutar la consulta para obtener los emails
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        // Iterar a través de los resultados y enviar el correo electrónico
+                        while (reader.Read())
+                        {
+                            string email = reader["c_email"].ToString();
+                            string ofertas = "Tienes 20% de descuento en tu proxima venta";
+                            // Llamar al método para enviar el correo electrónico
+                            bool llave = false;
+                            string destino = email;
+                            string remitente = "autonetsysytem@gmail.com";
+                            string contraseñaGmail = "hablcnvfohbdknaf";
+                            string asunto = "Descuentos especiales";
+                            string cuerpoMensaje = ofertas;
+                            MailMessage ms = new MailMessage(remitente, destino, asunto, cuerpoMensaje);
+
+                            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+                            smtp.EnableSsl = true;
+                            smtp.Credentials = new NetworkCredential(remitente, contraseñaGmail);
+                            smtp.Send(ms);
+                            ms.Dispose();
+                        }
+                    }
+                }
+            }
+            
         }
 
         private void Window_Loaded_1(object sender, RoutedEventArgs e)
@@ -434,6 +510,11 @@ namespace Univalle.AutoNetWPF
                 CambiarBotones(1);
                 txbNamePage.Text = "Proveedores";
             }
+        }
+
+        private void Window_Loaded_2(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

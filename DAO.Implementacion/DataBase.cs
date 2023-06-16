@@ -9,7 +9,7 @@ using Strategys;
 
 namespace DAO.Implementacion
 {
-    class DataBase
+    public class DataBase
     {
         //Server=(local);Database=nombre_base_datos;Integrated Security=True;
 

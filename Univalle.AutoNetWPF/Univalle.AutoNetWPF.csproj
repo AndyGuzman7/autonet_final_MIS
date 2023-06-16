@@ -573,6 +573,7 @@
   <ItemGroup>
     <Folder Include="RegisterAdmin\image\imageClient\" />
     <Folder Include="RegisterAdmin\image\imageProducts\" />
+    <Folder Include="Reports\FilePdf\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" />

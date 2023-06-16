@@ -1,7 +1,11 @@
 ﻿using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using DAO.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,10 +25,14 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
     public partial class windowsRecibo : Window
     {
         private int idOrder;
-        public windowsRecibo(int idOrder)
+        private Order order;
+        private Client client;
+        public windowsRecibo(int idOrder, Order order,Client client)
         {
             InitializeComponent();
             this.idOrder = idOrder;
+            this.order = order;
+            this.client = client;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -34,6 +42,48 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
             report.SetParameterValue("@idOrder", Convert.ToString(idOrder));
             VisorDelReporte.ViewerCore.ReportSource = report;
+
+            string fecha = DateTime.Now.ToString("yyyyMMddHHmmss");
+            string nombre = order.IdClient.ToString() + order.IdEmploye.ToString() + idOrder.ToString();
+
+            string nombreUnico = fecha + "_" + nombre;
+
+
+            string projectPath = AppDomain.CurrentDomain.BaseDirectory;
+            string targetFolder = "Univalle.AutoNetWPF";
+            string pathO = System.IO.Path.GetFullPath(System.IO.Path.Combine(projectPath, "..\\..\\..\\" + targetFolder));
+            string path = $@"{pathO}\Reports\FilePdf\{nombreUnico}.pdf";
+            string pdfFilePath = "ruta_del_archivo_pdf.pdf"; // Ruta donde se guardará el archivo PDF
+            report.ExportToDisk(ExportFormatType.PortableDocFormat, path);
+
+
+
+
+            using (MailMessage mail = new MailMessage())
+            {
+
+                string destino = client.Email;
+                string remitente = "autonetsysytem@gmail.com";
+                string contraseñaGmail = "hablcnvfohbdknaf";
+
+                mail.From = new MailAddress(destino);
+                mail.To.Add(client.Email);
+                mail.Subject = "Recibo de Compra";
+
+                // Adjuntar el archivo PDF
+                Attachment attachment = new Attachment(path);
+                mail.Attachments.Add(attachment);
+
+                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                {
+                    smtp.Credentials = new NetworkCredential(remitente, contraseñaGmail);
+                    smtp.EnableSsl = true;
+                    smtp.Send(mail);
+                }
+            }
+
+            // Eliminar el archivo PDF después de enviarlo por correo
+            System.IO.File.Delete(pdfFilePath);
         }
 
         public ReportDocument InitCrystalReport(string nameRpt)
@@ -52,7 +102,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             ReportDocument report = new ReportDocument();
             report.Load(path);
             report.SetDatabaseLogon(nameUserBD, passwordBD, nameServerBD, nameBase);
-            report.SaveAs("Comida111111111.pdf");
+            //report.SaveAs("Comida111111111.pdf");
             return report;
         }
 

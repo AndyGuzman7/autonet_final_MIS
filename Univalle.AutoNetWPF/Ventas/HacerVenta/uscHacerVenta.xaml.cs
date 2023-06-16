@@ -3,8 +3,11 @@ using DAO.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Dynamic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -47,7 +50,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
         private OrderSpare orderSpare;
 
         ClientImpl clientImpl;
-        Client datosClienteComprador = new Client();
+        Client datosClienteCompradors = new Client();
         Order ordenPrincipal = new Order();
 
         public uscHacerVenta()
@@ -403,7 +406,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             orderSpare = new OrderSpare();
 
             clientImpl = new ClientImpl();
-            datosClienteComprador = new Client();
+            datosClienteCompradors = new Client();
             ordenPrincipal = new Order();
 
         }
@@ -421,12 +424,13 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                 orderSpares.Add(a);
             }
 
-            Order order = new Order(Session.IdSession, datosClienteComprador.IdClient, pagoCliente, total);
+            Order order = new Order(Session.IdSession, datosClienteCompradors.IdClient, pagoCliente, total);
 
             OrderImpl orderImpl = new OrderImpl();
             id = orderImpl.InsertAvanced(order, orderSpares);
             NotificacionMensaje("Se Realizo una venta", 2);
-            windowsRecibo windowsRecibo = new windowsRecibo(id);
+            enviarEmails1compra();
+            windowsRecibo windowsRecibo = new windowsRecibo(id, order, datosClienteCompradors);
             windowsRecibo.Show();
 
             /* }
@@ -493,7 +497,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
                                                        DateTime.Parse(dt.Rows[i][5].ToString()),
                                                        DateTime.Parse(dt.Rows[i][6].ToString()),
                                                         short.Parse(dt.Rows[i][7].ToString()),
-                                                        dt.Rows[i][7].ToString()
+                                                        dt.Rows[i][8].ToString()
                                                        );
                 lstVentaListaClientes.Items.Add(CrearCheckBox2(cl, i));
             }
@@ -536,17 +540,59 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
             Client cl = checkBox.Tag as Client;
 
 
-            datosClienteComprador = cl;
+            datosClienteCompradors = cl;
 
             gridDataClient.Visibility = Visibility.Visible;
-            txbVentaNit.Text = $"Nit: {datosClienteComprador.Nit}";
-            txbVentaNombre.Text = $"Nombre: {datosClienteComprador.FistName}";
-            txbVentaApellido.Text = $"Apellido: {datosClienteComprador.LastName}";
+            txbVentaNit.Text = $"Nit: {datosClienteCompradors.Nit}";
+            txbVentaNombre.Text = $"Nombre: {datosClienteCompradors.FistName}";
+            txbVentaApellido.Text = $"Apellido: {datosClienteCompradors.LastName}";
             txtVentaFechaDeVenta.Text = DateTime.Now.ToString("M");
             txtVentaFechaDeVenta.IsEnabled = false;
             gridBuscador.Visibility = Visibility.Hidden;
             lstVentaListaClientes.Visibility = Visibility.Hidden;
 
+        }
+
+
+
+        public void enviarEmails1compra()
+        {
+            string connectionString = @"Server=AndyHP\MSSQLSERVER_PRIV;Database=BDDAUTONET2023;User Id=sa; Password=Univalle";
+
+            // Consulta SQL para obtener los emails
+            string query = @"SELECT c.idClient, c.email as email_c
+                            FROM Client c
+                            INNER JOIN[Order] o ON c.idClient = o.idClient
+                            WHERE o.registerDate >= CAST(GETDATE() AS DATE)
+                            GROUP BY c.idClient, c.email
+                            HAVING COUNT(o.idOrder) = 1;
+                            ";
+            // Crear la conexión a la base de datos
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Ejecutar la consulta para obtener los emails
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        // Iterar a través de los resultados y enviar el correo electrónico
+                        while (reader.Read())
+                        {
+                            string email = reader["email_c"].ToString();
+                            string ofertas = "Gracias por su compra. Estas son las ofertas de este mes :)";
+                            // Llamar al método para enviar el correo electrónico
+                            EmailService.EnviarCorreoContraña2(email, ofertas);
+
+
+
+
+                           
+                        }
+                    }
+                }
+            }
         }
 
         private void txtNombreBuscarCliente_TextChanged(object sender, TextChangedEventArgs e)
@@ -617,7 +663,7 @@ namespace Univalle.AutoNetWPF.Ventas.HacerVenta
 
         private void btnListaVentas_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void dataGridProgram_SelectionChanged(object sender, SelectionChangedEventArgs e)

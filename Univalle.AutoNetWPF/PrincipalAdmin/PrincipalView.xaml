@@ -246,7 +246,7 @@
             </Border>
             <!-- long hand form for setting the message -->
             <materialDesign:Snackbar Margin="20 0 20 0" x:Name="snackbarMessage" IsActive="False" HorizontalAlignment="Stretch">
-                <materialDesign:SnackbarMessage  Content="Hello 2" ActionContent="UNDO" />
+                <materialDesign:SnackbarMessage Name="messageSend"  Content="" ActionContent="UNDO" />
             </materialDesign:Snackbar>
 
 
